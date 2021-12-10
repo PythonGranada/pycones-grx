@@ -12,4 +12,4 @@ from pelicanconf_event import *
 from pelicanconf_flags import *
 
 
-SITEURL = 'https://josemlp91.github.io/pelican-event/'
+SITEURL = 'https://pythongranada.github.io/pycones-grx/'
