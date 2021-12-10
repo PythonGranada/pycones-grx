@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+$primary: #0E749C;
+$info: #0E749C;
+$link: #0E749C;
+$success: #3DADE0;
+$warning: #E03D52;
+$danger: #E03D52;
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Montserrat&display=swap');
+
+@import "../libs/bulma/bulma.sass";
+@import "../libs/bulma/bulma-timeline.sass";
+
+
+h1, h2, h3, h4, h5 {
+  font-family:  'Arvo', serif;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+.title {
+  font-size: 1.3rem;
+}
+
+
+.message-body {
+  .subtitle {
+    margin-top: 1.5rem !important;
+    margin-bottom: 0.5rem !important;
+  }
+
+  h1 {
+    @extend .subtitle, .is-2;
+  }
+
+  h2 {
+    @extend .subtitle, .is-3;
+  }
+
+  h3 {
+    @extend .subtitle, .is-4;
+  }
+
+  h4 {
+    @extend .subtitle, .is-5;
+  }
+
+  h5 {
+    @extend .subtitle, .is-6;
+    font-weight: bold;
+  }
+
+  h6 {
+    @extend .subtitle, .is-6;
+  }
+
+  p {
+    margin-top: 6px;
+  }
+
+  figure {
+    margin: 25px !important;
+  }
+
+  ol, ul {
+    margin-inline-start: 50px;
+    list-style-type: disc;
+
+    li {
+      margin-top: 6px;
+    }
+  }
+
+  .table {
+    margin: 25px !important;
+    padding: 5px !important;
+  }
+
+  table {
+    @extend .table;
+  }
+
+  .image {
+    @extend .has-text-centered;
+    background: $white-ter;
+    min-width: 214px;
+    margin: 0 auto !important;
+
+    figcaption {
+      color: $grey-darker;
+      margin-left: 2px;
+      margin-right: 2px;
+      margin-bottom: 4px;
+      padding-bottom: 4px;
+    }
+
+    img {
+      display: inline-block;
+    }
+  }
+}
+
+.image-centered {
+  text-align: center;
+}
+
+.keynoters-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+  grid-gap: 0.5em;
+}
+
+.gold-sponsorship-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+  grid-gap: 0.5em;
+}
+
+.silver-sponsorship-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  grid-gap: 0.5em;
+}
+
+.metal-sponsorship-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-gap: 0.5em;
+}
+
+
+.card {
+  height: max-content;
+}
+
+#map {
+  width: 100% !important;
+  height: 400px;
+  margin-bottom: 50px;
+}
+
+.fc .fc-toolbar-title{
+  font-size: 1rem !important;
+}

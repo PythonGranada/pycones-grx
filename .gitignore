@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+pelican.pid
+srv.pid
+
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+output
+venv
+
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+
+# Node
+node_modules/
+package-lock.json
+
+# Docs
+docs/__pycache__
+docs/output
+docs/plugins
+
+.idea/

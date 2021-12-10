@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block navbar %}
+	{% if not LANDING_MODE %}
+		{% include "_includes/index/navbar.html" %}
+	{% endif %}
+{% endblock navbar %}
+
+{% block content %}
+
+	{% if LANDING_MODE %}
+		{% include "_includes/index/landing.html" %}
+	{% else %}
+		<section class="section">
+			<div class="container">
+				{% include "_includes/index/cover.html" %}
+
+				{% if ENABLED_TICKETS %}
+					{% include "_includes/index/buy_your_tickets.html" %}
+				{% endif %}
+
+				{% if ENABLED_KEYNOTERS %}
+					{% include "_includes/index/keynoters.html" %}
+				{% endif %}
+
+				{% if ENABLED_CALL_FOR_PAPERS %}
+					{% include "_includes/index/call_for_papers.html" %}
+				{% endif %}
+
+				{% include "_includes/index/timeline.html" %}
+				{% include "_includes/index/location.html" %}
+
+				{% if ENABLED_CALL_FOR_SPONSORS%}
+					{% include "_includes/index/call_for_sponsors.html" %}
+				{% endif %}
+
+				{% if ENABLED_SPONSORSHIPS %}
+					{% include "_includes/index/sponsorship.html" %}
+				{% endif %}
+			</div>
+		</section>
+	{% endif %}
+{% endblock content %}
+
+
+{% block footer %}
+	{% if not LANDING_MODE %}
+		{% include "_includes/footer.html" %}
+	{% endif %}
+{% endblock footer %}

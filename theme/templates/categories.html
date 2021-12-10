@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}
+{% trans %}Categories{% endtrans %}- {{ super() }}
+{% endblock title %}
+
+{% block content %}
+<section class="section">
+    <div class="container">
+        <h1 class="title">{% trans %}Categorías{% endtrans %}</h1>
+        <div class="columns is-multiline is-centered">
+            <div class="tags are-large has-text-white">
+                {% for cat in categories|sort %}
+                    <div class="column has-text-centered">
+                        <p><span
+                                class="tag {% for cat_style in CATS_STYLE %}{% if cat[0] == cat_style %}{{ CATS_STYLE[cat_style] }}{% endif %}{% endfor %}"><a
+                                href="{{ cat[0].url }}">{{ cat[0] }}</a></p>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock content %}

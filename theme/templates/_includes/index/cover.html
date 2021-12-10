@@ -1,0 +1,32 @@
+<style>
+    .cover {
+        background: linear-gradient(
+                rgb(0 0 0 / 82%),
+                rgb(0 0 0 / 16%)
+        ), url("{{ SITEURL }}/theme/images/granada.jpg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+</style>
+<section class="hero is-medium is-link cover">
+    <div class="hero-body cover">
+        <div class="columns">
+            <div class="column">
+                <figure class="image">
+                    <img class="is-rounded" src="{{ SITEURL }}/theme/images/piconesGR_horizontal.svg">
+                </figure>
+                <h3 class="title is-3">01 de Octubre 2022</h3>
+            </div>
+            <div class="column">
+                <h1 class="title is-1">
+                    {{EVENT_TITLE }}
+                    <span><h3 class="title is-3">{{ EVENT_SUBTITLE }}</h3></span>
+                </h1>
+                <p>{{ EVENT_DESCRIPTION }}</p>
+            </div>
+        </div>
+    </div>
+</section>
+<br>

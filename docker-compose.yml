@@ -1,0 +1,12 @@
+version: '3'
+services:
+  pelican-sitebuilder:
+    build:
+      context: .
+      dockerfile: compose/Dockerfile
+    ports:
+      - "8080:8000"
+    volumes:
+      - .:/project-root
+    environment:
+      - CONFFILE=pelicanconf.local.py

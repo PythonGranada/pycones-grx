@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}
+{% trans %}Articles tagged with{% endtrans %} {{ tag }}
+{% endblock title %}
+
+{% block content %}
+<section class="section">
+    <div class="container">
+        <h1 class="title">{% trans %}Articles tagged with{% endtrans %} <span class="tag is-large">{{ tag }}</span></h1>
+        {% for article in dates %}
+            {% include "_includes/blog/article_extract.html" %}
+        {% endfor %}
+    </div>
+</section>
+{% endblock content %}

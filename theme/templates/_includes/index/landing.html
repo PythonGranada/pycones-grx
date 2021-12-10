@@ -1,0 +1,143 @@
+<style>
+    .landing {
+        background: linear-gradient(
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)
+        ), url("{{ SITEURL }}/theme/images/granada.jpg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .container {
+        color: white;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    h1 {
+        font-weight: normal;
+        letter-spacing: .125rem;
+        text-transform: uppercase;
+    }
+
+    li {
+        display: inline-block;
+        font-size: 1.5em;
+        list-style-type: none;
+        padding: 1em;
+        text-transform: uppercase;
+    }
+
+    li span {
+        display: block;
+        font-size: 4.5rem;
+        font-family:  'Arvo', serif;
+    }
+
+
+    @media all and (max-width: 768px) {
+        h1 {
+            font-size: calc(1.5rem * var(--smaller));
+        }
+
+        li {
+            font-size: calc(1.125rem * var(--smaller));
+        }
+
+        li span {
+            font-size: calc(3.375rem * var(--smaller));
+        }
+    }
+</style>
+
+<script>
+    (function () {
+        const second = 1000,
+            minute = second * 60,
+            hour = minute * 60,
+            day = hour * 24;
+
+        //I'm adding this section so I don't have to keep updating this pen every year :-)
+        //remove this if you don't need it
+        let today = new Date(),
+            dd = String(today.getDate()).padStart(2, "0"),
+            mm = String(today.getMonth() + 1).padStart(2, "0"),
+            yyyy = today.getFullYear(),
+            nextYear = yyyy + 1,
+            dayMonth = "10/01/",
+            pyconesDate = dayMonth + yyyy;
+
+        today = mm + "/" + dd + "/" + yyyy;
+        if (today > pyconesDate) {
+            pyconesDate = dayMonth + nextYear;
+        }
+        //end
+
+        const countDown = new Date(pyconesDate).getTime(),
+            x = setInterval(function() {
+
+                const now = new Date().getTime(),
+                    distance = countDown - now;
+
+                document.getElementById("days").innerText = Math.floor(distance / (day)),
+                    document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
+                    document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+                    document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+
+                //do something later when date is reached
+                if (distance < 0) {
+                    document.getElementById("headline").innerText = "Es la fecha de PyconES GRX!";
+                    document.getElementById("countdown").style.display = "none";
+                    document.getElementById("content").style.display = "block";
+                    clearInterval(x);
+                }
+                //seconds
+            }, 0)
+    }());
+
+</script>
+<section class="hero is-info is-fullheight landing">
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <div class="column is-6 is-offset-3">
+                <figure class="image">
+                    <img class="is-rounded" src="{{ SITEURL }}/theme/images/piconesGR_horizontal.svg">
+                </figure>
+                <h1 class="title">01 de Octubre de 2022</h1>
+                <div class="container">
+                    <div id="countdown">
+                        <ul>
+                            <li><span id="days"></span>días</li>
+                            <li><span id="hours"></span>horas</li>
+                            <li><span id="minutes"></span>minutos</li>
+                            <li><span id="seconds"></span>segundos</li>
+                        </ul>
+                    </div>
+                </div>
+                <h2 class="subtitle">El mayor evento dedicado a Python de España, llega a Granada</h2>
+                <div class="box mc_embed_signup">
+                    <h3>No te pierdas nada, suscríbete a la newsletter</h3>
+                    <br>
+                    <form action="https://gmail.us20.list-manage.com/subscribe/post?u=b054cf9cedc83509483cc4ba3&amp;id=7ad72b3a73" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <div class="field has-addons" style="justify-content: center">
+                            <div class="control">
+                                <input class="input" type="email" value="" name="EMAIL" placeholder="Introduce su email" id="mce-EMAIL">
+                            </div>
+                            <div class="control">
+                                <input type="submit" value="Enviar" name="subscribe" id="mc-embedded-subscribe" class="button is-info">
+                            </div>
+                        </div>
+                        <div id="mce-responses" class="clear foot">
+                            <div class="response" id="mce-error-response" style="display:none"></div>
+                            <div class="response" id="mce-success-response" style="display:none"></div>
+                        </div>
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_b054cf9cedc83509483cc4ba3_7ad72b3a73" tabindex="-1" value=""></div>
+                    </form>
+                </div>
+                <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+                <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}
+{{ article.title|striptags|e }} {% if article.subtitle %} - {{ article.subtitle|striptags|e }} {% endif %} - {{ super() }}
+{% endblock title %}
+
+{% block content %}
+<section class="section">
+    <div class="container">
+        <article class="message is-info">
+            <div class="message-header">
+                <h2>{{ article.title }}</h2>
+                <p>
+                    <time itemprop="dateCreated" datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}
+                    </time>
+                </p>
+            </div>
+            <div class="message-body has-text-dark">
+                {{ article.content }}
+            </div>
+        </article>
+    </div>
+</section>
+{% endblock content %}
