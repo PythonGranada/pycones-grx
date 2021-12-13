@@ -1,14 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-# -*- coding: utf-8 -*-
-
 # Flags, generales; permiten habilitar y deshabilitar funcionalidades de la web,
 # según evolucione la organización del evento.
 
 # Habilita el modo landing-page de la web,
 # para poder tener una presentación reducida o completa de la web.
-LANDING_MODE = True
+LANDING_MODE = False
 
 # Habilita links a la tienda de las entradas del evento.
 ENABLED_TICKETS = True
