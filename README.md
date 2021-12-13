@@ -98,3 +98,8 @@ Para facilitar el trabajo contamos con el archivo **pelicanconf_flags.py** donde
 | ENABLED_CALL_FOR_SPONSORS | Habilita bloque con llamamiento a patrocinadores             |
 | ENABLED_SCHEDULE          | Habilita la vista del calendario del evento.                 |
 | ENABLED_BLOG              | Habilita la funcionalidad de blog de contenidos de la web.   |
+
+## Despliegue y puesta en producción de la web
+
+La web cuenta con un sistema de despliegue continuo, de forma que cada cambio (commit) en la rama ``main`` la web se compila y se sube a ``github pages``, usando [GitHub Pages Pelican Build Action](https://github.com/marketplace/actions/github-pages-pelican-build-action).
+
