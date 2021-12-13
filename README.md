@@ -1,23 +1,23 @@
 # Web PyconES 2022
 
 
-### Creador de contenidos o editor
+### Creador de contenidos o editor ✍️
 
 Aquí no necesitas tener grandes conocimientos técnicos, solo necesitamos creatividad.
 Todos los contenidos se escriben usando [Markdown](https://markdown.es/) y no tienes que pelearte con HTML ni CSS, solo darle rienda suelta a tu imaginación.
 
-### Web developer
+### Web developer 🕸
 
 Si tienes conocimientos de maquetación web y un poco de gusto estético, puedes ayudar a mejorar aspectos de diseño o usabilidad de la web.
 En principio estamos usando [Bulma Framework](https://bulma.io/), pero siempre se puede cambiar a algo más avanzado si merece la pena.
 
 
-## Al cacharreo
+## Al cacharreo  🛠
 
 La web es generada usando [Pelican](https://blog.getpelican.com/), que nos ahorra hacer trabajo aburrido, tener que usar copy/paste constantemente y otras muchas magias divertidas con Python que poco a poco irás descubriendo.
 
 
-### Estructura del proyecto
+### Estructura del proyecto 📂
 
 El proyecto queda estructurado en los siguientes directorios:
 Divido los directorios en tres **categorías**.
@@ -37,12 +37,12 @@ Y tendríamos los siguientes directorios:
 - **output** (autogenerado) Aquí se guarda el código de la web compilado, se genera automáticamente, por lo tanto **no modifiques manualmente**.
 
 
-### Localhost
+### Localhost 👨🏼‍💻
 
 Para arrancar este proyecto en local, independientemente del sistema operativo que uses, tienes dos alternativas
 
 
-#### Docker
+#### Docker 🐳
 
 Para ello necesitas [Docker](https://www.docker.com/get-started) y [docker-compose](https://docs.docker.com/compose/install/).
 
@@ -52,7 +52,7 @@ docker-compose up --build
 
 Accede con tu navegador a la url [localhost:8080](http://localhost:8080)
 
-#### Python & Virtualenv
+#### Python & Virtualenv 🐍
 
 Debes tener instalado Python >= 3.6 y [virtualenv](https://virtualenv.pypa.io/en/latest/) y seguir los siguientes pasos:
 
@@ -81,7 +81,7 @@ pip install -r requirements.txt
  make devserver PORT={PORT}
 ```
 
-## Flag del evento
+## Flag del evento 🏁
 
 Como sabemos cualquier evento o congreso pasa por diferentes etapas, donde la información a mostrar en la web debe ser diferente.
 Para facilitar el trabajo contamos con el archivo **pelicanconf_flags.py** donde el organizador puede habilitar y deshabilitar elementos de la web.
@@ -99,7 +99,7 @@ Para facilitar el trabajo contamos con el archivo **pelicanconf_flags.py** donde
 | ENABLED_SCHEDULE          | Habilita la vista del calendario del evento.                 |
 | ENABLED_BLOG              | Habilita la funcionalidad de blog de contenidos de la web.   |
 
-## Despliegue y puesta en producción de la web
+## Despliegue y puesta en producción de la web 🚀
 
 La web cuenta con un sistema de despliegue continuo, de forma que cada cambio (commit) en la rama ``main`` la web se compila y se sube a ``github pages``, usando [GitHub Pages Pelican Build Action](https://github.com/marketplace/actions/github-pages-pelican-build-action).
 
