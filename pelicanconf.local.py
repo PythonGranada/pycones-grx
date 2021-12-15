@@ -13,3 +13,4 @@ from pelicanconf_event import *
 from pelicanconf_flags import *
 
 SITEURL = ''
+GOOGLE_ANALYTICS_CODE = None

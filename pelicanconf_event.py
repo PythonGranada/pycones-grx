@@ -16,6 +16,8 @@ Tambien puedes formar parte de nuestros patrocinadores y tener tu espacio dentro
 TICKETS_LINK=""
 CALL_FOR_PAPERS_LINK = ""
 MAP_IFRAME_LINK = "https://maps.google.com/maps?q=granada&t=&z=13&ie=UTF8&iwloc=&output=embed"
+COOKIES_SCRIPT = "https://cdn.jsdelivr.net/npm/cookie-bar/cookiebar-latest.min.js?forceLang=es&theme=altblack&tracking=1&thirdparty=1&always=1&refreshPage=1&showNoConsent=1"
+
 
 EVENT_TRACKS = json.dumps([
      { "id": 'core', "title": 'Track Core' },
