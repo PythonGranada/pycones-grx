@@ -57,83 +57,102 @@ SPONSORS = {
     "gold": [
         {
             "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png'
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "url": "#"
         },
         {
             "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png'
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "url": "#"
         },
         {
             "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png'
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "url": "#"
         },
         {
             "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png'
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "url": "#"
         },
     ],
     "silver": [
         {
             "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png'
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "url": "#"
         },
         {
             "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png'
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "url": "#"
         },
         {
             "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png'
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "url": "#"
         },
         {
             "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png'
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "url": "#"
         },
         {
             "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png'
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "url": "#"
         },
         {
             "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png'
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "url": "#"
         },
     ],
     "metal": [
         {
             "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png'
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "url": "#"
         },
         {
             "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png'
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "url": "#"
         },
         {
             "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png'
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "url": "#"
         },
         {
             "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png'
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "url": "#"
         },
         {
             "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png'
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "url": "#"
         },
         {
             "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png'
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "url": "#"
         },
         {
             "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png'
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "url": "#"
         },
         {
             "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png'
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "url": "#"
         },
         {
             "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png'
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "url": "#"
         },
     ],
 }
