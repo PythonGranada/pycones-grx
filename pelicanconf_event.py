@@ -18,6 +18,125 @@ CALL_FOR_PAPERS_LINK = ""
 MAP_IFRAME_LINK = "https://maps.google.com/maps?q=granada&t=&z=13&ie=UTF8&iwloc=&output=embed"
 COOKIES_SCRIPT = "https://cdn.jsdelivr.net/npm/cookie-bar/cookiebar-latest.min.js?forceLang=es&theme=altblack&tracking=1&thirdparty=1&always=1&refreshPage=1&showNoConsent=1"
 
+EVENT_KEYNOTERS = [
+    {
+        "name": 'John Smith',
+        "photo_big": 'https://bulma.io/images/placeholders/1280x960.png',
+        "photo": 'https://bulma.io/images/placeholders/96x96.png',
+        "url": "#",
+        "twitter": "@john",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris."
+    },
+    {
+        "name": 'John Smith',
+        "photo_big": 'https://bulma.io/images/placeholders/1280x960.png',
+        "photo": 'https://bulma.io/images/placeholders/96x96.png',
+        "url": "#",
+        "twitter": "@john",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris."
+    },
+    {
+        "name": 'John Smith',
+        "photo_big": 'https://bulma.io/images/placeholders/1280x960.png',
+        "photo": 'https://bulma.io/images/placeholders/96x96.png',
+        "url": "#",
+        "twitter": "@john",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris."
+    },
+    {
+        "name": 'John Smith',
+        "photo_big": 'https://bulma.io/images/placeholders/1280x960.png',
+        "photo": 'https://bulma.io/images/placeholders/96x96.png',
+        "url": "#",
+        "twitter": "@john",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris."
+    },
+]
+
+SPONSORS = {
+    "gold": [
+        {
+            "name": 'Sponsor',
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png'
+        },
+        {
+            "name": 'Sponsor',
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png'
+        },
+        {
+            "name": 'Sponsor',
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png'
+        },
+        {
+            "name": 'Sponsor',
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png'
+        },
+    ],
+    "silver": [
+        {
+            "name": 'Sponsor',
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png'
+        },
+        {
+            "name": 'Sponsor',
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png'
+        },
+        {
+            "name": 'Sponsor',
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png'
+        },
+        {
+            "name": 'Sponsor',
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png'
+        },
+        {
+            "name": 'Sponsor',
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png'
+        },
+        {
+            "name": 'Sponsor',
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png'
+        },
+    ],
+    "metal": [
+        {
+            "name": 'Sponsor',
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png'
+        },
+        {
+            "name": 'Sponsor',
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png'
+        },
+        {
+            "name": 'Sponsor',
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png'
+        },
+        {
+            "name": 'Sponsor',
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png'
+        },
+        {
+            "name": 'Sponsor',
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png'
+        },
+        {
+            "name": 'Sponsor',
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png'
+        },
+        {
+            "name": 'Sponsor',
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png'
+        },
+        {
+            "name": 'Sponsor',
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png'
+        },
+        {
+            "name": 'Sponsor',
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png'
+        },
+    ],
+}
 
 EVENT_TRACKS = json.dumps([
      { "id": 'core', "title": 'Track Core' },
