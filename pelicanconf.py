@@ -12,5 +12,5 @@ from pelicanconf_event import *
 from pelicanconf_flags import *
 
 
-SITEURL = 'https://pythongranada.github.io/pycones-grx/'
+SITEURL = 'https://2022.es.pycon.org/'
 GOOGLE_ANALYTICS_CODE = "G-4VB8WVF454"
