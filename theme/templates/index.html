@@ -1,5 +1,12 @@
 {% extends "base.html" %}
 
+{% block extra_script %}
+	{% if LANDING_MODE and MAILJET_IFRAME_URL%}
+		<script type="text/javascript" src="https://app.mailjet.com/statics/js/iframeResizer.min.js"></script>
+	{% endif %}
+{% endblock extra_script %}
+
+
 {% block navbar %}
 	{% if not LANDING_MODE %}
 		{% include "_includes/index/navbar.html" %}

@@ -22,6 +22,9 @@ MAP_IFRAME_LINK = "https://maps.google.com/maps?q=granada&t=&z=13&ie=UTF8&iwloc=
 # https://cookie-bar.eu/
 COOKIES_SCRIPT = "https://cdn.jsdelivr.net/npm/cookie-bar/cookiebar-latest.min.js?forceLang=es&theme=altblack&tracking=1&thirdparty=1&always=1&refreshPage=1&showNoConsent=1"
 
+
+MAILJET_IFRAME_URL = "https://app.mailjet.com/widget/iframe/5JG8/Lxz"
+
 EVENT_KEYNOTERS = [
     {
         "name": 'John Smith',
