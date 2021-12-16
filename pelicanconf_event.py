@@ -5,6 +5,7 @@ import json
 
 EVENT_TITLE = "PyconES 2022"
 EVENT_SUBTITLE = "Granada"
+EVENT_DESCRIPTION_MINI = "PyConES, la conferencia nacional sobre Python más importante de España"
 EVENT_DESCRIPTION = """
 Bienvenidos a la PyConES, la conferencia nacional sobre Python más importante de España.<br>
 Un evento de tres días que reunirá a los ponentes más interesantes, una agenda increíble y unas oportunidades de trabajo
@@ -13,6 +14,7 @@ Con tu entrada podrás acceder los dos días de la conferencia completos.<br>
 Tambien puedes formar parte de nuestros patrocinadores y tener tu espacio dentro del evento.
 """
 
+TWITTER_USERNAME = "pycones"
 TICKETS_LINK="#"
 CALL_FOR_PAPERS_LINK = "#"
 

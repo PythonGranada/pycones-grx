@@ -5,27 +5,19 @@
 		<meta http-equiv="X-UA-Compatible" content="IE-edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="icon" type="image/x-icon" href="{{ SITEURL }}/theme/images/favicon.ico">
+		<title>{% block title %}{{ SITENAME|striptags|e }}{% endblock title %}</title>
 
-		{% if article and article.author %}
-			<meta name="author" content="{{ article.author }}" />
-		{% elif page and page.author %}
-			<meta name="author" content="{{ page.author }}" />
-		{% else %}
-			<meta name="author" content="{{ AUTHOR }}" />
-		{% endif %}
-
-		{% if SITE_DESCRIPTION %}
-			<meta name="description" content="{{ SITE_DESCRIPTION }}">
+		{% if EVENT_DESCRIPTION_MINI %}
+			<meta name="description" content="{{ EVENT_DESCRIPTION_MINI }}">
 		{% endif %}
 
 		{% if TWITTER_USERNAME %}
 			<meta name="twitter:creator" content="@{{ TWITTER_USERNAME }}" />
 		{% endif %}
 
-		<title>{% block title %}{{ SITENAME|striptags|e }}{% endblock title %}</title>
+		{% include "_includes/social_metatags.html" %}
 
         <link rel="stylesheet" href="{{ main_siteurl }}/theme/libs/fontawesome/all.min.css"/>
-
 
 		{% assets filters="libsass", output="css/style.min.css", "scss/style.scss" %}
   			<link rel="stylesheet" href="{{SITEURL}}/{{ASSET_URL}}">
