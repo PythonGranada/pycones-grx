@@ -13,4 +13,4 @@ from pelicanconf_flags import *
 
 
 SITEURL = 'https://pythongranada.github.io/pycones-grx/'
-GOOGLE_ANALYTICS_CODE = None
+GOOGLE_ANALYTICS_CODE = "G-4VB8WVF454"
