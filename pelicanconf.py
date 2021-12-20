@@ -12,5 +12,5 @@ from pelicanconf_event import *
 from pelicanconf_flags import *
 
 
-SITEURL = 'https://2022.es.pycon.org/'
-GOOGLE_ANALYTICS_CODE = "G-4VB8WVF454"
+SITEURL = os.getenv('SITEURL', '')
+GOOGLE_ANALYTICS_CODE = os.getenv('GOOGLE_ANALYTICS_CODE', '0000')
