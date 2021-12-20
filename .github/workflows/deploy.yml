@@ -22,4 +22,4 @@ jobs:
       env:
         SITEURL: ${{secrets.SITEURL}}
       run: |
-          echo "SITEURL: ${{SITEURL}}"
+          echo "SITEURL: ${{secrets.SITEURL}}"
