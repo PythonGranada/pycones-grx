@@ -12,5 +12,5 @@ from pelicanconf_event import *
 from pelicanconf_flags import *
 
 
-SITEURL = 'https://josemlp91.github.io/pycones-grx/'
-GOOGLE_ANALYTICS_CODE = None
+SITEURL = os.environ['SITEURL']
+GOOGLE_ANALYTICS_CODE = os.environ['GOOGLE_ANALYTICS_CODE']

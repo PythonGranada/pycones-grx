@@ -15,3 +15,6 @@ jobs:
     - uses: nelsonjchen/gh-pages-pelican-action@0.1.10
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        GH_PAGES_CNAME: ${{secrets.GH_PAGES_CNAME:-none}}
+        GOOGLE_ANALYTICS_CODE: ${{secrets.GOOGLE_ANALYTICS_CODE:-none}}
+        SITEURL: ${{secrets.SITEURL}}
