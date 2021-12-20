@@ -9,4 +9,4 @@ services:
     volumes:
       - .:/project-root
     environment:
-      - CONFFILE=pelicanconf.local.py
+      - CONFFILE=pelicanconf.py

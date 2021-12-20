@@ -12,5 +12,5 @@ from pelicanconf_event import *
 from pelicanconf_flags import *
 
 
-SITEURL = os.environ['SITEURL']
-GOOGLE_ANALYTICS_CODE = os.environ['GOOGLE_ANALYTICS_CODE']
+SITEURL = os.getenv('SITEURL', '')
+GOOGLE_ANALYTICS_CODE = os.getenv('GOOGLE_ANALYTICS_CODE', '0000')
