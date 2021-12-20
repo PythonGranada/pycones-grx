@@ -12,11 +12,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    # - uses: nelsonjchen/gh-pages-pelican-action@0.1.10
-    #   env:
-    #     GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-    #     GH_PAGES_CNAME: ${{secrets.GH_PAGES_CNAME || 'none'}}
-    #     GOOGLE_ANALYTICS_CODE: ${{secrets.GOOGLE_ANALYTICS_CODE || '0000'}}
-    #     SITEURL: ${{secrets.SITEURL}}
-    - name: echo-default-env-variables
-      run: echo ${{secrets.SITEURL }} | sed 's/./& /g'
+    - uses: nelsonjchen/gh-pages-pelican-action@0.1.10
+      env:
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        GH_PAGES_CNAME: ${{secrets.GH_PAGES_CNAME || 'none'}}
+        GOOGLE_ANALYTICS_CODE: ${{secrets.GOOGLE_ANALYTICS_CODE || '0000'}}
+        SITEURL: ${{secrets.SITEURL}}
