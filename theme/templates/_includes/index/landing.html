@@ -1,13 +1,7 @@
 <style>
-    .landing {
-        background: linear-gradient(
-                rgba(0, 0, 0, 0.5),
-                rgba(0, 0, 0, 0.5)
-        ), url("{{ SITEURL }}/theme/images/granada.jpg") no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
+    .logo{
+        background-color: rgba(255,255,255,0.6);
+        border-radius: 50%;
     }
     .container {
         color: white;
@@ -52,6 +46,20 @@
 </style>
 
 <script>
+    $(function() {
+        var images = [
+            'arnaud-mariat-jkcfb3RZxGE-unsplash.jpg',
+            'austin-gardner-7fElVDKXLoQ-unsplash.jpg',
+            'willian-justen-de-vasconcellos-_idxpCoHdE4-unsplash.jpg',
+            'sebastian-yepes-OdwjaP3GpqQ-unsplash.jpg',
+            'jorge-fernandez-salas-wNY1d7lVqPo-unsplash.jpg',
+            'jorge-fernandez-salas-n2GloATD6S8-unsplash.jpg',
+            'granada.jpg'
+        ];
+        $('.landing').css({'background': 'linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.3)),' + 'url({{ SITEURL }}/theme/images/' + images[Math.floor(Math.random() * images.length)] + ') no-repeat center center fixed'});
+        $('.landing').css({'background-size': 'cover'});
+    });
+
     (function () {
         const second = 1000,
             minute = second * 60,
@@ -101,9 +109,10 @@
     <div class="hero-body">
         <div class="container has-text-centered">
             <div class="column is-6 is-offset-3">
-                <figure class="image">
+                <figure class="image logo">
                     <img class="is-rounded" src="{{ SITEURL }}/theme/images/piconesGR_horizontal.svg">
                 </figure>
+                <br>
                 <h1 class="title">01 de Octubre de 2022</h1>
                 <div class="container">
                     <div id="countdown">
