@@ -19,7 +19,7 @@ TICKETS_LINK="#"
 CALL_FOR_PAPERS_LINK = "#"
 
 # https://google-map-generator.com/
-MAP_IFRAME_LINK = "https://maps.google.com/maps?q=granada&t=&z=13&ie=UTF8&iwloc=&output=embed"
+MAP_IFRAME_LINK = "https://maps.google.com/maps?q=Granada%20Paraningo%20Salud&t=&z=17&ie=UTF8&iwloc=&output=embed"
 
 # https://cookie-bar.eu/
 COOKIES_SCRIPT = "https://cdn.jsdelivr.net/npm/cookie-bar/cookiebar-latest.min.js?forceLang=es&theme=altblack&tracking=1&thirdparty=1&always=1&refreshPage=1&showNoConsent=1"
@@ -29,7 +29,7 @@ MAILJET_IFRAME_URL = "https://app.mailjet.com/widget/iframe/5JG8/Lxz"
 
 EVENT_KEYNOTERS = [
     {
-        "name": 'John Smith',
+        "name": 'Antonio Garcia',
         "photo_big": 'https://bulma.io/images/placeholders/1280x960.png',
         "photo": 'https://bulma.io/images/placeholders/96x96.png',
         "url": "#",
@@ -37,7 +37,7 @@ EVENT_KEYNOTERS = [
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris."
     },
     {
-        "name": 'John Smith',
+        "name": 'Paco Perez',
         "photo_big": 'https://bulma.io/images/placeholders/1280x960.png',
         "photo": 'https://bulma.io/images/placeholders/96x96.png',
         "url": "#",
@@ -45,21 +45,13 @@ EVENT_KEYNOTERS = [
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris."
     },
     {
-        "name": 'John Smith',
+        "name": 'John Pepe',
         "photo_big": 'https://bulma.io/images/placeholders/1280x960.png',
         "photo": 'https://bulma.io/images/placeholders/96x96.png',
         "url": "#",
         "twitter": "@john",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris."
-    },
-    {
-        "name": 'John Smith',
-        "photo_big": 'https://bulma.io/images/placeholders/1280x960.png',
-        "photo": 'https://bulma.io/images/placeholders/96x96.png',
-        "url": "#",
-        "twitter": "@john",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris."
-    },
+    }
 ]
 
 SPONSORS = {
