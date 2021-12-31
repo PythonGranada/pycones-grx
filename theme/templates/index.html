@@ -1,8 +1,15 @@
 {% extends "base.html" %}
 
+{% block extra_css %}
+	{% if LANDING_MODE %}
+		<link rel="stylesheet" href="{{ SITEURL }}/theme/css/landing.css">
+	{% endif %}
+{% endblock extra_css %}
+
 {% block extra_script %}
-	{% if LANDING_MODE and MAILJET_IFRAME_URL%}
+	{% if LANDING_MODE %}
 		<script type="text/javascript" src="https://app.mailjet.com/statics/js/iframeResizer.min.js"></script>
+		<script src="{{ SITEURL }}/theme/js/landing.js"></script>
 	{% endif %}
 {% endblock extra_script %}
 

@@ -5,6 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE-edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="icon" type="image/x-icon" href="{{ SITEURL }}/theme/images/favicon.ico">
+
 		<title>{% block title %}{{ SITENAME|striptags|e }}{% endblock title %}</title>
 
 		{% if EVENT_DESCRIPTION_MINI %}
@@ -30,8 +31,7 @@
 		{% include "_includes/cookies_consent.html" %}
 
 		{% block extra_css %} {% endblock extra_css %}
-		{% block extra_script %}
-		{% endblock extra_script %}
+		{% block extra_script %}{% endblock extra_script %}
 
 	</head>
 	<body>
