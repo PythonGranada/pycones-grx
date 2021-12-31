@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 # Flags, generales; permiten habilitar y deshabilitar funcionalidades de la web,
@@ -14,7 +13,7 @@ ENABLED_TICKETS = True
 # Habilita bloque que hace la llamada a los ponentes.
 ENABLED_CALL_FOR_PAPERS = True
 
-# Hablita bloque que muestra los oradores plenarios del evento.
+# Habilita bloque que muestra los oradores plenarios del evento.
 ENABLED_KEYNOTERS = True
 
 # Habilita pantalla de ponentes
