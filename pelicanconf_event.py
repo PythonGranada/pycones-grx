@@ -14,6 +14,13 @@ Tambien puedes formar parte de nuestros patrocinadores y tener tu espacio dentro
 """
 
 TWITTER_USERNAME = "pycones"
+TWITTER_LINK = f"https://twitter.com/{TWITTER_USERNAME}"
+YOUTUBE_LINK = "https://www.youtube.com/PythonEspa%C3%B1aOficial"
+GITHUB_LINK = "https://github.com/python-spain"
+EMAIL_LINK = "mailto:contact2022@es.pycon.org" # TODO
+TELEGRAM_LINK = "https://t.me/pycones2022" # TODO
+
+
 TICKETS_LINK="#"
 CALL_FOR_PAPERS_LINK = "#"
 
@@ -25,6 +32,7 @@ COOKIES_SCRIPT = "https://cdn.jsdelivr.net/npm/cookie-bar/cookiebar-latest.min.j
 
 
 MAILJET_IFRAME_URL = "https://app.mailjet.com/widget/iframe/5JG8/Lxz"
+MAILJET_TOKEN = "e61aa81ed6e82c8d70abd453dfe74bde"
 
 EVENT_KEYNOTERS = [
     {

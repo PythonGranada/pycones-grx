@@ -27,7 +27,6 @@ p {
 
 .logo {
   background-color: rgba(255,255,255,0.6);
-  //border-radius: 50%;
 }
 
 .cover-box{
@@ -69,9 +68,6 @@ p {
     @extend .subtitle, .is-6;
   }
 
-  p {
-    margin-top: 6px;
-  }
 
   figure {
     margin: 25px !important;
@@ -108,12 +104,11 @@ p {
       margin-bottom: 4px;
       padding-bottom: 4px;
     }
-
     img {
       display: inline-block;
     }
   }
-  img[src$="centerme"] {
+  img {
     display:block;
     margin: 0 auto;
   }

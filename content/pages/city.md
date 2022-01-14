@@ -80,8 +80,8 @@ gran relación con ella, como es por ejemplo Melilla. Melilla es una capital de 
 olvidada en muchas ocasiones, y que es puerta para mercados internacionales en Marruecos y
 Argelia, donde algunas empresas participantes podrían extender sus mercados.
 
-## Dónde celebrar PyConES 2022 en Granada 
-### Campus de la Salud - Universidad de Granada 🏛 
+
+## Campus de la Salud - Paraninfo - Universidad de Granada 🏛 
 
 Está situado en una de las zonas más accesibles de la ciudad, por su cercanía a la
 ronda de circunvalación de la ciudad (A44) y a la vez, es posible desplazarse a pie, en bus o

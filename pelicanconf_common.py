@@ -28,7 +28,6 @@ EVENTS_ICS_FNAME =  'calendar.ics'
 DIRECT_TEMPLATES = ['index', 'blog', 'keynoters', 'sponsorship', 'schedule']
 MENUITEMS_NAVBAR = [
     ("La ciudad", "/pages/granada.html"),
-    ("Código de conducta", "/pages/code-of-conduct.html"),
     ("Organizadores", "/pages/organizers.html")
 ]
 
