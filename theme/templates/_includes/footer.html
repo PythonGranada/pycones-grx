@@ -2,10 +2,12 @@
     <div class="container">
         <div class="footer-main">
             <div class="columns is-vcentered is-centered" style="text-align: center">
-                <div class="column" style="background-color: rgba(10,10,10,0.2)">
-                    <a href="https://es.python.org/" target="_blank">
-                        <img alt="python españa" src="https://es.python.org/images/logo/logo-pythonES.png">
-                    </a>
+                <div class="column">
+                    <figure class="image is-16by9">
+                        <a href="https://es.python.org/" target="_blank">
+                            <img alt="python españa" src="https://github.com/python-spain/web-ng/raw/main/static/images/logo/pythonES.svg">
+                        </a>
+                    </figure>
                 </div>
                 <div class="column is-vcentered is-centered" style="text-align: center">
                     <a href="{{ SITEURL }}/pages/code-of-conduct.html">
@@ -17,41 +19,51 @@
                 </div>
                 <div class="column">
                     <h4 class="title is-4">Síguenos en redes</h4>
-                    <div class="buttons">
+                    <div class="level is-mobile">
                         {% if GITHUB_LINK %}
+                        <div class="level-item">
                             <a href="{{ GITHUB_LINK }}" class="button is-medium" target="_blank">
                               <span class="icon">
                                 <i class="fab fa-github fa-lg"></i>
                               </span>
                             </a>
+                        </div>
                         {% endif %}
                         {% if EMAIL_LINK %}
+                        <div class="level-item">
                             <a href="{{ EMAIL_LINK }}" class="button is-medium" target="_blank">
                               <span class="icon">
                                 <i class="fas fa-envelope fa-lg"></i>
                               </span>
                             </a>
+                        </div>
                         {% endif %}
                         {% if TWITTER_LINK %}
+                        <div class="level-item">
                             <a href="{{ TWITTER_LINK }}" class="button is-medium" target="_blank">
                               <span class="icon">
                                 <i class="fab fa-twitter fa-lg"></i>
                               </span>
                             </a>
+                        </div>
                         {% endif %}
                         {% if YOUTUBE_LINK %}
+                        <div class="level-item">
                             <a href="{{ YOUTUBE_LINK }}" class="button is-medium" target="_blank">
                               <span class="icon">
                                 <i class="fab fa-youtube fa-lg"></i>
                               </span>
                             </a>
+                        </div>
                         {% endif %}
                         {% if TELEGRAM_LINK %}
+                        <div class="level-item">
                             <a href="{{ TELEGRAM_LINK }}" class="button is-medium" target="_blank">
                               <span class="icon">
                                   <i class="fab fa-telegram"></i>
                               </span>
                             </a>
+                        </div>
                         {% endif %}
                     </div>
                 </div>
