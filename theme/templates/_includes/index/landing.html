@@ -22,18 +22,20 @@
                     <img alt="pycones granada 2022" class="is-rounded" src="{{ SITEURL }}/theme/images/piconesGR_horizontal.svg">
                 </figure>
                 <br>
-                <h1 class="title">01 de Octubre de 2022</h1>
-                <div class="container">
-                    <div id="countdown">
-                        <ul>
-                            <li><span id="days"></span>días</li>
-                            <li><span id="hours"></span>horas</li>
-                            <li><span id="minutes"></span>minutos</li>
-                            <li><span id="seconds"></span>segundos</li>
-                        </ul>
+                <div class="transparent-black-background box">
+                    <h1 class="title">{{ EVENT_START_DATE_STR }}</h1>
+                    <div class="container">
+                        <div id="countdown">
+                            <ul>
+                                <li><span id="days"></span>días</li>
+                                <li><span id="hours"></span>horas</li>
+                                <li><span id="minutes"></span>minutos</li>
+                                <li><span id="seconds"></span>segundos</li>
+                            </ul>
+                        </div>
                     </div>
+                    <h2 class="subtitle">El mayor evento dedicado a Python de España, llega a Granada</h2>
                 </div>
-                <h2 class="subtitle">El mayor evento dedicado a Python de España, llega a Granada</h2>
                 {% include "_includes/index/newsletter_form.html" %}
             </div>
         </div>
