@@ -90,7 +90,7 @@ importante del Parque Tecnológico de la Salud situado en el barrio de El Zaidí
 capital granadina. Esta zona se está convirtiendo en la alternativa más viable para
 un campus no saturado por tráfico y ruidos.
 
-![pts](images/city/pts.jpeg)
+![pts](../images/city/pts.jpeg)
 
 Está formado por dos facultades y un complejo de servicios como biblioteca,
 comedores, etc. con instalaciones nuevas y abiertas al exterior incluyendo zonas verdes,
