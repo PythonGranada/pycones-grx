@@ -1,25 +1,30 @@
-<style>
-    .cover {
-        background: linear-gradient(
-                rgb(0 0 0 / 82%),
-                rgb(0 0 0 / 16%)
-        ), url("{{ SITEURL }}/theme/images/granada.jpg") no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
-</style>
+<script>
+    $(function() {
+        var images = [
+            'arnaud-mariat-jkcfb3RZxGE-unsplash.webp',
+            'austin-gardner-7fElVDKXLoQ-unsplash.webp',
+            'willian-justen-de-vasconcellos-_idxpCoHdE4-unsplash.webp',
+            'sebastian-yepes-OdwjaP3GpqQ-unsplash.webp',
+            'jorge-fernandez-salas-wNY1d7lVqPo-unsplash.webp',
+            'jorge-fernandez-salas-n2GloATD6S8-unsplash.webp',
+            'granada.webp'
+        ];
+        $('.cover').css({'background': 'linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.3)), url({{ SITEURL }}/theme/images/' + images[Math.floor(Math.random() * images.length)] + ') no-repeat center fixed'});
+        $('.cover').css({'background-size': 'cover'});
+    });
+</script>
+
 <section class="hero is-medium is-link cover">
     <div class="hero-body cover">
         <div class="columns">
-            <div class="column">
-                <figure class="image">
+            <div class="column has-text-centered">
+                <figure class="image logo">
                     <img class="is-rounded" src="{{ SITEURL }}/theme/images/piconesGR_horizontal.svg">
                 </figure>
-                <h3 class="title is-3">01 de Octubre 2022</h3>
+                <br>
+                <h3 class="title is-3 transparent-black-background cover-box">{{ EVENT_START_DATE_STR }}</h3>
             </div>
-            <div class="column">
+            <div class="column transparent-black-background cover-box">
                 <h1 class="title is-1">
                     {{EVENT_TITLE }}
                     <span><h3 class="title is-3">{{ EVENT_SUBTITLE }}</h3></span>
