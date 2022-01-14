@@ -103,3 +103,11 @@ Para facilitar el trabajo contamos con el archivo **pelicanconf_flags.py** donde
 
 La web cuenta con un sistema de despliegue continuo, de forma que cada cambio (commit) en la rama ``main`` la web se compila y se sube a ``github pages``, usando [GitHub Pages Pelican Build Action](https://github.com/marketplace/actions/github-pages-pelican-build-action).
 
+## Guia para contribuir
+
+1. Crea un fork de este repositorio en tu cuenta personal de GitHib.
+2. Puedes visualizar tu clone de la web, si habilitas la opción ghpages en la rama ``gh-pages``.
+3. Para que se visualize correctamente debes crear un ``environment secrtes`` llamado ``SITEURL`` con la url completa de tu copia del sitio web.
+4. Realiza tus aportaciones, añade los cambios, siempre con un mensaje de commit descriptivo y a poder ser en Ingles.
+5. Crea un ``Pull Request`` a este mismo repositorio, asegurate primero de hacer ``Fetch upstream`` y no tener conflictos con el repositorio principal.
+6. Cuando se acepte el PR se te notifica y ya podemos ver tus cambios en la web.
