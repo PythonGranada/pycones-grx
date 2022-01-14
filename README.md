@@ -114,6 +114,6 @@ La web cuenta con un sistema de despliegue continuo, de forma que cada cambio (c
 
 ![](https://github.com/PythonGranada/pycones-grx/blob/main/readme_images/environ.png?raw=true)
 
-4. Realiza tus aportaciones, añade los cambios, siempre con un mensaje de commit descriptivo y a poder ser en Ingles.
+4. Realiza tus aportaciones, añade los cambios, siempre con un mensaje de commit descriptivo y a poder ser en Inglés.
 5. Crea un ``Pull Request`` a este mismo repositorio, asegurate primero de hacer ``Fetch upstream`` y no tener conflictos con el repositorio principal.
 6. Cuando se acepte el PR se te notifica y ya podemos ver tus cambios en la web.
