@@ -20,9 +20,9 @@ GITHUB_LINK = "https://github.com/python-spain"
 EMAIL_LINK = "mailto:contact2022@es.pycon.org" # TODO
 TELEGRAM_LINK = "https://t.me/pycones2022" # TODO
 
-
 TICKETS_LINK="#"
 CALL_FOR_PAPERS_LINK = "#"
+SPONSORS_DOSSIER = "#"
 
 # https://google-map-generator.com/
 MAP_IFRAME_LINK = "https://maps.google.com/maps?q=Granada%20Paraningo%20Salud&t=&z=17&ie=UTF8&iwloc=&output=embed"
@@ -33,6 +33,56 @@ COOKIES_SCRIPT = "https://cdn.jsdelivr.net/npm/cookie-bar/cookiebar-latest.min.j
 
 MAILJET_IFRAME_URL = "https://app.mailjet.com/widget/iframe/5JG8/Lxz"
 MAILJET_TOKEN = "e61aa81ed6e82c8d70abd453dfe74bde"
+
+PAST_EDITIONS = [
+    {
+        "name": "PyConES 2013 - Madrid",
+        "logo": "/theme/images/past_editions/2013.png",
+        "url": "https://2013.es.pycon.org/"
+    },
+    {
+        "name": "PyConES 2014 - Zaragoza",
+        "logo": "/theme/images/past_editions/2014.svg",
+        "url": "https://2014.es.pycon.org/"
+    },
+    {
+        "name": "PyConES 2015 - Valencia",
+        "logo": "/theme/images/past_editions/2015.png",
+        "url": "https://2015.es.pycon.org/"
+    },
+    {
+        "name": "PyConES 2016 - Almeria",
+        "logo": "/theme/images/past_editions/2016.jpg",
+        "url": "https://2016.es.pycon.org/"
+    },
+    {
+        "name": "PyConES 2017 - Cáceres",
+        "logo": "/theme/images/past_editions/2017.png",
+        "url": "https://2016.es.pycon.org/"
+    },
+    {
+        "name": "PyConES 2018 - Málaga",
+        "logo": "/theme/images/past_editions/2018.svg",
+        "url": "https://2018.es.pycon.org/"
+    },
+    {
+        "name": "PyConES 2019 - Alicante",
+        "logo": "/theme/images/past_editions/2019.png",
+        "url": "https://2019.es.pycon.org/"
+    },
+    {
+        "name": "PyConES 2020 - Pandemic Edition",
+        "logo": "/theme/images/past_editions/2020.png",
+        "url": "https://2020.es.pycon.org/"
+    },
+    {
+        "name": "PyConES 2021 - Vaccine Edition",
+        "logo": "/theme/images/past_editions/2021.svg",
+        "url": "https://2021.es.pycon.org/"
+    },
+
+]
+
 
 EVENT_KEYNOTERS = [
     {
@@ -62,7 +112,88 @@ EVENT_KEYNOTERS = [
 ]
 
 SPONSORS = {
+    "keystone": [
+        {
+            "name": 'Sponsor',
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "url": "#"
+        },
+        {
+            "name": 'Sponsor',
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "url": "#"
+        },
+        {
+            "name": 'Sponsor',
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "url": "#"
+        }
+    ],
+    "diamond": [
+        {
+            "name": 'Sponsor',
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "url": "#"
+        },
+        {
+            "name": 'Sponsor',
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "url": "#"
+        },
+        {
+            "name": 'Sponsor',
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "url": "#"
+        },
+        {
+            "name": 'Sponsor',
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "url": "#"
+        },
+    ],
+    "platinum": [
+        {
+            "name": 'Sponsor',
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "url": "#"
+        },
+        {
+            "name": 'Sponsor',
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "url": "#"
+        },
+        {
+            "name": 'Sponsor',
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "url": "#"
+        },
+        {
+            "name": 'Sponsor',
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "url": "#"
+        },
+        {
+            "name": 'Sponsor',
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "url": "#"
+        },
+    ],
     "gold": [
+        {
+            "name": 'Sponsor',
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "url": "#"
+        },
+        {
+            "name": 'Sponsor',
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "url": "#"
+        },
+        {
+            "name": 'Sponsor',
+            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "url": "#"
+        },
         {
             "name": 'Sponsor',
             "photo": 'https://bulma.io/images/placeholders/1280x960.png',
@@ -85,43 +216,6 @@ SPONSORS = {
         },
     ],
     "silver": [
-        {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
-            "url": "#"
-        },
-        {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
-            "url": "#"
-        },
-        {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
-            "url": "#"
-        },
-        {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
-            "url": "#"
-        },
-        {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
-            "url": "#"
-        },
-        {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
-            "url": "#"
-        },
-    ],
-    "metal": [
-        {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
-            "url": "#"
-        },
         {
             "name": 'Sponsor',
             "photo": 'https://bulma.io/images/placeholders/1280x960.png',

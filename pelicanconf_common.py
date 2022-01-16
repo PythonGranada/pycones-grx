@@ -26,7 +26,7 @@ JINJA_ENVIRONMENT = {
 }
 
 EVENTS_ICS_FNAME =  'calendar.ics'
-DIRECT_TEMPLATES = ['index', 'blog', 'keynoters', 'sponsorship', 'schedule', 'gallery']
+DIRECT_TEMPLATES = ['index', 'blog', 'keynoters', 'sponsorship', 'schedule', 'gallery', 'past_editions']
 MENUITEMS_NAVBAR = [
     ("La ciudad", "/pages/granada.html"),
     ("Organizadores", "/pages/organizers.html")
@@ -43,6 +43,9 @@ if ENABLED_SCHEDULE:
 
 if ENABLED_GALLERY:
     MENUITEMS_NAVBAR.append(tuple(("Galería", "/gallery.html")))
+
+if ENABLED_PAST_EDITIONS:
+    MENUITEMS_NAVBAR.append(tuple(("Ediciones pasadas", "/past_editions.html")))
 
 if ENABLED_BLOG:
     MENUITEMS_NAVBAR.append(tuple(("Blog", "/blog.html")))

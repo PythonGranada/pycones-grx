@@ -33,3 +33,6 @@ ENABLED_BLOG = True
 
 # Habilita galería de imágenes en Google Photos
 ENABLED_GALLERY = True
+
+# Habilita pantalla con ediciones pasadas
+ENABLED_PAST_EDITIONS = True
