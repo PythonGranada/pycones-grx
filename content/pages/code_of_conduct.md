@@ -1,9 +1,9 @@
-Title: Codígo de conducta
+Title: Código de conducta 🛑
 Slug: code-of-conduct
 Date: 2021-05-13 18:20
 Modified: 2021-05-13 18:20
 Authors: Python España
-Summary: Código de Conducta
+Summary: Código de Conducta 🛑
 
 
 PyConES es una conferencia hecha por la comunidad pensada para la divulgación y colaboración dentro de la comunidad de desarrolladores.
@@ -27,13 +27,10 @@ Si algún participante infringiera este código de conducta, la organización po
 
 Si estás siendo objeto de acoso, notas que alguien está siendo acosado, o tienes cualquier otra preocupación, por favor ponte en contacto con un miembro del personal de la conferencia. El personal de la conferencia vestirá camisetas con la inscripción "Personal PyConES". Además puedes hablar con el personal del lugar y pedir que se te ponga en contacto con el responsable de la conferencia.
 
-Si se trata de una cuestión especialmente urgente, dirígete a cualquiera de estas personas:
-
-
 El personal de la conferencia ayudará gustosamente a los participantes a que se pongan en contacto con el personal de seguridad del lugar o la policía local, y proporcionará escolta o socorrerá de cualquier otra forma a las víctimas de acoso para que puedan sentirse seguras durante el desarrollo de la conferencia. Tu bienestar es una de nuestras prioridades.
 
 Gracias por hacer de este un evento abierto a la comunidad y amistoso.
 
 
 ## Licencia
-Este Código de Conducta se basa en los códigos de conducta de PyCon US 2013 (https://us.pycon.org/2013/about/code-of-conduct/) y PyConAr 2012 (http://ar.pycon.org/2012/conference/diversity/), y está disponible bajo una licencia Creative Commons Atribución 3.0 España.
+Este Código de Conducta se basa en los códigos de [conducta de PyCon US 2013](https://us.pycon.org/2013/about/code-of-conduct/) y [PyConAr 2012](http://ar.pycon.org/2012/conference/diversity/), y está disponible bajo una licencia **Creative Commons Atribución 3.0 España**.
