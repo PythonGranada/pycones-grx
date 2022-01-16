@@ -42,7 +42,7 @@ PAST_EDITIONS = [
     },
     {
         "name": "PyConES 2014 - Zaragoza",
-        "logo": "/theme/images/past_editions/2014.svg",
+        "logo": "/theme/images/past_editions/2014.png",
         "url": "https://2014.es.pycon.org/"
     },
     {
@@ -62,7 +62,7 @@ PAST_EDITIONS = [
     },
     {
         "name": "PyConES 2018 - Málaga",
-        "logo": "/theme/images/past_editions/2018.svg",
+        "logo": "/theme/images/past_editions/2018.png",
         "url": "https://2018.es.pycon.org/"
     },
     {
@@ -77,7 +77,7 @@ PAST_EDITIONS = [
     },
     {
         "name": "PyConES 2021 - Vaccine Edition",
-        "logo": "/theme/images/past_editions/2021.svg",
+        "logo": "/theme/images/past_editions/2021.png",
         "url": "https://2021.es.pycon.org/"
     },
 
