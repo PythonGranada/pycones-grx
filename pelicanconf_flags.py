@@ -5,7 +5,7 @@
 
 # Habilita el modo landing-page de la web,
 # para poder tener una presentación reducida o completa de la web.
-LANDING_MODE = True
+LANDING_MODE = False
 
 # Habilita links a la tienda de las entradas del evento.
 ENABLED_TICKETS = False
