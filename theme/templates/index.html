@@ -16,7 +16,7 @@
 
 {% block navbar %}
 	{% if not LANDING_MODE %}
-		{% include "_includes/index/navbar.html" %}
+		{% include "_includes/navbar.html" %}
 	{% endif %}
 {% endblock navbar %}
 
@@ -41,8 +41,13 @@
 					{% include "_includes/index/call_for_papers.html" %}
 				{% endif %}
 
-				{% include "_includes/index/timeline.html" %}
-				{% include "_includes/index/location.html" %}
+				{% if ENABLED_TIMELINE %}
+					{% include "_includes/index/timeline.html" %}
+				{% endif %}
+
+				{% if ENABLED_LOCATION %}
+					{% include "_includes/index/location.html" %}
+				{% endif %}
 
 				{% if ENABLED_CALL_FOR_SPONSORS%}
 					{% include "_includes/index/call_for_sponsors.html" %}

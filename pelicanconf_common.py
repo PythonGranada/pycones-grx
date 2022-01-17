@@ -20,15 +20,15 @@ DEFAULT_LANG = 'es'
 MARKUP = ("md",)
 
 PLUGINS = ["i18n_subsites", "assets", "events"]
+
 JINJA_ENVIRONMENT = {
     "extensions": ["jinja2.ext.i18n"],
 }
 
 EVENTS_ICS_FNAME =  'calendar.ics'
-DIRECT_TEMPLATES = ['index', 'blog', 'keynoters', 'sponsorship', 'schedule']
+DIRECT_TEMPLATES = ['index', 'blog', 'keynoters', 'sponsorship', 'schedule', 'gallery', 'past_editions']
 MENUITEMS_NAVBAR = [
     ("La ciudad", "/pages/granada.html"),
-    ("Código de conducta", "/pages/code-of-conduct.html"),
     ("Organizadores", "/pages/organizers.html")
 ]
 
@@ -41,8 +41,15 @@ if ENABLED_SPONSORSHIPS:
 if ENABLED_SCHEDULE:
     MENUITEMS_NAVBAR.append(tuple(("Horario", "/schedule.html")))
 
+if ENABLED_GALLERY:
+    MENUITEMS_NAVBAR.append(tuple(("Galería", "/gallery.html")))
+
+if ENABLED_PAST_EDITIONS:
+    MENUITEMS_NAVBAR.append(tuple(("Ediciones pasadas", "/past_editions.html")))
+
 if ENABLED_BLOG:
     MENUITEMS_NAVBAR.append(tuple(("Blog", "/blog.html")))
+
 
 NAVBAR_STYLE = "is-primary"
 THEME_LOGO = "/theme/images/piconesGR_mini.svg"

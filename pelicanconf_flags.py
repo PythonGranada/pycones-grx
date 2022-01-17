@@ -8,16 +8,16 @@
 LANDING_MODE = True
 
 # Habilita links a la tienda de las entradas del evento.
-ENABLED_TICKETS = True
+ENABLED_TICKETS = False
 
 # Habilita bloque que hace la llamada a los ponentes.
-ENABLED_CALL_FOR_PAPERS = True
+ENABLED_CALL_FOR_PAPERS = False
 
 # Habilita bloque que muestra los oradores plenarios del evento.
-ENABLED_KEYNOTERS = True
+ENABLED_KEYNOTERS = False
 
 # Habilita pantalla de ponentes
-ENABLED_SPEAKERS = True
+ENABLED_SPEAKERS = False
 
 # Habilita bloque con todos los patrocinadores.
 ENABLED_SPONSORSHIPS = True
@@ -26,7 +26,19 @@ ENABLED_SPONSORSHIPS = True
 ENABLED_CALL_FOR_SPONSORS = True
 
 # Habilita la vista del calendario del evento.
-ENABLED_SCHEDULE = True
+ENABLED_SCHEDULE = False
 
 # Habilita la funcionalidad de blog de contenidos de la web.
 ENABLED_BLOG = True
+
+# Habilita galería de imágenes en Google Photos
+ENABLED_GALLERY = True
+
+# Habilita pantalla con ediciones pasadas
+ENABLED_PAST_EDITIONS = True
+
+# Habilita el mapa con la localización
+ENABLED_LOCATION = True
+
+# Habilita el timeline del evento
+ENABLED_TIMELINE = False

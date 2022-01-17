@@ -1,55 +1,93 @@
 <h2 class="title is-2">Patrocinadores 🏢 </h2>
 <hr>
 
-<h3 class="title is-3">Gold </h3>
+<h3 class="title is-3">Keystone </h3>
+<div class="keystone-sponsorship-container">
+    {% for sponsor in SPONSORS['keystone'] %}
+        <div class="card">
+            <div class="card-image">
+                <a href="{{ sponsor.url }}">
+                    <figure class="image is-4by3">
+                        <img src="{{ sponsor.photo }}" alt="{{ sponsor.name }}">
+                    </figure>
+                </a>
+                <p>{{ sponsor.name }}</p>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+
+<hr>
+
+<h3 class="title is-3">Diamante </h3>
+<div class="diamond-sponsorship-container">
+    {% for sponsor in SPONSORS['diamond'] %}
+        <div class="card">
+            <div class="card-image">
+                <a href="{{ sponsor.url }}">
+                    <figure class="image is-4by3">
+                        <img src="{{ sponsor.photo }}" alt="{{ sponsor.name }}">
+                    </figure>
+                </a>
+                <p>{{ sponsor.name }}</p>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+
+<hr>
+
+<h3 class="title is-3">Platino </h3>
+<div class="platinum-sponsorship-container">
+    {% for sponsor in SPONSORS['platinum'] %}
+        <div class="card">
+            <div class="card-image">
+                <a href="{{ sponsor.url }}">
+                    <figure class="image is-4by3">
+                        <img src="{{ sponsor.photo }}" alt="{{ sponsor.name }}">
+                    </figure>
+                </a>
+                <p>{{ sponsor.name }}</p>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+
+<br>
+
+<h3 class="title is-3">Oro </h3>
 <div class="gold-sponsorship-container">
     {% for sponsor in SPONSORS['gold'] %}
-        <div class="card">
-            <div class="card-image">
-                <a href="{{ sponsor.url }}">
-                    <figure class="image is-4by3">
-                        <img src="{{ sponsor.photo }}" alt="{{ sponsor.name }}">
-                    </figure>
-                </a>
-                <p>{{ sponsor.name }}</p>
-            </div>
+    <div class="card">
+        <div class="card-image">
+            <a href="{{ sponsor.url }}">
+                <figure class="image is-4by3">
+                    <img src="{{ sponsor.photo }}" alt="{{ sponsor.name }}">
+                </figure>
+            </a>
+            <p>{{ sponsor.name }}</p>
         </div>
+    </div>
     {% endfor %}
 </div>
 
-<hr>
+<br>
 
-<h3 class="title is-3">Silver </h3>
+<h3 class="title is-3">Plata </h3>
 <div class="silver-sponsorship-container">
     {% for sponsor in SPONSORS['silver'] %}
-        <div class="card">
-            <div class="card-image">
-                <a href="{{ sponsor.url }}">
-                    <figure class="image is-4by3">
-                        <img src="{{ sponsor.photo }}" alt="{{ sponsor.name }}">
-                    </figure>
-                </a>
-                <p>{{ sponsor.name }}</p>
-            </div>
+    <div class="card">
+        <div class="card-image">
+            <a href="{{ sponsor.url }}">
+                <figure class="image is-4by3">
+                    <img src="{{ sponsor.photo }}" alt="{{ sponsor.name }}">
+                </figure>
+            </a>
+            <p>{{ sponsor.name }}</p>
         </div>
+    </div>
     {% endfor %}
 </div>
 
-<hr>
 
-<h3 class="title is-3">Metal </h3>
-<div class="metal-sponsorship-container">
-    {% for sponsor in SPONSORS['metal'] %}
-        <div class="card">
-            <div class="card-image">
-                <a href="{{ sponsor.url }}">
-                    <figure class="image is-4by3">
-                        <img src="{{ sponsor.photo }}" alt="{{ sponsor.name }}">
-                    </figure>
-                </a>
-                <p>{{ sponsor.name }}</p>
-            </div>
-        </div>
-    {% endfor %}
-</div>
 <br>

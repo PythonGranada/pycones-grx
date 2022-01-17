@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+
+<!-- https://www.publicalbum.org/blog/embedding-google-photos-albums -->
+
+<script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
+
+<section class="section">
+  <div class="container">
+
+<div class="pa-gallery-player-widget" style="margin-top: 0px;width:100%; height:480px; display:none;"
+     data-link="https://photos.app.goo.gl/a5c7f5DmyjLExXhL7"
+     data-title="PyconEs Demo"
+     data-description="7 new items · Album by José Miguel Lopez"
+     data-background-color="#ffffff">
+  <object data="https://lh3.googleusercontent.com/ezWUMiKSPttoMvaBv1KnUigRiM4z431oOkQVGw_HQoMYCUSUoXq_SjQZMTQ5RJ0KD6QoTUfq1hjt_UU8G6FxPYUIcfEXJNrww-st2sbOnpsp0y7OX_m2dby-KuUHSGZlqlKFAYYEQw=w1920-h1080"></object>
+  <object data="https://lh3.googleusercontent.com/fk4_0pHXfPorIdZDnZBLIRjR-EqHRagPR06HZY5DdE0PDABsuUPsjfDSKY4aRG3hXcBpLsruXsMNSLAVP55ybt61FWE-B-c4mjSXN1BbayGe8dNHtEhrEn8at-P7KxgLrwN4vzDyfA=w1920-h1080"></object>
+  <object data="https://lh3.googleusercontent.com/3pcnYJyGagKTmJqIoX_kQCRclz_AWcFV-WnT6RL93Bc5I4VeXJ-83UtiXD-CJi7YdjyNf6kUpOhfWk38a6tBqYdu3VlqlIoyGNeUDsEi1GVDlQJbKztuOH9-3rDnoWVuIBTqdlXrFg=w1920-h1080"></object>
+  <object data="https://lh3.googleusercontent.com/E5V2rYLdxmV_8u6RWmzqwwPXtCV7lvQK7v0Vj4HF5R3zRYTor5YgavOIHLxHEcEiTHWpVYzX21uEz3WZM8HE2mh-7bBYPV4TMEurbCygOguEpRg4BCYMtx1FUP3MNsT0aNnjVN0_uA=w1920-h1080"></object>
+  <object data="https://lh3.googleusercontent.com/XTRxMuUOv3yIyBU9ha0LC4SnqIV6_oVVoYtQddfoiJr-44rCjsaWp34p4RkX3gSYjtSKbmRnUrlU3AmQrjbql3vhRmk4zFw3ktI1s_Tz5TYIQ0YAwxJCnMcilZwCL98nXyI3FgePyA=w1920-h1080"></object>
+  <object data="https://lh3.googleusercontent.com/R6bGrQWBnGpMecA3ezIjtliPvXA1XgYNqrMiPnFlgP7rKef31tnOr4KkjQTpYyDe-jfht0zJOw9GDZbcoCPlu5x-54PqQ_imTVvJb7cVugzU8twusOBiPN0Tq-4wEeV6zlcbTObkCA=w1920-h1080"></object>
+  <object data="https://lh3.googleusercontent.com/65Z6USRCRXIbknNB4pWTkMTPT7qE1bCx10wFIaJnjHqs_y2cEYwcR5jV1B5u_xbghmWr7RFHlEsATAt86mIM_btqHjW1bpr5yuwVmCyTAdUJPN8F-7ztslPx-4JSFlD-vl1mfn4uww=w1920-h1080"></object>
+</div>
+
+
+<div class="box">
+  <a href="https://photos.app.goo.gl/a5c7f5DmyjLExXhL7" target="_blank">
+    <button class="button is-medium is-orange button is-link is-light">Ir a galería</button>
+  </a>
+</div>
+
+
+<div class="box">
+  <cite>Si por alguna razón no desea aparecer en alguna de las imágenes mostrada en nuestra galería contacte con la organización y la foto será retirada.</cite>
+</div>
+</div>
+</section>
+
+{% endblock content %}

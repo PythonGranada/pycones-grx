@@ -1,64 +1,79 @@
 <section class="section">
     <div class="container">
         <div class="footer-main">
-            <div class="columns">
+            <div class="columns is-vcentered is-centered" style="text-align: center">
                 <div class="column">
-                    <h4 class="title is-4">Column 1</h4>
-                    <p class="">
-                        randomised words which don't look even slightly believable. If you are going to use
-                        a passage of Lorem Ipsum,
-                    </p>
+                    <figure class="image is-16by9">
+                        <a href="https://es.python.org/" target="_blank">
+                            <img alt="python españa" src="https://github.com/python-spain/web-ng/raw/main/static/images/logo/pythonES.svg">
+                        </a>
+                    </figure>
+                </div>
+                <div class="column is-vcentered is-centered" style="text-align: center">
+                    <a href="{{ SITEURL }}/pages/code-of-conduct.html">
+                        <button class="button is-medium is-orange button is-link is-dark">Código conducta</button>
+                    </a>
                 </div>
                 <div class="column">
-                    <h4 class="title is-4">Column 2</h4>
-                    <p class="">
-                        randomised words which don't look even slightly believable. If you are going to use
-                        a passage of Lorem Ipsum,
-                    </p>
+                    {% include "_includes/index/newsletter_form_popin.html" %}
                 </div>
                 <div class="column">
-                    <h4 class="title is-4">Subscribe Now</h4>
-                    <div class="field">
-                        <input class="input" type="text" placeholder="Email" />
-                    </div>
-                    <div class="buttons">
-                        <button class="button is-left is-medium is-orange">Subscribe</button>
-                    </div>
-                </div>
-
-                <div class="column">
-                    <h4 class="title is-4">Follow Us</h4>
-
-                    <div class="buttons">
-                        <a class="button is-medium is-facebook is-inverted is-black-social">
-                  <span class="icon">
-                    <i class="fab fa-facebook fa-lg"></i>
-                  </span>
-                        </a>
-                        <a class="button is-medium is-instagram is-inverted is-black-social">
-                  <span class="icon">
-                    <i class="fab fa-instagram fa-lg"></i>
-                  </span>
-                        </a>
-                        <a class="button is-medium is-twitter is-inverted is-black-social">
-                  <span class="icon">
-                    <i class="fab fa-twitter fa-lg"></i>
-                  </span>
-                        </a>
-                        <a class="button is-medium is-youtube is-inverted is-black-social">
-                  <span class="icon">
-                    <i class="fab fa-youtube fa-lg"></i>
-                  </span>
-                        </a>
+                    <h4 class="title is-4">Síguenos en redes</h4>
+                    <div class="level is-mobile">
+                        {% if GITHUB_LINK %}
+                        <div class="level-item">
+                            <a href="{{ GITHUB_LINK }}" class="button is-medium" target="_blank">
+                              <span class="icon">
+                                <i class="fab fa-github fa-lg"></i>
+                              </span>
+                            </a>
+                        </div>
+                        {% endif %}
+                        {% if EMAIL_LINK %}
+                        <div class="level-item">
+                            <a href="{{ EMAIL_LINK }}" class="button is-medium" target="_blank">
+                              <span class="icon">
+                                <i class="fas fa-envelope fa-lg"></i>
+                              </span>
+                            </a>
+                        </div>
+                        {% endif %}
+                        {% if TWITTER_LINK %}
+                        <div class="level-item">
+                            <a href="{{ TWITTER_LINK }}" class="button is-medium" target="_blank">
+                              <span class="icon">
+                                <i class="fab fa-twitter fa-lg"></i>
+                              </span>
+                            </a>
+                        </div>
+                        {% endif %}
+                        {% if YOUTUBE_LINK %}
+                        <div class="level-item">
+                            <a href="{{ YOUTUBE_LINK }}" class="button is-medium" target="_blank">
+                              <span class="icon">
+                                <i class="fab fa-youtube fa-lg"></i>
+                              </span>
+                            </a>
+                        </div>
+                        {% endif %}
+                        {% if TELEGRAM_LINK %}
+                        <div class="level-item">
+                            <a href="{{ TELEGRAM_LINK }}" class="button is-medium" target="_blank">
+                              <span class="icon">
+                                  <i class="fab fa-telegram"></i>
+                              </span>
+                            </a>
+                        </div>
+                        {% endif %}
                     </div>
                 </div>
             </div>
         </div>
     </div>
-<hr>
+    <hr>
 
-<footer class="footer-secondary">
-    <div class="content has-text-centered">
-        <p>{{FOOTER}}</p>
-    </div>
-</footer>
+    <footer class="footer-secondary">
+        <div class="content has-text-centered">
+            <p>{{FOOTER}}</p>
+        </div>
+    </footer>

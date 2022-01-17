@@ -1,0 +1,12 @@
+{% if MAILJET_TOKEN %}
+    <data id="mj-w-res-data" data-token="{{ MAILJET_TOKEN }}" class="mj-w-data" data-apikey="5JG8" data-w-id="LLC" data-lang="es_ES" data-base="https://app.mailjet.com" data-width="640" data-height="437" data-statics="statics"></data>
+    <div class="mj-w-button mj-w-btn button is-medium is-orange button is-link is-dark"  data-token="{{ MAILJET_TOKEN }}">
+        <div style="display: table; height: 45px;">
+            <div style="display: table-cell; vertical-align: middle;">
+                <div class="mj-w-button-content">Subscribe a newsletter!</div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://app.mailjet.com/statics/js/widget.modal.js"></script>
+{% endif %}

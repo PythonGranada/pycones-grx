@@ -27,7 +27,6 @@ p {
 
 .logo {
   background-color: rgba(255,255,255,0.6);
-  //border-radius: 50%;
 }
 
 .cover-box{
@@ -69,9 +68,6 @@ p {
     @extend .subtitle, .is-6;
   }
 
-  p {
-    margin-top: 6px;
-  }
 
   figure {
     margin: 25px !important;
@@ -108,10 +104,16 @@ p {
       margin-bottom: 4px;
       padding-bottom: 4px;
     }
-
     img {
       display: inline-block;
     }
+  }
+  img {
+    display:block;
+    margin: 0 auto;
+  }
+  p {
+    padding-bottom: 25px;
   }
 }
 
@@ -125,22 +127,41 @@ p {
   grid-gap: 0.5em;
 }
 
+.keystone-sponsorship-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  grid-gap: 0.5em;
+}
+
+.diamond-sponsorship-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-gap: 0.5em;
+}
+
+.platinum-sponsorship-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  grid-gap: 0.5em;
+}
+
 .gold-sponsorship-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
   grid-gap: 0.5em;
 }
 
 .silver-sponsorship-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   grid-gap: 0.5em;
 }
 
-.metal-sponsorship-container {
+.past-edition-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  grid-gap: 0.5em;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 0.5fr));
+  grid-gap: 1.5em;
+  vertical-align: middle;
 }
 
 
