@@ -87,7 +87,7 @@ PAST_EDITIONS = [
 EVENT_KEYNOTERS = [
     {
         "name": 'Antonio Garcia',
-        "photo_big": 'https://bulma.io/images/placeholders/1280x960.png',
+        "photo_big": 'https://picsum.photos/800/600',
         "photo": 'https://bulma.io/images/placeholders/96x96.png',
         "url": "#",
         "twitter": "@john",
@@ -95,7 +95,7 @@ EVENT_KEYNOTERS = [
     },
     {
         "name": 'Paco Perez',
-        "photo_big": 'https://bulma.io/images/placeholders/1280x960.png',
+        "photo_big": 'https://picsum.photos/800/600',
         "photo": 'https://bulma.io/images/placeholders/96x96.png',
         "url": "#",
         "twitter": "@john",
@@ -103,7 +103,7 @@ EVENT_KEYNOTERS = [
     },
     {
         "name": 'John Pepe',
-        "photo_big": 'https://bulma.io/images/placeholders/1280x960.png',
+        "photo_big": 'https://picsum.photos/800/600',
         "photo": 'https://bulma.io/images/placeholders/96x96.png',
         "url": "#",
         "twitter": "@john",
@@ -114,148 +114,115 @@ EVENT_KEYNOTERS = [
 SPONSORS = {
     "keystone": [
         {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "name": 'Snoobs Sugar-Gold',
+            "photo": 'https://picsum.photos/800/600?random=1',
             "url": "#"
         },
         {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "name": 'Oil-Can Clovenhoof',
+            "photo": 'https://picsum.photos/800/600?random=2',
             "url": "#"
         },
         {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "name": 'Bill Beenie-Weenie Rosenthal',
+            "photo": 'https://picsum.photos/800/600?random=3',
             "url": "#"
         }
     ],
     "diamond": [
         {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "name": 'Big Burps Johnson',
+            "photo": 'https://picsum.photos/800/600?random=4',
             "url": "#"
         },
         {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "name": 'Johnny Clutterbuck',
+            "photo": 'https://picsum.photos/800/600?random=5',
             "url": "#"
         },
         {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "name": 'Buttermilk Overturf',
+            "photo": 'https://picsum.photos/800/600?random=6',
             "url": "#"
         },
         {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "name": 'Squids Johnson',
+            "photo": 'https://picsum.photos/800/600?random=7',
             "url": "#"
         },
     ],
     "platinum": [
         {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "name": 'Jimbo Rosenthal',
+            "photo": 'https://picsum.photos/800/600?random=8',
             "url": "#"
         },
         {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "name": 'Dennis Clawhammer Endicott',
+            "photo": 'https://picsum.photos/800/600?random=9',
             "url": "#"
         },
         {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
-            "url": "#"
-        },
-        {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
-            "url": "#"
-        },
-        {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "name": 'Slaps Putney',
+            "photo": 'https://picsum.photos/800/600?random=10',
             "url": "#"
         },
     ],
     "gold": [
         {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "name": 'Potato Bug Clovenhoof',
+            "photo": 'https://picsum.photos/800/600?random=11',
             "url": "#"
         },
         {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "name": 'Snorki Fewhairs',
+            "photo": 'https://picsum.photos/800/600?random=12',
             "url": "#"
         },
         {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "name": 'Lil Debil Winterkorn',
+            "photo": 'https://picsum.photos/800/600?random=13',
             "url": "#"
         },
         {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "name": 'Sweet Tea MBembo',
+            "photo": 'https://picsum.photos/800/600?random=14',
             "url": "#"
         },
         {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "name": 'Chad Porkins',
+            "photo": 'https://picsum.photos/800/600?random=15',
             "url": "#"
         },
-        {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
-            "url": "#"
-        },
-        {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
-            "url": "#"
-        },
+
     ],
     "silver": [
         {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "name": 'Chigger Guster',
+            "photo": 'https://picsum.photos/800/600?random=16',
             "url": "#"
         },
         {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "name": 'Scut Listenbee',
+            "photo": 'https://picsum.photos/800/600?random=17',
             "url": "#"
         },
         {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "name": 'Johnny Nettles',
+            "photo": 'https://picsum.photos/800/600?random=18',
             "url": "#"
         },
         {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "name": 'Scut Clovenhoof',
+            "photo": 'https://picsum.photos/800/600?random=19',
             "url": "#"
         },
         {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "name": 'Worms Nettles',
+            "photo": 'https://picsum.photos/800/600?random=20',
             "url": "#"
         },
-        {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
-            "url": "#"
-        },
-        {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
-            "url": "#"
-        },
-        {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
-            "url": "#"
-        },
+
     ],
 }
 

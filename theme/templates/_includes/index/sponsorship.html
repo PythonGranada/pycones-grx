@@ -11,7 +11,9 @@
                         <img src="{{ sponsor.photo }}" alt="{{ sponsor.name }}">
                     </figure>
                 </a>
-                <p>{{ sponsor.name }}</p>
+                <footer class="card-footer">
+                    <p>{{ sponsor.name }}</p>
+                </footer>
             </div>
         </div>
     {% endfor %}
@@ -29,7 +31,9 @@
                         <img src="{{ sponsor.photo }}" alt="{{ sponsor.name }}">
                     </figure>
                 </a>
-                <p>{{ sponsor.name }}</p>
+                <footer class="card-footer">
+                    <p>{{ sponsor.name }}</p>
+                </footer>
             </div>
         </div>
     {% endfor %}
@@ -47,13 +51,15 @@
                         <img src="{{ sponsor.photo }}" alt="{{ sponsor.name }}">
                     </figure>
                 </a>
-                <p>{{ sponsor.name }}</p>
+                <footer class="card-footer">
+                    <p>{{ sponsor.name }}</p>
+                </footer>
             </div>
         </div>
     {% endfor %}
 </div>
 
-<br>
+<hr>
 
 <h3 class="title is-3">Oro </h3>
 <div class="gold-sponsorship-container">
@@ -65,13 +71,15 @@
                     <img src="{{ sponsor.photo }}" alt="{{ sponsor.name }}">
                 </figure>
             </a>
-            <p>{{ sponsor.name }}</p>
+            <footer class="card-footer">
+                <p>{{ sponsor.name }}</p>
+            </footer>
         </div>
     </div>
     {% endfor %}
 </div>
 
-<br>
+<hr>
 
 <h3 class="title is-3">Plata </h3>
 <div class="silver-sponsorship-container">
@@ -83,7 +91,9 @@
                     <img src="{{ sponsor.photo }}" alt="{{ sponsor.name }}">
                 </figure>
             </a>
-            <p>{{ sponsor.name }}</p>
+            <footer class="card-footer">
+                <p>{{ sponsor.name }}</p>
+            </footer>
         </div>
     </div>
     {% endfor %}
