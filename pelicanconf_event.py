@@ -58,7 +58,7 @@ PAST_EDITIONS = [
     {
         "name": "PyConES 2017 - Cáceres",
         "logo": "/theme/images/past_editions/2017.png",
-        "url": "https://2016.es.pycon.org/"
+        "url": "https://2017.es.pycon.org/"
     },
     {
         "name": "PyConES 2018 - Málaga",
