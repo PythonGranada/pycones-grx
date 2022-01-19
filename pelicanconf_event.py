@@ -262,8 +262,8 @@ EVENT_TRACKS = json.dumps([
      { "id": 'web', "title": 'Track Web', "eventColor": 'orange' },
 ])
 
-EVENT_START_DATE = "2022-09-30"
-EVENT_START_DATE_STR = "01 de Octubre 2022"
+EVENT_START_DATE = "2022-09-31"
+EVENT_START_DATE_STR = "31 de Septiembre 2022"
 EVENT_TALKS = json.dumps(
     [
         {
