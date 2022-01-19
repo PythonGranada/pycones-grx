@@ -34,6 +34,36 @@ COOKIES_SCRIPT = "https://cdn.jsdelivr.net/npm/cookie-bar/cookiebar-latest.min.j
 MAILJET_IFRAME_URL = "https://app.mailjet.com/widget/iframe/5JG8/Lxz"
 MAILJET_TOKEN = "e61aa81ed6e82c8d70abd453dfe74bde"
 
+ORGANIZERS = [
+        {
+            "name": "Python España",
+            "logo": "/theme/images/organizers/python_espagna.png",
+            "url": "https://es.python.org/"
+        },
+        {
+            "name": "Universidad de Granada",
+            "logo": "/theme/images/organizers/ugr.png",
+            "url": "https://www.ugr.es/"
+        },
+        {
+            "name": "Oficina software libre - Granada",
+            "logo": "/theme/images/organizers/osl.png",
+            "url": "https://osl.ugr.es/"
+        },
+        {
+            "name": "Python Granada",
+            "logo": "/theme/images/organizers/python_granada.png",
+            "url": "http://python-granada.es/"
+        },
+        {
+            "name": "Yes We Tech",
+            "logo": "/theme/images/organizers/yes_we_tech.png",
+            "url": "https://yeswetech.org/"
+        },
+]
+
+
+
 PAST_EDITIONS = [
     {
         "name": "PyConES 2013 - Madrid",
@@ -51,7 +81,7 @@ PAST_EDITIONS = [
         "url": "https://2015.es.pycon.org/"
     },
     {
-        "name": "PyConES 2016 - Almeria",
+        "name": "PyConES 2016 - Almería",
         "logo": "/theme/images/past_editions/2016.jpg",
         "url": "https://2016.es.pycon.org/"
     },

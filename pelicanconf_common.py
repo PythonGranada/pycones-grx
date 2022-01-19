@@ -26,10 +26,10 @@ JINJA_ENVIRONMENT = {
 }
 
 EVENTS_ICS_FNAME =  'calendar.ics'
-DIRECT_TEMPLATES = ['index', 'blog', 'keynoters', 'sponsorship', 'schedule', 'gallery', 'past_editions']
+DIRECT_TEMPLATES = ['index', 'blog', 'keynoters', 'sponsorship', 'schedule', 'gallery', 'past_editions', 'organizers']
 MENUITEMS_NAVBAR = [
     ("La ciudad", "/pages/granada.html"),
-    ("Organizadores", "/pages/organizers.html")
+    ("Organizadores", "/organizers.html")
 ]
 
 if ENABLED_SPEAKERS:
