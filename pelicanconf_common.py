@@ -17,6 +17,8 @@ PLUGIN_PATHS = ["plugins"]
 
 TIMEZONE = 'Europe/Madrid'
 DEFAULT_LANG = 'es'
+DEFAULT_DATE_FORMAT = '%d/%M/%Y'
+
 MARKUP = ("md",)
 
 PLUGINS = ["i18n_subsites", "assets", "events"]
