@@ -29,7 +29,7 @@ más de 50.000 plazas hoteleras disponibles para todos los gustos y bolsillos.
 Es de destacar que la ciudad cuenta con numerosos espacios de ocio en los que disfrutar de
 las distintas experiencias que se ofrecen. Todas esas opciones están recopiladas y actualizadas
 cada semana en diferentes guías culturales online, como son
-[Granada Cultura](https://granadaescultura.com/agenda/) o 
+[Granada Cultura](https://granadaescultura.com/agenda/) o
 [Agenda Granada](https://www.agendadegranada.com/) donde se incluyen
 planes musicales, gastronómicos, para disfrutar en familia, programación de teatros, museos,
 cines y exposiciones. La amplitud de la oferta garantiza una experiencia en la ciudad agradable
@@ -81,7 +81,7 @@ olvidada en muchas ocasiones, y que es puerta para mercados internacionales en M
 Argelia, donde algunas empresas participantes podrían extender sus mercados.
 
 
-## Campus de la Salud - Paraninfo - Universidad de Granada 🏛 
+## Campus de la Salud - Paraninfo - Universidad de Granada 🏛
 
 Está situado en una de las zonas más accesibles de la ciudad, por su cercanía a la
 ronda de circunvalación de la ciudad (A44) y a la vez, es posible desplazarse a pie, en bus o
