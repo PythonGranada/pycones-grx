@@ -62,6 +62,25 @@ ORGANIZERS = [
         },
 ]
 
+EVENT_TEAM = [
+    {
+        "name": "Pedro Lopez",
+        "avatar": "https://via.placeholder.com/128x128.png?text=Image",
+        "tags": [{"name": "web", "color": "is-primary"}],
+        "github": "https://github.com",
+        "twitter": "https://twitter.com",
+        "linkedin": "https://linkedin.com",
+    },
+    {
+        "name": "Juan Ramirez",
+        "avatar": "https://via.placeholder.com/128x128.png?text=Image",
+        "tags": [{"name": "web", "color": "is-primary"}],
+        "github": "https://github.com",
+        "twitter": None,
+        "linkedin": "https://linkedin.com",
+    }
+]
+
 
 
 PAST_EDITIONS = [
@@ -263,8 +282,8 @@ EVENT_TRACKS = json.dumps([
 ])
 
 EVENT_START_DATE = "2022-09-31"
-EVENT_START_DATE_STR = "Del 30 de Septiembre 2022"
-EVENT_END_DATE_STR = "Al 2 de Octubre 2022"
+EVENT_START_DATE_STR = "Del 30 de Septiembre"
+EVENT_END_DATE_STR = "Al 2 de Octubre"
 EVENT_TALKS = json.dumps(
     [
         {

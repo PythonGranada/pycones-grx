@@ -23,6 +23,11 @@
             </div>
             {% endfor %}
         </div>
+        <hr>
+        {% if ENABLED_EVENT_TEAM %}
+            {% include "_includes/team.html" %}
+        {% endif %}
     </div>
 </section>
+
 {% endblock content %}

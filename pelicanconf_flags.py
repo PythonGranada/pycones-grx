@@ -34,6 +34,9 @@ ENABLED_BLOG = True
 # Habilita galería de imágenes en Google Photos
 ENABLED_GALLERY = True
 
+# Mostrar información del equipo
+ENABLED_EVENT_TEAM = False
+
 # Habilita pantalla con ediciones pasadas
 ENABLED_PAST_EDITIONS = True
 
