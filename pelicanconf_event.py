@@ -263,7 +263,8 @@ EVENT_TRACKS = json.dumps([
 ])
 
 EVENT_START_DATE = "2022-09-31"
-EVENT_START_DATE_STR = "31 de Septiembre 2022"
+EVENT_START_DATE_STR = "Del 30 de Septiembre 2022"
+EVENT_END_DATE_STR = "Al 2 de Octubre 2022"
 EVENT_TALKS = json.dumps(
     [
         {
