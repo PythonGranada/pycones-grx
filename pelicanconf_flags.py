@@ -20,7 +20,7 @@ ENABLED_KEYNOTERS = False
 ENABLED_SPEAKERS = False
 
 # Habilita bloque con todos los patrocinadores.
-ENABLED_SPONSORSHIPS = True
+ENABLED_SPONSORSHIPS = False
 
 # Habilita bloque con llamamiento a patrocinadores
 ENABLED_CALL_FOR_SPONSORS = True
@@ -29,7 +29,7 @@ ENABLED_CALL_FOR_SPONSORS = True
 ENABLED_SCHEDULE = False
 
 # Habilita la funcionalidad de blog de contenidos de la web.
-ENABLED_BLOG = True
+ENABLED_BLOG = False
 
 # Habilita galería de imágenes en Google Photos
 ENABLED_GALLERY = True

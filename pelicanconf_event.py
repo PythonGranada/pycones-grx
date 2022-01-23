@@ -17,7 +17,7 @@ TWITTER_USERNAME = "pycones"
 TWITTER_LINK = f"https://twitter.com/{TWITTER_USERNAME}"
 YOUTUBE_LINK = "https://www.youtube.com/PythonEspa%C3%B1aOficial"
 GITHUB_LINK = "https://github.com/python-spain"
-EMAIL_LINK = "mailto:contact2022@es.pycon.org" # TODO
+EMAIL_LINK = "mailto:contacto@2022.es.pycon.org"
 TELEGRAM_LINK = None # "https://t.me/pycones2022" # TODO
 
 TICKETS_LINK="#"
