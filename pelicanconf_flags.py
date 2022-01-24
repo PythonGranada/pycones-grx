@@ -44,4 +44,4 @@ ENABLED_PAST_EDITIONS = True
 ENABLED_LOCATION = True
 
 # Habilita el timeline del evento
-ENABLED_TIMELINE = False
+ENABLED_TIMELINE = True
