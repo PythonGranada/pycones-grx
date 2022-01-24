@@ -5,7 +5,7 @@
 
 # Habilita el modo landing-page de la web,
 # para poder tener una presentación reducida o completa de la web.
-LANDING_MODE = True
+LANDING_MODE = False
 
 # Habilita links a la tienda de las entradas del evento.
 ENABLED_TICKETS = False
@@ -20,7 +20,7 @@ ENABLED_KEYNOTERS = False
 ENABLED_SPEAKERS = False
 
 # Habilita bloque con todos los patrocinadores.
-ENABLED_SPONSORSHIPS = True
+ENABLED_SPONSORSHIPS = False
 
 # Habilita bloque con llamamiento a patrocinadores
 ENABLED_CALL_FOR_SPONSORS = True
@@ -29,10 +29,13 @@ ENABLED_CALL_FOR_SPONSORS = True
 ENABLED_SCHEDULE = False
 
 # Habilita la funcionalidad de blog de contenidos de la web.
-ENABLED_BLOG = True
+ENABLED_BLOG = False
 
 # Habilita galería de imágenes en Google Photos
 ENABLED_GALLERY = True
+
+# Mostrar información del equipo
+ENABLED_EVENT_TEAM = False
 
 # Habilita pantalla con ediciones pasadas
 ENABLED_PAST_EDITIONS = True

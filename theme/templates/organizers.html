@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+
+<section class="section">
+    <div class="container">
+        <h2 class="title is-2">Organizadores 👨🏼‍💻 </h2>
+        <hr>
+        <div class="organizers-grid">
+            {% for organizer in ORGANIZERS %}
+            <div class="card">
+                <div class="card-image" style="text-align: center">
+                    <a href="{{ organizer.url }}" target="_blank">
+                        <figure class="image is-4by3">
+                            <img src="{{SITEURL}}{{ organizer.logo }}" alt="{{ organizer.name }}">
+                        </figure>
+                    </a>
+                    <footer class="card-footer">
+                        <p >{{ organizer.name }}</p>
+                    </footer>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <hr>
+        {% if ENABLED_EVENT_TEAM %}
+            {% include "_includes/team.html" %}
+        {% endif %}
+    </div>
+</section>
+
+{% endblock content %}

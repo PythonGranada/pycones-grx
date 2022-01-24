@@ -17,7 +17,7 @@ TWITTER_USERNAME = "pycones"
 TWITTER_LINK = f"https://twitter.com/{TWITTER_USERNAME}"
 YOUTUBE_LINK = "https://www.youtube.com/PythonEspa%C3%B1aOficial"
 GITHUB_LINK = "https://github.com/python-spain"
-EMAIL_LINK = "mailto:contact2022@es.pycon.org" # TODO
+EMAIL_LINK = "mailto:contacto@2022.es.pycon.org"
 TELEGRAM_LINK = None # "https://t.me/pycones2022" # TODO
 
 TICKETS_LINK="#"
@@ -33,6 +33,55 @@ COOKIES_SCRIPT = "https://cdn.jsdelivr.net/npm/cookie-bar/cookiebar-latest.min.j
 
 MAILJET_IFRAME_URL = "https://app.mailjet.com/widget/iframe/5JG8/Lxz"
 MAILJET_TOKEN = "e61aa81ed6e82c8d70abd453dfe74bde"
+
+ORGANIZERS = [
+        {
+            "name": "Python España",
+            "logo": "/theme/images/organizers/python_espagna.png",
+            "url": "https://es.python.org/"
+        },
+        {
+            "name": "Universidad de Granada",
+            "logo": "/theme/images/organizers/ugr.png",
+            "url": "https://www.ugr.es/"
+        },
+        {
+            "name": "Oficina software libre - Granada",
+            "logo": "/theme/images/organizers/osl.png",
+            "url": "https://osl.ugr.es/"
+        },
+        {
+            "name": "Python Granada",
+            "logo": "/theme/images/organizers/python_granada.png",
+            "url": "http://python-granada.es/"
+        },
+        {
+            "name": "Yes We Tech",
+            "logo": "/theme/images/organizers/yes_we_tech.png",
+            "url": "https://yeswetech.org/"
+        },
+]
+
+EVENT_TEAM = [
+    {
+        "name": "Pedro Lopez",
+        "avatar": "https://via.placeholder.com/128x128.png?text=Image",
+        "tags": [{"name": "web", "color": "is-primary"}],
+        "github": "https://github.com",
+        "twitter": "https://twitter.com",
+        "linkedin": "https://linkedin.com",
+    },
+    {
+        "name": "Juan Ramirez",
+        "avatar": "https://via.placeholder.com/128x128.png?text=Image",
+        "tags": [{"name": "web", "color": "is-primary"}],
+        "github": "https://github.com",
+        "twitter": None,
+        "linkedin": "https://linkedin.com",
+    }
+]
+
+
 
 PAST_EDITIONS = [
     {
@@ -51,7 +100,7 @@ PAST_EDITIONS = [
         "url": "https://2015.es.pycon.org/"
     },
     {
-        "name": "PyConES 2016 - Almeria",
+        "name": "PyConES 2016 - Almería",
         "logo": "/theme/images/past_editions/2016.jpg",
         "url": "https://2016.es.pycon.org/"
     },
@@ -87,7 +136,7 @@ PAST_EDITIONS = [
 EVENT_KEYNOTERS = [
     {
         "name": 'Antonio Garcia',
-        "photo_big": 'https://bulma.io/images/placeholders/1280x960.png',
+        "photo_big": 'https://picsum.photos/800/600',
         "photo": 'https://bulma.io/images/placeholders/96x96.png',
         "url": "#",
         "twitter": "@john",
@@ -95,7 +144,7 @@ EVENT_KEYNOTERS = [
     },
     {
         "name": 'Paco Perez',
-        "photo_big": 'https://bulma.io/images/placeholders/1280x960.png',
+        "photo_big": 'https://picsum.photos/800/600',
         "photo": 'https://bulma.io/images/placeholders/96x96.png',
         "url": "#",
         "twitter": "@john",
@@ -103,7 +152,7 @@ EVENT_KEYNOTERS = [
     },
     {
         "name": 'John Pepe',
-        "photo_big": 'https://bulma.io/images/placeholders/1280x960.png',
+        "photo_big": 'https://picsum.photos/800/600',
         "photo": 'https://bulma.io/images/placeholders/96x96.png',
         "url": "#",
         "twitter": "@john",
@@ -114,148 +163,115 @@ EVENT_KEYNOTERS = [
 SPONSORS = {
     "keystone": [
         {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "name": 'Snoobs Sugar-Gold',
+            "photo": 'https://picsum.photos/800/600?random=1',
             "url": "#"
         },
         {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "name": 'Oil-Can Clovenhoof',
+            "photo": 'https://picsum.photos/800/600?random=2',
             "url": "#"
         },
         {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "name": 'Bill Beenie-Weenie Rosenthal',
+            "photo": 'https://picsum.photos/800/600?random=3',
             "url": "#"
         }
     ],
     "diamond": [
         {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "name": 'Big Burps Johnson',
+            "photo": 'https://picsum.photos/800/600?random=4',
             "url": "#"
         },
         {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "name": 'Johnny Clutterbuck',
+            "photo": 'https://picsum.photos/800/600?random=5',
             "url": "#"
         },
         {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "name": 'Buttermilk Overturf',
+            "photo": 'https://picsum.photos/800/600?random=6',
             "url": "#"
         },
         {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "name": 'Squids Johnson',
+            "photo": 'https://picsum.photos/800/600?random=7',
             "url": "#"
         },
     ],
     "platinum": [
         {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "name": 'Jimbo Rosenthal',
+            "photo": 'https://picsum.photos/800/600?random=8',
             "url": "#"
         },
         {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "name": 'Dennis Clawhammer Endicott',
+            "photo": 'https://picsum.photos/800/600?random=9',
             "url": "#"
         },
         {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
-            "url": "#"
-        },
-        {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
-            "url": "#"
-        },
-        {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "name": 'Slaps Putney',
+            "photo": 'https://picsum.photos/800/600?random=10',
             "url": "#"
         },
     ],
     "gold": [
         {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "name": 'Potato Bug Clovenhoof',
+            "photo": 'https://picsum.photos/800/600?random=11',
             "url": "#"
         },
         {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "name": 'Snorki Fewhairs',
+            "photo": 'https://picsum.photos/800/600?random=12',
             "url": "#"
         },
         {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "name": 'Lil Debil Winterkorn',
+            "photo": 'https://picsum.photos/800/600?random=13',
             "url": "#"
         },
         {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "name": 'Sweet Tea MBembo',
+            "photo": 'https://picsum.photos/800/600?random=14',
             "url": "#"
         },
         {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "name": 'Chad Porkins',
+            "photo": 'https://picsum.photos/800/600?random=15',
             "url": "#"
         },
-        {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
-            "url": "#"
-        },
-        {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
-            "url": "#"
-        },
+
     ],
     "silver": [
         {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "name": 'Chigger Guster',
+            "photo": 'https://picsum.photos/800/600?random=16',
             "url": "#"
         },
         {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "name": 'Scut Listenbee',
+            "photo": 'https://picsum.photos/800/600?random=17',
             "url": "#"
         },
         {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "name": 'Johnny Nettles',
+            "photo": 'https://picsum.photos/800/600?random=18',
             "url": "#"
         },
         {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "name": 'Scut Clovenhoof',
+            "photo": 'https://picsum.photos/800/600?random=19',
             "url": "#"
         },
         {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
+            "name": 'Worms Nettles',
+            "photo": 'https://picsum.photos/800/600?random=20',
             "url": "#"
         },
-        {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
-            "url": "#"
-        },
-        {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
-            "url": "#"
-        },
-        {
-            "name": 'Sponsor',
-            "photo": 'https://bulma.io/images/placeholders/1280x960.png',
-            "url": "#"
-        },
+
     ],
 }
 
@@ -265,8 +281,9 @@ EVENT_TRACKS = json.dumps([
      { "id": 'web', "title": 'Track Web', "eventColor": 'orange' },
 ])
 
-EVENT_START_DATE = "2022-09-30"
-EVENT_START_DATE_STR = "01 de Octubre 2022"
+EVENT_START_DATE = "2022-09-31"
+EVENT_START_DATE_STR = "Del 30 de Septiembre"
+EVENT_END_DATE_STR = "Al 2 de Octubre"
 EVENT_TALKS = json.dumps(
     [
         {
