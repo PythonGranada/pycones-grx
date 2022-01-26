@@ -12,6 +12,9 @@ $danger: #E03D52;
 @import "../libs/bulma/bulma.sass";
 @import "../libs/bulma/bulma-timeline.sass";
 
+.navbar{
+  background-color: $primary !important;
+}
 
 h1, h2, h3, h4, h5 {
   font-family:  'Arvo', serif;
