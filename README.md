@@ -134,3 +134,12 @@ git push
 # Creamos pull request con nuestros cambios
 gh pr create
 ```
+
+### Herramientas para desarrollar
+
+- [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+- [GitHub CLI](https://cli.github.com/)
+- [Python ^3.6](https://www.python.org/downloads/)
+- [pre-commit](https://pre-commit.com/)
+- [Docker y Docker-Compose](https://www.docker.com/)
+- Editor de código o IDE, [Visual Studio Code](https://code.visualstudio.com/) o [WebStorm](https://www.jetbrains.com/es-es/webstorm/)
