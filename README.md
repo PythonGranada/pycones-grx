@@ -117,3 +117,21 @@ La web cuenta con un sistema de despliegue continuo, de forma que cada cambio (c
 4. Realiza tus aportaciones, añade los cambios, siempre con un mensaje de commit descriptivo y a poder ser en Inglés.
 5. Crea un ``Pull Request`` a este mismo repositorio, asegurate primero de hacer ``Fetch upstream`` y no tener conflictos con el repositorio principal.
 6. Cuando se acepte el PR se te notifica y ya podemos ver tus cambios en la web.
+
+### Con la consola Github CLI
+
+```bash
+# Haces fork del repositorio y clone localmente.
+gh repo fork git@github.com:PythonGranada/pycones-grx.git
+
+# Actualizamos fork con cambios en repositorio principal.
+git pull upstream main
+
+# Actualizamos cambios en nuestro fork particular.
+git commit -am "commit message"
+git push
+
+# Creamos pull request con nuestros cambios
+gh pr create
+
+``
