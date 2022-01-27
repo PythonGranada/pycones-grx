@@ -1,6 +1,5 @@
 # Web PyConEs 2022
 
-
 ### Creador de contenidos o editor ✍️
 
 Aquí no necesitas tener grandes conocimientos técnicos, solo necesitamos creatividad.
