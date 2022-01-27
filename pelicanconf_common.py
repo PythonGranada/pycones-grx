@@ -22,12 +22,13 @@ DEFAULT_DATE_FORMAT = '%d/%M/%Y'
 MARKUP = ("md",)
 
 PLUGINS = ["i18n_subsites", "assets", "events"]
-
+STATIC_PATHS = ['images', 'extra/manifest.json']
 JINJA_ENVIRONMENT = {
     "extensions": ["jinja2.ext.i18n"],
 }
 
 EVENTS_ICS_FNAME =  'calendar.ics'
+
 DIRECT_TEMPLATES = ['index', 'blog', 'keynoters', 'sponsorship', 'schedule', 'gallery', 'past_editions', 'organizers']
 MENUITEMS_NAVBAR = [
     ("La ciudad", "/pages/granada.html"),
@@ -56,3 +57,4 @@ if ENABLED_BLOG:
 NAVBAR_STYLE = "is-primary"
 THEME_LOGO = "/theme/images/piconesGR_mini.svg"
 FOOTER= "Copyright © Python España & PyConES 2022 Org"
+THEME_COLOR="#0E749CFF"
