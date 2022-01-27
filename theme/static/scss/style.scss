@@ -1,22 +1,26 @@
 @charset "utf-8";
 
-$primary: #0E749C;
-$info: #0E749C;
-$link: #0E749C;
-$success: #3DADE0;
-$warning: #e0ba3d;
-$danger: #E03D52;
+$primary: rgb(14, 116, 156);
+$info: rgb(14, 116, 156);
+$link: rgb(14, 116, 156);
+$success: rgb(61, 173, 224);
+$warning: rgb(224, 186, 61);
+$danger: rgb(224, 61, 82);
 
 @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Montserrat&display=swap');
 
-@import "../libs/bulma/bulma.sass";
-@import "../libs/bulma/bulma-timeline.sass";
+@import '../libs/bulma/bulma.sass';
+@import '../libs/bulma/bulma-timeline.sass';
 
-.navbar{
+.navbar {
   background-color: $primary !important;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family:  'Arvo', serif;
 }
 
@@ -32,7 +36,7 @@ p {
   background-color: rgba(255,255,255,0.6);
 }
 
-.cover-box{
+.cover-box {
   padding: 50px;
 }
 
@@ -42,8 +46,8 @@ p {
 
 .message-body {
   .subtitle {
-    margin-top: 1.5rem !important;
     margin-bottom: 0.5rem !important;
+    margin-top: 1.5rem !important;
   }
 
   h1 {
@@ -81,10 +85,10 @@ p {
     margin: 25px !important;
   }
 
-  ol, ul {
+  ol,
+  ul {
     margin-inline-start: 50px;
     list-style-type: disc;
-
   }
 
   .table {
@@ -99,14 +103,14 @@ p {
   .image {
     @extend .has-text-centered;
     background: $white-ter;
-    min-width: 214px;
     margin: 0 auto !important;
+    min-width: 214px;
 
     figcaption {
       color: $grey-darker;
+      margin-bottom: 4px;
       margin-left: 2px;
       margin-right: 2px;
-      margin-bottom: 4px;
       padding-bottom: 4px;
     }
     img {
@@ -125,52 +129,52 @@ p {
 
 .keynoters-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
   grid-gap: 0.5em;
+  grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
 }
 
 .keystone-sponsorship-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
   grid-gap: 0.5em;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
 }
 
 .diamond-sponsorship-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-gap: 0.5em;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 }
 
 .platinum-sponsorship-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-gap: 0.5em;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
 
 .gold-sponsorship-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   grid-gap: 0.5em;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
 }
 
 .silver-sponsorship-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   grid-gap: 0.5em;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
 }
 
 .past-edition-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(120px, 0.5fr));
   grid-gap: 1.5em;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 0.5fr));
   vertical-align: middle;
 }
 
 
 .organizers-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 0.5fr));
   grid-gap: 1.5em;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 0.5fr));
   vertical-align: middle;
 }
 
@@ -180,15 +184,15 @@ p {
 }
 
 #map {
-  width: 100% !important;
   height: 400px;
   margin-bottom: 50px;
+  width: 100% !important;
 }
 
-.fc .fc-toolbar-title{
+.fc .fc-toolbar-title {
   font-size: 1rem !important;
 }
 
-.card-footer{
+.card-footer {
   padding: 0.5em;
 }
