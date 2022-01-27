@@ -1,4 +1,4 @@
-# Web PyconES 2022
+# Web PyConEs 2022
 
 
 ### Creador de contenidos o editor ✍️
@@ -31,10 +31,10 @@ Y tendríamos los siguientes directorios:
 
 - **.github** (infra) Aquí se definen las cosas referentes a la integración continua, (mejor no tocarlo mucho xD)
 - **compose** (infra) Aquí se definen los manifiestos Docker, que preparan todo lo necesario para que funcione en tu localhost.
-- **content** (content) Aquí se alojan los articulos y publicaciones en formato Markdown.
+- **content** (content) Aquí se alojan los artículos y publicaciones en formato Markdown.
 - **plugins** (code) Plugins de Pelican.
 - **themes** (ui/ux) Código HTML y CSS que pone bonita la web.
-- **output** (autogenerado) Aquí se guarda el código de la web compilado, se genera automáticamente, por lo tanto **no modifiques manualmente**.
+- **output** (auto generado) Aquí se guarda el código de la web compilado, se genera automáticamente, por lo tanto **no modifiques manualmente**.
 
 
 ### Localhost 👨🏼‍💻
@@ -92,7 +92,7 @@ Para facilitar el trabajo contamos con el archivo **pelicanconf_flags.py** donde
 | LANDING_MODE              | Habilita el modo landing-page de la web, para poder tener una presentación reducida o completa de la web. |
 | ENABLED_TICKETS           | Habilita links a la tienda de las entradas del evento.       |
 | ENABLED_CALL_FOR_PAPERS   | Habilita bloque que hace la llamada a los ponentes.          |
-| ENABLED_KEYNOTERS         | Hablita bloque que muestra los oradores plenarios del evento. |
+| ENABLED_KEYNOTERS         | Habilita bloque que muestra los oradores plenarios del evento. |
 | ENABLED_SPEAKERS          | Habilita pantalla de ponentes.                               |
 | ENABLED_SPONSORSHIPS      | Habilita bloque con todos los patrocinadores.                |
 | ENABLED_CALL_FOR_SPONSORS | Habilita bloque con llamamiento a patrocinadores             |
@@ -103,19 +103,19 @@ Para facilitar el trabajo contamos con el archivo **pelicanconf_flags.py** donde
 
 La web cuenta con un sistema de despliegue continuo, de forma que cada cambio (commit) en la rama ``main`` la web se compila y se sube a ``github pages``, usando [GitHub Pages Pelican Build Action](https://github.com/marketplace/actions/github-pages-pelican-build-action).
 
-## Guia para contribuir
+## Guía para contribuir
 
 1. Crea un fork de este repositorio en tu cuenta personal de GitHib.
 2. Puedes visualizar tu clone de la web, si habilitas la opción ghpages en la rama ``gh-pages``.
 
 ![](https://github.com/PythonGranada/pycones-grx/blob/main/readme_images/ghpages.png?raw=true)
 
-3. Para que se visualize correctamente debes crear un ``environment secrtes`` llamado ``SITEURL`` con la url completa de tu copia del sitio web.
+3. Para que se visualice correctamente debes crear un ``environment secrtes`` llamado ``SITEURL`` con la url completa de tu copia del sitio web.
 
 ![](https://github.com/PythonGranada/pycones-grx/blob/main/readme_images/environ.png?raw=true)
 
 4. Realiza tus aportaciones, añade los cambios, siempre con un mensaje de commit descriptivo y a poder ser en Inglés.
-5. Crea un ``Pull Request`` a este mismo repositorio, asegurate primero de hacer ``Fetch upstream`` y no tener conflictos con el repositorio principal.
+5. Crea un ``Pull Request`` a este mismo repositorio, asegúrate primero de hacer ``Fetch upstream`` y no tener conflictos con el repositorio principal.
 6. Cuando se acepte el PR se te notifica y ya podemos ver tus cambios en la web.
 
 ### Con la consola Github CLI
