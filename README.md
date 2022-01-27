@@ -1,6 +1,5 @@
 # Web PyConEs 2022
 
-
 ### Creador de contenidos o editor ✍️
 
 Aquí no necesitas tener grandes conocimientos técnicos, solo necesitamos creatividad.
@@ -110,7 +109,7 @@ La web cuenta con un sistema de despliegue continuo, de forma que cada cambio (c
 
 ![](https://github.com/PythonGranada/pycones-grx/blob/main/readme_images/ghpages.png?raw=true)
 
-3. Para que se visualice correctamente debes crear un ``environment secrtes`` llamado ``SITEURL`` con la url completa de tu copia del sitio web.
+3. Para que se visualice correctamente debes crear un ``environment secret`` llamado ``SITEURL`` con la url completa de tu copia del sitio web.
 
 ![](https://github.com/PythonGranada/pycones-grx/blob/main/readme_images/environ.png?raw=true)
 
