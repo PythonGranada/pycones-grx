@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "pycones-grx"
+version = "0.1.0"
+description = ""
+authors = ["python-españa"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+beautifulsoup4 = "4.9.3"
+bokeh = "2.3"
+cssmin = "0.2.0"
+icalendar = "4.0.0"
+libsass = "0.20.1"
+Markdown = "3.3.4"
+markdown-captions = "^2.1.1"
+markdown-checklist = "^0.4.3"
+nbconvert = "5.3.1"
+notebook = "5.6.0"
+pelican = "4.6.0"
+pelican-jupyter = "^0.10.1"
+pelican-webassets = "2.0.0"
+python-gettext = "4.0"
+tornado = "5.1"
+typogrify = "^2.0.7"
+webassets = "2.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
