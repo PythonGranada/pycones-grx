@@ -22,7 +22,8 @@ TELEGRAM_LINK = None # "https://t.me/pycones2022" # TODO
 
 TICKETS_LINK="#"
 CALL_FOR_PAPERS_LINK = "#"
-SPONSORS_DOSSIER = "/theme/files/dosier_patrocinio_2022.pdf"
+SPONSORS_DOSSIER_ES = "/theme/files/dosier_patrocinio_2022_es.pdf"
+SPONSORS_DOSSIER_EN = "/theme/files/dosier_patrocinio_2022_en.pdf"
 
 # https://google-map-generator.com/
 MAP_IFRAME_LINK = "https://maps.google.com/maps?q=Granada%20Paraningo%20Salud&t=&z=17&ie=UTF8&iwloc=&output=embed"
