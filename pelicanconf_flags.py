@@ -35,7 +35,7 @@ ENABLED_BLOG = False
 ENABLED_GALLERY = True
 
 # Mostrar información del equipo
-ENABLED_EVENT_TEAM = False
+ENABLED_EVENT_TEAM = True
 
 # Habilita pantalla con ediciones pasadas
 ENABLED_PAST_EDITIONS = True
