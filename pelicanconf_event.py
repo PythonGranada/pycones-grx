@@ -65,21 +65,73 @@ ORGANIZERS = [
 
 EVENT_TEAM = [
     {
-        "name": "Pedro Lopez",
-        "avatar": "https://via.placeholder.com/128x128.png?text=Image",
-        "tags": [{"name": "web", "color": "is-primary"}],
-        "github": "https://github.com",
-        "twitter": "https://twitter.com",
-        "linkedin": "https://linkedin.com",
+        "name": "Israel Saeta Pérez",
+        "avatar": "https://avatars.githubusercontent.com/u/22172794",
+        "tags": [{"name": "Python España", "color": "is-danger"}, {"name": "sponsors squad", "color": "is-primary"}],
+        "position": "Ingeniero de Software",
+        "github": "https://github.com/dukebody/",
+        "twitter": "https://twitter.com/dukebody",
+        "linkedin": "https://www.linkedin.com/in/israel-saeta-p%C3%A9rez-29268562/",
     },
     {
-        "name": "Juan Ramirez",
-        "avatar": "https://via.placeholder.com/128x128.png?text=Image",
-        "tags": [{"name": "web", "color": "is-primary"}],
-        "github": "https://github.com",
-        "twitter": None,
-        "linkedin": "https://linkedin.com",
-    }
+        "name": "Javier Alonso Silva",
+        "avatar": "https://avatars.githubusercontent.com/u/25952165",
+        "tags": [{"name": "PyLadies", "color": "is-danger"}, {"name": "support squad", "color": "is-primary"}],
+        "position": "Ingeniero I+D en Teldat",
+        "github": "https://github.com/Javinator9889",
+        "twitter": "https://twitter.com/javinator9889",
+        "linkedin": "https://linkedin.com/in/javinator9889",
+    },
+    {
+        "name": "José Miguel López",
+        "avatar": "https://avatars.githubusercontent.com/u/1655898",
+        "tags": [{"name": "Python Granada", "color": "is-danger"}, {"name": "web squad", "color": "is-primary"}],
+        "position": "Ingeniero de Software",
+        "github": "https://github.com/josemlp91",
+        "twitter": "https://twitter.com/josemlp91"
+    },
+    {
+        "name": "Manuel Martín",
+        "avatar": "https://media-exp1.licdn.com/dms/image/C4E03AQHUQEu3Vvzwgg/profile-displayphoto-shrink_200_200/0/1626865474708?e=1649894400&v=beta&t=87m2u-bcXthWZ-Q-QWiwnDQ3h6Uq67CCuTGLVjaiOlM",
+        "tags": [{"name": "Python Granada", "color": "is-danger"}, {"name": "publication squad", "color": "is-primary"}],
+        "position": "Doctor en Machine Learning",
+        "github": "https://github.com/draxus",
+        "twitter": "https://www.linkedin.com/in/draxus/"
+    },
+    {
+        "name": "Pablo Benavides",
+        "avatar": "https://avatars.githubusercontent.com/u/49152268",
+        "tags": [{"name": "Python Granada", "color": "is-danger"}, {"name": "keynoters squad", "color": "is-primary"}],
+        "position": "Modelador de transportes",
+        "github": "https://github.com/PybloBenavides",
+    },
+    {
+        "name": "Pablo García Sánchez",
+        "avatar": "https://avatars.githubusercontent.com/u/3056690",
+        "tags": [{"name": "Oficina Software Libre Granada", "color": "is-danger"}, {"name": "infraestructure squad", "color": "is-primary"}],
+        "position": "Profesor",
+        "github": "https://github.com/fergunet",
+        "twitter": "https://twitter.com/fergunet"
+    },
+    {
+        "name": "Paloma de las Cuevas Delgado",
+        "avatar": "https://avatars.githubusercontent.com/u/3061254",
+        "tags": [{"name": "Yes We Tech", "color": "is-danger"}, {"name": "publicity squad", "color": "is-primary"}],
+        "position": "Ingeniera de Software",
+        "github": "https://github.com/unintendedbear",
+        "twitter": "https://twitter.com/unintendedbear",
+        "linkedin": "https://www.linkedin.com/in/palomacuevasd/"
+    },
+    {
+        "name": "Juan Antonio",
+        "avatar": "https://avatars.githubusercontent.com/u/5589299",
+        "tags": [{"name": "Python Granada", "color": "is-danger"}, {"name": "sponsors squad", "color": "is-primary"}],
+        "position": "Ingeniero de Software",
+        "github": "https://github.com/juanAFernandez",
+        "twitter": "https://twitter.com/_juanAFernandez",
+        "linkedin": "https://www.linkedin.com/in/juanafernandez/"
+    },
+
 ]
 
 
