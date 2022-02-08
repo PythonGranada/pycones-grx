@@ -96,7 +96,8 @@ EVENT_TEAM = [
         "tags": [{"name": "Python Granada", "color": "is-danger"}, {"name": "publication squad", "color": "is-primary"}],
         "position": "Doctor en Machine Learning",
         "github": "https://github.com/draxus",
-        "twitter": "https://www.linkedin.com/in/draxus/"
+        "twitter": "https://twitter.com/draxus",
+        "linkedin": "https://www.linkedin.com/in/draxus/"
     },
     {
         "name": "Pablo Benavides",
