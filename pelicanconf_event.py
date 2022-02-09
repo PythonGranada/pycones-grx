@@ -132,7 +132,15 @@ EVENT_TEAM = [
         "twitter": "https://twitter.com/_juanAFernandez",
         "linkedin": "https://www.linkedin.com/in/juanafernandez/"
     },
-
+    {
+        "name": "Israel Blancas",
+        "avatar": "https://avatars.githubusercontent.com/u/4806311",
+        "tags": [{"name": "Google Developer Group", "color": "is-danger"}, {"name": "sponsors squad", "color": "is-primary"}],
+        "position": "Software Quality Engineer",
+        "github": "https://github.com/iblancasa",
+        "twitter": "https://twitter.com/iblancasa",
+        "linkedin": "https://www.linkedin.com/in/iblancasa/",
+    },
 ]
 
 
