@@ -99,10 +99,10 @@ utiliza habitualmente en la Universidad de Granada para los grandes eventos, com
 recepción de futuros nuevos estudiantes, que se celebra en mayo o sede de congresos de
 cualquier carácter como congresos médicos, farmaceúticos o de cualquier otro tipo.
 
-La celebración de la PyConES en este espacio incluiría el uso de los comedores universitarios.
+La celebración de la PyConES en este espacio incluye el uso de los comedores universitarios.
 Respecto al aparcamiento, todas las calles adyacentes son de aparcamiento libre y existe un
 gran parking, ubicado en el complejo hospitalario existente junto a la facultad de medicina, que
 ofrece plazas de aparcamiento previo pago (y no es precisamente barato). Sin embargo, solo a
 una parada de metro, existe un parking gratuito con 4000 plazas disponibles que puede usarse
-sin coste alguno. Por lo que será mucho más barato aparcar en esta superficie y coger el metro
+sin coste alguno, por lo que es mucho más barato aparcar en esta superficie y coger el metro
 hasta el Campus de la Salud que pagar el día completo en el parking del complejo hospitalario.
