@@ -47,7 +47,7 @@ ORGANIZERS = [
             "url": "https://www.ugr.es/"
         },
         {
-            "name": "Oficina software libre - Granada",
+            "name": "Oficina de Software libre de la Universidad de Granada",
             "logo": "/theme/images/organizers/osl.png",
             "url": "https://osl.ugr.es/"
         },
@@ -109,10 +109,11 @@ EVENT_TEAM = [
     {
         "name": "Pablo García Sánchez",
         "avatar": "https://avatars.githubusercontent.com/u/3056690",
-        "tags": [{"name": "Oficina Software Libre Granada", "color": "is-danger"}, {"name": "infraestructure squad", "color": "is-primary"}],
+        "tags": [{"name": "Oficina de Software Libre de la Universidad de Granada", "color": "is-danger"}, {"name": "infraestructure squad", "color": "is-primary"}],
         "position": "Profesor",
         "github": "https://github.com/fergunet",
-        "twitter": "https://twitter.com/fergunet"
+        "twitter": "https://twitter.com/fergunet",
+        "linkedin": "https://www.linkedin.com/in/pgarciasanchez/"
     },
     {
         "name": "Paloma de las Cuevas Delgado",
