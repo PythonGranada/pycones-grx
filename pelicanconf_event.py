@@ -142,6 +142,14 @@ EVENT_TEAM = [
         "twitter": "https://twitter.com/iblancasa",
         "linkedin": "https://www.linkedin.com/in/iblancasa/",
     },
+    {
+        "name": "Pedro Mayorgas Parejo",
+        "avatar": "https://avatars.githubusercontent.com/u/64685260",
+        "tags": [{"name": "Python Granada", "color": "is-danger"}, {"name": "web squad", "color": "is-primary"}],
+        "position": "Ingeniero Informático y Técnico en Administración de Sistemas",
+        "github": "https://github.com/lovelace9981",
+    },
+
 ]
 
 
