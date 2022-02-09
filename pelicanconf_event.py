@@ -149,7 +149,15 @@ EVENT_TEAM = [
         "position": "Ingeniero Informático y Técnico en Administración de Sistemas",
         "github": "https://github.com/lovelace9981",
     },
-
+    {
+        "name": "Cristina Diaz",
+        "avatar": "https://pbs.twimg.com/profile_images/1466381833168424966/WI_yR4bo_400x400.jpg",
+        "tags": [{"name": "Google Developer Group", "color": "is-danger"}, {"name": "diversity squad", "color": "is-primary"}],
+        "position": "Software Developer",
+        "github": "https://github.com/LadyNightmare/",
+        "twitter": "https://twitter.com/lady_devs",
+        "linkedin": "https://www.linkedin.com/in/cdg-97/",
+    },
 ]
 
 
