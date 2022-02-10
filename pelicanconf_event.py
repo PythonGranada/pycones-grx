@@ -63,7 +63,7 @@ ORGANIZERS = [
         },
 ]
 
-EVENT_TEAM = [
+TEAM = [
     {
         "name": "Israel Saeta Pérez",
         "avatar": "https://avatars.githubusercontent.com/u/22172794",
@@ -212,7 +212,7 @@ PAST_EDITIONS = [
 ]
 
 
-EVENT_KEYNOTERS = [
+KEYNOTERS = [
     {
         "name": 'Antonio Garcia',
         "photo_big": 'https://picsum.photos/800/600',
@@ -224,17 +224,17 @@ EVENT_KEYNOTERS = [
 ]
 
 SPONSORS = {
-    "keystone": [],
-    "diamond": [
+    "keystone": [], # 🏆
+    "diamond": [    # 💎
         {
             "name": 'APSL',
             "photo": '/theme/images/sponsors/apsl.png',
             "url": "https://www.apsl.net/"
         },
     ],
-    "platinum": [],
-    "gold": [],
-    "silver": [
+    "platinum": [], # 🥇
+    "gold": [],     # 🥇
+    "silver": [     # 🥇
         {
             "name": 'Kaleidos',
             "photo": '/theme/images/sponsors/kaleidos.png',
