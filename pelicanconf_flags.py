@@ -20,7 +20,7 @@ ENABLED_KEYNOTERS = False
 ENABLED_SPEAKERS = False
 
 # Habilita bloque con todos los patrocinadores.
-ENABLED_SPONSORSHIPS = True
+ENABLED_SPONSORSHIPS = False
 
 # Habilita bloque con llamamiento a patrocinadores
 ENABLED_CALL_FOR_SPONSORS = True
