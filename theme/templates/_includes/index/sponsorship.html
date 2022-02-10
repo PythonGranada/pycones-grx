@@ -1,14 +1,15 @@
 <h2 class="title is-2">Patrocinadores 🏢 </h2>
 <hr>
 
+{% if SPONSORS['keystone'] %}
 <h3 class="title is-3">Keystone </h3>
 <div class="keystone-sponsorship-container">
     {% for sponsor in SPONSORS['keystone'] %}
         <div class="card">
             <div class="card-image">
-                <a href="{{ sponsor.url }}">
+                <a href="{{ sponsor.url }}" target="_blank">
                     <figure class="image is-4by3">
-                        <img src="{{ sponsor.photo }}" alt="{{ sponsor.name }}">
+                        <img src="{{SITEURL}}{{ sponsor.photo }}" alt="{{ sponsor.name }}">
                     </figure>
                 </a>
                 <footer class="card-footer">
@@ -18,17 +19,18 @@
         </div>
     {% endfor %}
 </div>
-
 <hr>
+{% endif %}
 
+{% if SPONSORS['diamond'] %}
 <h3 class="title is-3">Diamante </h3>
 <div class="diamond-sponsorship-container">
     {% for sponsor in SPONSORS['diamond'] %}
         <div class="card">
             <div class="card-image">
-                <a href="{{ sponsor.url }}">
+                <a href="{{ sponsor.url }}" target="_blank">
                     <figure class="image is-4by3">
-                        <img src="{{ sponsor.photo }}" alt="{{ sponsor.name }}">
+                        <img src="{{SITEURL}}{{ sponsor.photo }}" alt="{{ sponsor.name }}">
                     </figure>
                 </a>
                 <footer class="card-footer">
@@ -38,17 +40,18 @@
         </div>
     {% endfor %}
 </div>
-
 <hr>
+{% endif %}
 
+{% if SPONSORS['platinum'] %}
 <h3 class="title is-3">Platino </h3>
 <div class="platinum-sponsorship-container">
     {% for sponsor in SPONSORS['platinum'] %}
         <div class="card">
             <div class="card-image">
-                <a href="{{ sponsor.url }}">
+                <a href="{{ sponsor.url }}" target="_blank">
                     <figure class="image is-4by3">
-                        <img src="{{ sponsor.photo }}" alt="{{ sponsor.name }}">
+                        <img src="{{SITEURL}}{{ sponsor.photo }}" alt="{{ sponsor.name }}">
                     </figure>
                 </a>
                 <footer class="card-footer">
@@ -58,17 +61,18 @@
         </div>
     {% endfor %}
 </div>
-
 <hr>
+{% endif %}
 
+{% if SPONSORS['gold'] %}
 <h3 class="title is-3">Oro </h3>
 <div class="gold-sponsorship-container">
     {% for sponsor in SPONSORS['gold'] %}
     <div class="card">
         <div class="card-image">
-            <a href="{{ sponsor.url }}">
+            <a href="{{ sponsor.url }}" target="_blank">
                 <figure class="image is-4by3">
-                    <img src="{{ sponsor.photo }}" alt="{{ sponsor.name }}">
+                    <img src="{{SITEURL}}{{ sponsor.photo }}" alt="{{ sponsor.name }}">
                 </figure>
             </a>
             <footer class="card-footer">
@@ -78,17 +82,18 @@
     </div>
     {% endfor %}
 </div>
-
 <hr>
+{% endif %}
 
+{% if SPONSORS['silver'] %}
 <h3 class="title is-3">Plata </h3>
 <div class="silver-sponsorship-container">
     {% for sponsor in SPONSORS['silver'] %}
     <div class="card">
         <div class="card-image">
-            <a href="{{ sponsor.url }}">
+            <a href="{{ sponsor.url }}" target="_blank">
                 <figure class="image is-4by3">
-                    <img src="{{ sponsor.photo }}" alt="{{ sponsor.name }}">
+                    <img src="{{SITEURL}}{{ sponsor.photo }}" alt="{{ sponsor.name }}">
                 </figure>
             </a>
             <footer class="card-footer">
@@ -98,6 +103,5 @@
     </div>
     {% endfor %}
 </div>
-
-
 <br>
+{% endif %}

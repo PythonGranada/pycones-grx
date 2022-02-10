@@ -220,137 +220,26 @@ EVENT_KEYNOTERS = [
         "url": "#",
         "twitter": "@john",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris."
-    },
-    {
-        "name": 'Paco Perez',
-        "photo_big": 'https://picsum.photos/800/600',
-        "photo": 'https://bulma.io/images/placeholders/96x96.png',
-        "url": "#",
-        "twitter": "@john",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris."
-    },
-    {
-        "name": 'John Pepe',
-        "photo_big": 'https://picsum.photos/800/600',
-        "photo": 'https://bulma.io/images/placeholders/96x96.png',
-        "url": "#",
-        "twitter": "@john",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris."
     }
 ]
 
 SPONSORS = {
-    "keystone": [
-        {
-            "name": 'Snoobs Sugar-Gold',
-            "photo": 'https://picsum.photos/800/600?random=1',
-            "url": "#"
-        },
-        {
-            "name": 'Oil-Can Clovenhoof',
-            "photo": 'https://picsum.photos/800/600?random=2',
-            "url": "#"
-        },
-        {
-            "name": 'Bill Beenie-Weenie Rosenthal',
-            "photo": 'https://picsum.photos/800/600?random=3',
-            "url": "#"
-        }
-    ],
+    "keystone": [],
     "diamond": [
         {
-            "name": 'Big Burps Johnson',
-            "photo": 'https://picsum.photos/800/600?random=4',
-            "url": "#"
-        },
-        {
-            "name": 'Johnny Clutterbuck',
-            "photo": 'https://picsum.photos/800/600?random=5',
-            "url": "#"
-        },
-        {
-            "name": 'Buttermilk Overturf',
-            "photo": 'https://picsum.photos/800/600?random=6',
-            "url": "#"
-        },
-        {
-            "name": 'Squids Johnson',
-            "photo": 'https://picsum.photos/800/600?random=7',
-            "url": "#"
+            "name": 'APSL',
+            "photo": '/theme/images/sponsors/apsl.png',
+            "url": "https://www.apsl.net/"
         },
     ],
-    "platinum": [
-        {
-            "name": 'Jimbo Rosenthal',
-            "photo": 'https://picsum.photos/800/600?random=8',
-            "url": "#"
-        },
-        {
-            "name": 'Dennis Clawhammer Endicott',
-            "photo": 'https://picsum.photos/800/600?random=9',
-            "url": "#"
-        },
-        {
-            "name": 'Slaps Putney',
-            "photo": 'https://picsum.photos/800/600?random=10',
-            "url": "#"
-        },
-    ],
-    "gold": [
-        {
-            "name": 'Potato Bug Clovenhoof',
-            "photo": 'https://picsum.photos/800/600?random=11',
-            "url": "#"
-        },
-        {
-            "name": 'Snorki Fewhairs',
-            "photo": 'https://picsum.photos/800/600?random=12',
-            "url": "#"
-        },
-        {
-            "name": 'Lil Debil Winterkorn',
-            "photo": 'https://picsum.photos/800/600?random=13',
-            "url": "#"
-        },
-        {
-            "name": 'Sweet Tea MBembo',
-            "photo": 'https://picsum.photos/800/600?random=14',
-            "url": "#"
-        },
-        {
-            "name": 'Chad Porkins',
-            "photo": 'https://picsum.photos/800/600?random=15',
-            "url": "#"
-        },
-
-    ],
+    "platinum": [],
+    "gold": [],
     "silver": [
         {
-            "name": 'Chigger Guster',
-            "photo": 'https://picsum.photos/800/600?random=16',
-            "url": "#"
+            "name": 'Kaleidos',
+            "photo": '/theme/images/sponsors/kaleidos.png',
+            "url": "https://kaleidos.net/"
         },
-        {
-            "name": 'Scut Listenbee',
-            "photo": 'https://picsum.photos/800/600?random=17',
-            "url": "#"
-        },
-        {
-            "name": 'Johnny Nettles',
-            "photo": 'https://picsum.photos/800/600?random=18',
-            "url": "#"
-        },
-        {
-            "name": 'Scut Clovenhoof',
-            "photo": 'https://picsum.photos/800/600?random=19',
-            "url": "#"
-        },
-        {
-            "name": 'Worms Nettles',
-            "photo": 'https://picsum.photos/800/600?random=20',
-            "url": "#"
-        },
-
     ],
 }
 
@@ -374,87 +263,6 @@ EVENT_TALKS = json.dumps(
             "editable":False,
             "description":"Francisco Correoso, Guillem Duran, Juan Carlos González, Jordi Contestí, Antònia Tugores",
             "url":"https://stackoverflow.com/"
-        },
-        {
-            "id":"2",
-            "resourceId":"web",
-            "start":"2022-09-30T15:00:00",
-            "end":"2022-09-30T17:30:00",
-            "title":"TDD de cero a cien (o casi)",
-            "editable":False,
-            "description":"TDD de cero a cien (o casi)",
-            "url":"https://stackoverflow.com/"
-        },
-        {
-            "id":"3",
-            "resourceId":"data",
-            "start":"2022-09-30T15:00:00",
-            "end":"2022-09-30T17:30:00",
-            "title":"Representación de datos geográficos",
-            "editable":False,
-            "description":"Representación de datos geográficos",
-            "url":"https://stackoverflow.com/"
-        },
-        {
-            "id":"4",
-            "resourceId": "data",
-            "start":"2022-09-30T17:30:00",
-            "end":"2022-09-30T18:00:00",
-            "title":"Café",
-            "editable":False,
-            "description":"Café",
-            "url":"https://stackoverflow.com/"
-        },
-        {
-            "id":"5",
-            "resourceId": "web",
-            "start":"2022-09-30T17:30:00",
-            "end":"2022-09-30T18:00:00",
-            "title":"Café",
-            "editable":False,
-            "description":"Café",
-            "url":"https://stackoverflow.com/"
-        },
-        {
-            "id":"6",
-            "resourceId": "core",
-            "start":"2022-09-30T17:30:00",
-            "end":"2022-09-30T18:00:00",
-            "title":"Charla con un título bastante largo",
-            "editable":False,
-            "description":"Café",
-            "url":"https://stackoverflow.com/"
-        },
-        {
-            "id":"7",
-            "resourceId": "data",
-            "start":"2022-09-30T18:00:00",
-            "end":"2022-09-30T20:30:00",
-            "title":"¡Eureka! - Python y ciencia",
-            "editable":False,
-            "description":"¡Eureka! - Python y ciencia",
-            "url":"https://stackoverflow.com/"
-        },
-        {
-            "id":"8",
-            "resourceId": "web",
-            "start":"2022-09-30T18:00:00",
-            "end":"2022-09-30T20:30:00",
-            "title":"Las herramientas de un detective",
-            "editable":False,
-            "description":"Las herramientas de un detective",
-            "url":"https://stackoverflow.com/"
-        },
-        {
-            "id":"9",
-            "resourceId": "core",
-            "start":"2022-09-30T18:00:00",
-            "end":"2022-09-30T20:30:00",
-            "title":"Pyomo – Optimización en Python",
-            "editable":False,
-            "description":"Pyomo – Optimización en Python",
-            "url":"https://stackoverflow.com/"
-        },
-
+        }
     ]
 )
