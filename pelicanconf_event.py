@@ -223,25 +223,57 @@ KEYNOTERS = [
     }
 ]
 
-SPONSORS = {
-    "keystone": [], # 🏆
-    "diamond": [    # 💎
-        {
-            "name": 'APSL',
-            "photo": '/theme/images/sponsors/apsl.png',
-            "url": "https://www.apsl.net/"
-        },
-    ],
-    "platinum": [], # 🥇
-    "gold": [],     # 🥇
-    "silver": [     # 🥇
-        {
-            "name": 'Kaleidos',
-            "photo": '/theme/images/sponsors/kaleidos.png',
-            "url": "https://kaleidos.net/"
-        },
-    ],
-}
+SPONSORS = [
+    {
+        "level_name": "keystone",
+        "title": "Keystone 🏆",
+        "size": "270px",
+        "order": 1,
+        "members": []
+    },
+    {
+        "level_name": "diamond",
+        "title": "Diamante 💎",
+        "size": "250px",
+        "order": 2,
+        "members": [
+            {
+                "name": 'APSL',
+                "photo": '/theme/images/sponsors/apsl.png',
+                "url": "https://www.apsl.net/"
+            }
+        ]
+    },
+    {
+        "level_name": "platinum",
+        "title": "Platino 💽",
+        "size": "200px",
+        "order": 3,
+        "members": []
+    },
+    {
+        "level_name": "gold",
+        "title": "Oro 📀",
+        "size": "180px",
+        "order": 4,
+        "members": []
+    },
+    {
+        "level_name": "silver",
+        "title": "Plata 💿",
+        "size": "150px",
+        "order": 5,
+        "members": [
+            {
+                "name": 'Kaleidos',
+                "photo": '/theme/images/sponsors/kaleidos.png',
+                "url": "https://kaleidos.net/"
+            }
+        ]
+    }
+]
+
+
 
 EVENT_TRACKS = json.dumps([
      { "id": 'core', "title": 'Track Core' },

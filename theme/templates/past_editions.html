@@ -9,7 +9,7 @@
     <div class="container">
         <h2 class="title is-2">Ediciones pasadas 🔙 </h2>
         <hr>
-        <div class="past-edition-grid">
+        <div class="grid-container" style="grid-template-columns: repeat(auto-fill, minmax(120px, 0.5fr));">
             {% for edition in PAST_EDITIONS %}
             <div class="card">
                 <div class="card-image" style="text-align: center">
