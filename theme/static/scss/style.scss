@@ -136,55 +136,10 @@ p {
   }
 }
 
-.keynoters-container {
+
+.grid-container {
   display: grid;
   grid-gap: 0.5em;
-  grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
-}
-
-.keystone-sponsorship-container {
-  display: grid;
-  grid-gap: 0.5em;
-  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
-}
-
-.diamond-sponsorship-container {
-  display: grid;
-  grid-gap: 0.5em;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-}
-
-.platinum-sponsorship-container {
-  display: grid;
-  grid-gap: 0.5em;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-}
-
-.gold-sponsorship-container {
-  display: grid;
-  grid-gap: 0.5em;
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-}
-
-.silver-sponsorship-container {
-  display: grid;
-  grid-gap: 0.5em;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-}
-
-.past-edition-grid {
-  display: grid;
-  grid-gap: 1.5em;
-  grid-template-columns: repeat(auto-fill, minmax(120px, 0.5fr));
-  vertical-align: middle;
-}
-
-
-.organizers-grid {
-  display: grid;
-  grid-gap: 1.5em;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 0.5fr));
-  vertical-align: middle;
 }
 
 
