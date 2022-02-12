@@ -24,7 +24,7 @@ MARKUP = ("md",)
 PLUGINS = ["i18n_subsites", "assets", "events"]
 STATIC_PATHS = ['images', 'extra/manifest.json']
 JINJA_ENVIRONMENT = {
-    "extensions": ["jinja2.ext.i18n", "extensions.now.NowExtension", "extensions.gphotos.GPhotosExtension"],
+    "extensions": ["jinja2.ext.i18n", "extensions.gphotos.GPhotosExtension"],
 }
 
 EVENTS_ICS_FNAME =  'calendar.ics'

@@ -3,5 +3,13 @@
 {% block title %}{{ SITENAME|striptags|e }} - Gallery {% endblock title %}
 
 {% block content %}
-    {% gphotos "demo", "demo", "demo" %}
+<section class="section">
+    <div class="container">
+        {% gphotos "https://photos.app.goo.gl/a5c7f5DmyjLExXhL7", "PyConEs GRX", "PyConEs GRX" %}
+        <hr>
+        <div class="box">
+            <cite>Si por alguna razón no desea aparecer en alguna de las imágenes mostrada en nuestra galería contacte con la organización y la foto será retirada.</cite>
+        </div>
+    </div>
+</section>
 {% endblock content %}

@@ -1,9 +1,11 @@
 beautifulsoup4==4.9.3
+beautifulsoup4
 bokeh==2.3
 cssmin==0.2.0
 icalendar==4.0.0
 jinja2-simple-tags
 libsass==0.20.1
+lxml
 markdown==3.3.4
 markdown-captions
 markdown-checklist
@@ -13,6 +15,7 @@ pelican==4.6.0
 pelican-jupyter
 pelican-webassets==2.0.0
 python-gettext==4.0
+requests
 tornado==5.1
 typogrify
 webassets==2.0
