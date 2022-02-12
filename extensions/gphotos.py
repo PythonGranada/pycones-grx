@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 from lxml import etree
 import pathlib
 import requests
+import random
 import re
 
 
@@ -47,4 +48,5 @@ class GPhotosExtension(StandaloneTag):
                         full_url = f"{u}=w1920-h1080"
                         photos_urls.append(full_url)
 
+        random.shuffle(photos_urls)
         return photos_urls
