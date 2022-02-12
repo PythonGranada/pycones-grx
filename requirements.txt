@@ -2,6 +2,7 @@ beautifulsoup4==4.9.3
 bokeh==2.3
 cssmin==0.2.0
 icalendar==4.0.0
+jinja2-simple-tags
 libsass==0.20.1
 markdown==3.3.4
 markdown-captions
