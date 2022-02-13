@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+from datetime import datetime
 import sys
 import os
-
+import pytz
 
 sys.path.append(os.path.abspath(os.path.dirname(__file__)))
 
@@ -58,3 +59,4 @@ NAVBAR_STYLE = "is-primary"
 THEME_LOGO = "/theme/images/piconesGR_mini.svg"
 FOOTER= "Copyright © Python España & PyConES 2022 Org"
 THEME_COLOR="#0E749CFF"
+LAST_UPDATE =  datetime.now(pytz.timezone(TIMEZONE)).strftime("%B %d, %Y %A, %H:%M:%S")
