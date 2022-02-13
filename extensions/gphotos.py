@@ -49,4 +49,5 @@ class GPhotosExtension(StandaloneTag):
                         photos_urls.append(full_url)
 
         random.shuffle(photos_urls)
+        photos_urls = list(set(photos_urls))
         return photos_urls
