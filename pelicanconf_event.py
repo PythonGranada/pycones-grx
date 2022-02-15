@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import json
+import random
 
 EVENT_TITLE = "PyConES 2022"
 EVENT_SUBTITLE = "Granada"
@@ -171,6 +172,8 @@ TEAM = [
         "linkedin": "https://www.linkedin.com/in/cdg-97/",
     },
 ]
+
+random.shuffle(TEAM)
 
 
 
