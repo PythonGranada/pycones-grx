@@ -72,7 +72,7 @@ TEAM = [
         "name": "Maribel García Arenas",
         "avatar": "https://avatars.githubusercontent.com/u/3056362",
         "tags": [{"name": "Oficina de Software Libre de la Universidad de Granada", "color": "is-danger"}, {"name": "infraestructure squad", "color": "is-primary"}],
-        "position": "profesora",
+        "position": "Profesora",
         "github": "https://github.com/mgarenas",
         "twitter": "https://twitter.com/misgarenas",
     },
