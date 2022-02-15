@@ -253,6 +253,11 @@ SPONSORS = [
                 "name": 'APSL',
                 "photo": '/theme/images/sponsors/apsl.png',
                 "url": "https://www.apsl.net/"
+            },
+            {
+                "name": 'Cívica',
+                "photo": '/theme/images/sponsors/civica.png',
+                "url": "https://civica-soft.com/"
             }
         ]
     },
