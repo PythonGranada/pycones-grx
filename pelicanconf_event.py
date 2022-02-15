@@ -69,6 +69,23 @@ ORGANIZERS = [
 
 TEAM = [
     {
+        "name": "Maribel García Arenas",
+        "avatar": "https://avatars.githubusercontent.com/u/3056362",
+        "tags": [{"name": "Oficina de Software Libre de la Universidad de Granada", "color": "is-danger"}, {"name": "infraestructure squad", "color": "is-primary"}],
+        "position": "Profesora",
+        "github": "https://github.com/mgarenas",
+        "twitter": "https://twitter.com/misgarenas",
+    },
+    {
+        "name": "Pablo García Sánchez",
+        "avatar": "https://avatars.githubusercontent.com/u/3056690",
+        "tags": [{"name": "Oficina de Software Libre de la Universidad de Granada", "color": "is-danger"}, {"name": "infraestructure squad", "color": "is-primary"}],
+        "position": "Profesor",
+        "github": "https://github.com/fergunet",
+        "twitter": "https://twitter.com/fergunet",
+        "linkedin": "https://www.linkedin.com/in/pgarciasanchez/"
+    },
+    {
         "name": "Israel Saeta Pérez",
         "avatar": "https://avatars.githubusercontent.com/u/22172794",
         "tags": [{"name": "Python España", "color": "is-danger"}, {"name": "sponsors squad", "color": "is-primary"}],
@@ -109,15 +126,6 @@ TEAM = [
         "tags": [{"name": "Python Granada", "color": "is-danger"}, {"name": "keynoters squad", "color": "is-primary"}],
         "position": "Modelador de transportes",
         "github": "https://github.com/PybloBenavides",
-    },
-    {
-        "name": "Pablo García Sánchez",
-        "avatar": "https://avatars.githubusercontent.com/u/3056690",
-        "tags": [{"name": "Oficina de Software Libre de la Universidad de Granada", "color": "is-danger"}, {"name": "infraestructure squad", "color": "is-primary"}],
-        "position": "Profesor",
-        "github": "https://github.com/fergunet",
-        "twitter": "https://twitter.com/fergunet",
-        "linkedin": "https://www.linkedin.com/in/pgarciasanchez/"
     },
     {
         "name": "Paloma de las Cuevas Delgado",
