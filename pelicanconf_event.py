@@ -261,6 +261,11 @@ SPONSORS = [
                 "name": 'Cívica',
                 "photo": '/theme/images/sponsors/civica.png',
                 "url": "https://civica-soft.com/"
+            },
+            {
+                "name": 'Intelygenz',
+                "photo": '/theme/images/sponsors/intelygenz.png',
+                "url": "https://intelygenz.com/"
             }
         ]
     },
@@ -288,6 +293,11 @@ SPONSORS = [
                 "name": 'Kaleidos',
                 "photo": '/theme/images/sponsors/kaleidos.png',
                 "url": "https://kaleidos.net/"
+            },
+            {
+                "name": 'CodeSyntax',
+                "photo": '/theme/images/sponsors/codesyntax.png',
+                "url": "https://www.codesyntax.com/"
             }
         ]
     }
