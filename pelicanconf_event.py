@@ -298,6 +298,16 @@ SPONSORS = [
                 "name": 'CodeSyntax',
                 "photo": '/theme/images/sponsors/codesyntax.png',
                 "url": "https://www.codesyntax.com/"
+            },
+            {
+                "name": 'Alea Soluciones',
+                "photo": '/theme/images/sponsors/aleasoluciones.png',
+                "url": "https://www.alea-soluciones.com/"
+            },
+            {
+                "name": 'Nazaríes IT',
+                "photo": '/theme/images/sponsors/nazaries.png',
+                "url": "https://www.nazaries.com/"
             }
         ]
     }
