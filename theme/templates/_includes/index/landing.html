@@ -1,19 +1,4 @@
-<script>
-    $(function() {
-        var images = [
-            'austin-gardner-7fElVDKXLoQ-unsplash.webp',
-            'willian-justen-de-vasconcellos-_idxpCoHdE4-unsplash.webp',
-            'sebastian-yepes-OdwjaP3GpqQ-unsplash.webp',
-            'jorge-fernandez-salas-wNY1d7lVqPo-unsplash.webp',
-            'jorge-fernandez-salas-n2GloATD6S8-unsplash.webp',
-            'granada.webp'
-        ];
-        $('.landing').css({'background': 'linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.3)), url({{ SITEURL }}/theme/images/wallpapers/' + images[Math.floor(Math.random() * images.length)] + ') no-repeat center fixed'});
-        $('.landing').css({'background-size': 'cover'});
-    });
-</script>
-
-<section class="hero is-info is-fullheight landing">
+<section class="hero is-info is-fullheight landing" style="background: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.3)),  url('{{ SITEURL }}{{ SELECTED_WALLPAPER }}') no-repeat center fixed; background-size: cover;">
     <div class="hero-body">
         <div class="container has-text-centered">
             <div class="column is-6 is-offset-3">

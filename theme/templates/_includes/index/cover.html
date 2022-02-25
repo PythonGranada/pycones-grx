@@ -1,38 +1,6 @@
-<style>
-    #preloadedImages
-    {
-        width: 0px;
-        height: 0px;
-        display: inline;
-        background-image: url("{{ SITEURL }}/theme/images/wallpapers/arnaud-mariat-jkcfb3RZxGE-unsplash.webp");
-        background-image: url("{{ SITEURL }}/theme/images/wallpapers/austin-gardner-7fElVDKXLoQ-unsplash.webp");
-        background-image: url("{{ SITEURL }}/theme/images/wallpapers/willian-justen-de-vasconcellos-_idxpCoHdE4-unsplash.webp");
-        background-image: url("{{ SITEURL }}/theme/images/wallpapers/sebastian-yepes-OdwjaP3GpqQ-unsplash.webp");
-        background-image: url("{{ SITEURL }}/theme/images/wallpapers/jorge-fernandez-salas-wNY1d7lVqPo-unsplash.webp");
-        background-image: url("{{ SITEURL }}/theme/images/wallpapers/jorge-fernandez-salas-n2GloATD6S8-unsplash.webp");
-        background-image: url("{{ SITEURL }}/theme/images/wallpapers/granada.webp");
-        background-image: url();
-    }
-</style>
-
-<script>
-    $(function() {
-        var images = [
-            'arnaud-mariat-jkcfb3RZxGE-unsplash.webp',
-            'austin-gardner-7fElVDKXLoQ-unsplash.webp',
-            'willian-justen-de-vasconcellos-_idxpCoHdE4-unsplash.webp',
-            'sebastian-yepes-OdwjaP3GpqQ-unsplash.webp',
-            'jorge-fernandez-salas-wNY1d7lVqPo-unsplash.webp',
-            'jorge-fernandez-salas-n2GloATD6S8-unsplash.webp',
-            'granada.webp'
-        ];
-        $('.cover').css({'background': 'linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.3)), url({{ SITEURL }}/theme/images/wallpapers/' + images[Math.floor(Math.random() * images.length)] + ') no-repeat center fixed'});
-        $('.cover').css({'background-size': 'cover'});
-    });
-</script>
 
 <section class="hero is-medium is-link cover">
-    <div class="hero-body cover">
+    <div class="hero-body cover" style="background: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.3)),  url('{{ SITEURL }}{{ SELECTED_WALLPAPER }}') no-repeat center fixed; background-size: cover;">
         <div class="columns">
             <div class="column has-text-centered">
                 <figure class="image logo">
