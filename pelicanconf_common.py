@@ -57,6 +57,8 @@ if ENABLED_BLOG:
 
 NAVBAR_STYLE = "is-primary"
 THEME_LOGO = "/theme/images/piconesGR_mini.svg"
+MAIN_LOGO = "/theme/images/piconesGR_horizontal.svg"
+MAIN_LOGO_PNG = "/theme/images/piconesGR_horizontal.png"
 FOOTER= "Copyright © Python España & PyConES 2022 Org"
 THEME_COLOR="#0E749CFF"
 LAST_UPDATE =  datetime.now(pytz.timezone(TIMEZONE)).strftime("%B %d, %Y %A, %H:%M:%S")
