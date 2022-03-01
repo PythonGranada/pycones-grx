@@ -301,7 +301,13 @@ SPONSORS = [
         "title": "Oro 📀",
         "size": "180px",
         "order": 4,
-        "members": []
+        "members": [
+            {
+                "name": 'holaluz',
+                "photo": '/theme/images/sponsors/holaluz.png',
+                "url": "https://holaluz.com/"
+            },
+        ]
     },
     {
         "level_name": "silver",
