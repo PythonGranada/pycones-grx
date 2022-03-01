@@ -281,6 +281,11 @@ SPONSORS = [
                 "name": 'Intelygenz',
                 "photo": '/theme/images/sponsors/intelygenz.png',
                 "url": "https://intelygenz.com/"
+            },
+            {
+                "name": 'Intelligenia',
+                "photo": '/theme/images/sponsors/intelligenia.png',
+                "url": "https://www.intelligenia.com/"
             }
         ]
     },
@@ -323,6 +328,11 @@ SPONSORS = [
                 "name": 'Nazaríes IT',
                 "photo": '/theme/images/sponsors/nazaries.png',
                 "url": "https://www.nazaries.com/"
+            },
+            {
+                "name": 'Zenzorrito - Badger',
+                "photo": '/theme/images/sponsors/badger.png',
+                "url": "https://www.badgermapping.com/"
             }
         ]
     }
