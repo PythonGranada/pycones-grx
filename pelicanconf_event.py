@@ -328,6 +328,8 @@ SPONSORS = [
     }
 ]
 
+for s in SPONSORS:
+    random.shuffle(s["members"])
 
 
 EVENT_TRACKS = json.dumps([
