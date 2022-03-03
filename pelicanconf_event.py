@@ -336,9 +336,14 @@ SPONSORS = [
                 "url": "https://www.nazaries.com/"
             },
             {
-                "name": 'Zenzorrito - Badger',
+                "name": 'Badger',
                 "photo": '/theme/images/sponsors/badger.png',
                 "url": "https://www.badgermapping.com/"
+            },
+            {
+                "name": 'Novatec',
+                "photo": '/theme/images/sponsors/novatec.png',
+                "url": "https://www.novatec-gmbh.de/"
             }
         ]
     }
