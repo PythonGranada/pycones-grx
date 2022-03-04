@@ -343,7 +343,7 @@ SPONSORS = [
             {
                 "name": 'Novatec',
                 "photo": '/theme/images/sponsors/novatec.png',
-                "url": "https://www.novatec-gmbh.de/"
+                "url": "https://www.novatec-gmbh.de/en/granada/"
             }
         ]
     }
