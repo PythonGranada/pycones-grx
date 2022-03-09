@@ -22,7 +22,7 @@ EMAIL_LINK = "mailto:contacto@2022.es.pycon.org"
 TELEGRAM_LINK = "https://t.me/PyConES2022"
 
 TICKETS_LINK="#"
-CALL_FOR_PAPERS_LINK = "#"
+CALL_FOR_PAPERS_LINK = "https://charlas.2022.es.pycon.org/pycones2022/cfp"
 SPONSORS_DOSSIER_ES = "/theme/files/dosier_patrocinio_2022_es.pdf"
 SPONSORS_DOSSIER_EN = "/theme/files/dosier_patrocinio_2022_en.pdf"
 
@@ -344,6 +344,11 @@ SPONSORS = [
                 "name": 'Novatec',
                 "photo": '/theme/images/sponsors/novatec.png',
                 "url": "https://www.novatec-gmbh.de/"
+            },
+            {
+                "name": 'Blink',
+                "photo": '/theme/images/sponsors/blink.png',
+                "url": "https://blinkeye.com/"
             }
         ]
     }
