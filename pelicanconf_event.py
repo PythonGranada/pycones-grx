@@ -179,7 +179,7 @@ TEAM = [
     },
     {
         "name": "Cristina Diaz",
-        "avatar": "https://pbs.twimg.com/profile_images/1466381833168424966/WI_yR4bo_400x400.jpg",
+        "avatar": "https://avatars.githubusercontent.com/u/23080252",
         "tags": [{"name": "Google Developer Group", "color": "is-danger"}, {"name": "diversity squad", "color": "is-primary"}],
         "position": "Software Developer",
         "github": "https://github.com/LadyNightmare/",
@@ -343,7 +343,7 @@ SPONSORS = [
             {
                 "name": 'Novatec',
                 "photo": '/theme/images/sponsors/novatec.png',
-                "url": "https://www.novatec-gmbh.de/"
+                "url": "https://www.novatec-gmbh.de/en/granada/"
             },
             {
                 "name": 'Blink',
