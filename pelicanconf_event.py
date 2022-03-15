@@ -125,7 +125,8 @@ TEAM = [
         "tags": [{"name": "Python Granada", "color": "is-danger"}, {"name": "web squad", "color": "is-primary"}],
         "position": "Ingeniero de Software",
         "github": "https://github.com/josemlp91",
-        "twitter": "https://twitter.com/josemlp91"
+        "twitter": "https://twitter.com/josemlp91",
+        "linkedin": "https://www.linkedin.com/in/josmilope/"
     },
     {
         "name": "Manuel Martín",
@@ -185,6 +186,29 @@ TEAM = [
         "github": "https://github.com/LadyNightmare/",
         "twitter": "https://twitter.com/lady_devs",
         "linkedin": "https://www.linkedin.com/in/cdg-97/",
+    },
+    {
+        "name": "José Miguel Castillo García",
+        "avatar": "#",
+        "tags": [{"name": "Oficina de Software Libre de la Universidad de Granada", "color": "is-danger"}, {"name": "sponsors squad", "color": "is-primary"}],
+        "position": "Técnico de laboratorio"
+    },
+    {
+        "name": "Anna Peña Martínez",
+        "avatar": "https://secure.gravatar.com/avatar/d1838a8f2718a280f807e4796f86c5db?size=400",
+        "tags": [{"name": "publication squad", "color": "is-primary"}],
+        "position": "Product Lead",
+        "twitter": "https://twitter.com/annalogik",
+        "linkedin": "https://www.linkedin.com/in/annalogik/",
+    },
+    {
+        "name": "Jimena E. Bermúdez",
+        "avatar": "https://avatars.githubusercontent.com/u/4335179?v=4",
+        "tags": [{"name": "PyLadies", "color": "is-danger"}, {"name": "publicity squad", "color": "is-primary"}],
+        "position": "Ingeniera de Software",
+        "twitter": "https://twitter.com/Jimena_y_yo",
+        "linkedin": "https://www.linkedin.com/in/jimena-eb/",
+        "github": "https://github.com/JimenaEB"
     },
 ]
 
