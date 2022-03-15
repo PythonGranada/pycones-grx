@@ -7,6 +7,10 @@
 		<link rel="icon" type="image/x-icon" href="{{ SITEURL }}/theme/images/favicon.ico">
 		<link rel="manifest" href="{{ SITEURL }}/extra/manifest.json">
 
+		{% block canonical %}
+			<link rel="canonical" href="{{ SITEURL }}" />
+		{% endblock canonical %}
+
 		<title>{% block title %}{{ SITENAME|striptags|e }}{% endblock title %}</title>
 
 		{% if EVENT_DESCRIPTION_MINI %}
@@ -16,6 +20,7 @@
 		{% if TWITTER_USERNAME %}
 			<meta name="twitter:creator" content="@{{ TWITTER_USERNAME }}" />
 		{% endif %}
+
 
 		{% include "_includes/social_metatags.html" %}
 
