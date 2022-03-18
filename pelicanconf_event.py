@@ -210,6 +210,14 @@ TEAM = [
         "linkedin": "https://www.linkedin.com/in/jimena-eb/",
         "github": "https://github.com/JimenaEB"
     },
+    {
+        "name": "Paula Guijarro",
+        "avatar": "https://secure.gravatar.com/avatar/c315557daaf9538afbc0610e095cecc9?size=400",
+        "tags": [{"name": "PyLadies", "color": "is-danger"}],
+        "position": "Site Reliability Engineer",
+        "linkedin": "https://www.linkedin.com/in/paula-guijarro/",
+        "github": "https://github.com/paulaguijarro"
+    },
 ]
 
 random.shuffle(TEAM)
