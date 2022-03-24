@@ -33,14 +33,14 @@ EVENTS_ICS_FNAME =  'calendar.ics'
 DIRECT_TEMPLATES = ['index', 'blog', 'keynoters', 'sponsorship', 'schedule', 'gallery', 'past_editions', 'organizers']
 MENUITEMS_NAVBAR = [
     ("La ciudad", "/pages/granada.html"),
-    ("Organizadores", "/organizers.html")
+    ("Organización", "/organizers.html")
 ]
 
 if ENABLED_SPEAKERS:
     MENUITEMS_NAVBAR.append(tuple(("Ponentes", "/keynoters.html")))
 
 if ENABLED_SPONSORSHIPS:
-    MENUITEMS_NAVBAR.append(tuple(("Patrocinadores", "/sponsorship.html")))
+    MENUITEMS_NAVBAR.append(tuple(("Patrocinios", "/sponsorship.html")))
 
 if ENABLED_SCHEDULE:
     MENUITEMS_NAVBAR.append(tuple(("Horario", "/schedule.html")))
