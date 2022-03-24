@@ -3,6 +3,7 @@ beautifulsoup4
 bokeh==2.3
 cssmin==0.2.0
 icalendar==4.0.0
+Jinja2==3.0.3
 jinja2-simple-tags
 libsass==0.20.1
 lxml
