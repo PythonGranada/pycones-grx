@@ -377,7 +377,13 @@ SPONSORS = [
         "title": "Platino 💽",
         "size": "200px",
         "order": 3,
-        "members": [],
+        "members": [
+            {
+                "name": "Ebury",
+                "photo": "/theme/images/sponsors/ebury.png",
+                "url": "https://www.ebury.es/",
+            },
+        ],
     },
     {
         "level_name": "gold",
@@ -437,6 +443,11 @@ SPONSORS = [
                 "name": "Blink",
                 "photo": "/theme/images/sponsors/blink.png",
                 "url": "https://blinkeye.com/",
+            },
+            {
+                "name": "GISCE",
+                "photo": "/theme/images/sponsors/gisce.png",
+                "url": "https://gisce.net/es/",
             },
         ],
     },
