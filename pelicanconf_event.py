@@ -375,7 +375,7 @@ SPONSORS = [
     {
         "level_name": "platinum",
         "title": "Platino 💽",
-        "size": "200px",
+        "size": "210px",
         "order": 3,
         "members": [
             {
