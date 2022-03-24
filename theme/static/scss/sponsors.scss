@@ -1,0 +1,14 @@
+@use './style.scss';
+
+.sponsor_grid-container {
+    display: grid;
+    grid-gap: 1.5rem;
+    margin: 1.5rem 0 3rem;
+}
+
+.sponsor_card {
+    background-color: $grey--ligth;
+    box-shadow: 0.51rem 0.61rem 0em 0em $grey--medium;
+    padding: 0.5em;
+    border-radius: 0.1rem;
+}

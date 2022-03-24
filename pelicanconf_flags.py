@@ -11,7 +11,7 @@ LANDING_MODE = False
 ENABLED_TICKETS = False
 
 # Habilita bloque que hace la llamada a los ponentes.
-ENABLED_CALL_FOR_PAPERS = False
+ENABLED_CALL_FOR_PAPERS = True
 
 # Habilita bloque que muestra los oradores plenarios del evento.
 ENABLED_KEYNOTERS = False
