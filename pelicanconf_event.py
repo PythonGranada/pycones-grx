@@ -465,7 +465,7 @@ EVENT_TRACKS = json.dumps(
     ]
 )
 
-EVENT_START_DATE = "2022-09-31"
+EVENT_START_DATE = "2022-09-30"
 EVENT_START_DATE_STR = "Del 30 de Septiembre"
 EVENT_END_DATE_STR = "Al 2 de Octubre"
 EVENT_TALKS = json.dumps(
