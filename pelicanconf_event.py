@@ -401,6 +401,11 @@ SPONSORS = [
                 "photo": "/theme/images/sponsors/orbitalads.png",
                 "url": "https://www.orbitalads.com/",
             },
+            {
+                "name": "4Geeks Academy",
+                "photo": "/theme/images/sponsors/4geeks.png",
+                "url": "https://4geeksacademy.com/es/inicio",
+            },
         ],
     },
     {
@@ -449,7 +454,19 @@ SPONSORS = [
                 "photo": "/theme/images/sponsors/gisce.png",
                 "url": "https://gisce.net/es/",
             },
+            {
+                "name": "PhotoPills",
+                "photo": "/theme/images/sponsors/photopills.png",
+                "url": "https://www.photopills.com/es",
+            },
         ],
+    },
+    {
+        "level_name": "friend",
+        "title": "Colaboradores 💡",
+        "size": "110px",
+        "order": 6,
+        "members": [],
     },
 ]
 
