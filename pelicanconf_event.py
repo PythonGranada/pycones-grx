@@ -342,7 +342,13 @@ SPONSORS = [
         "title": "Keystone 🏆",
         "size": "270px",
         "order": 1,
-        "members": [],
+        "members": [
+            {
+                "name": "PSF",
+                "photo": "/theme/images/sponsors/psf.png",
+                "url": "https://www.python.org/psf/",
+            },
+        ],
     },
     {
         "level_name": "diamond",
@@ -405,6 +411,16 @@ SPONSORS = [
                 "name": "4Geeks Academy",
                 "photo": "/theme/images/sponsors/4geeks.png",
                 "url": "https://4geeksacademy.com/es/inicio",
+            },
+            {
+                "name": "Financial Force",
+                "photo": "/theme/images/sponsors/financialforce.png",
+                "url": "https://www.financialforce.com/",
+            },
+            {
+                "name": "Back Market",
+                "photo": "/theme/images/sponsors/bm.png",
+                "url": "https://www.backmarket.es/",
             },
         ],
     },
