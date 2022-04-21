@@ -271,6 +271,43 @@ TEAM = [
         "linkedin": "https://www.linkedin.com/in/paula-guijarro/",
         "github": "https://github.com/paulaguijarro",
     },
+    {
+        "name": "Alberto Rasillo Fernández",
+        "avatar": "#",
+        "tags": [{"name": "Python España", "color": "is-danger"},],
+        "position": "Ingeniero de software",
+    },
+    {
+        "name": "Christian Prada Osuna",
+        "avatar": "https://avatars.githubusercontent.com/u/28503903?v=4",
+        "tags": [
+            {"name": "Python Granada", "color": "is-danger"},
+            {"name": "sponsors squad", "color": "is-primary"},
+        ],
+        "position": "Technical Lead Software Developer",
+        "linkedin": "https://es.linkedin.com/in/christian-prada-osuna-0741217b",
+        "github": "https://github.com/cprada87",
+        "twitter": "https://twitter.com/dev_morphheus",
+    },
+    {
+        "name": "Sara Medrano Sánchez",
+        "avatar": "#",
+        "tags": [
+            {"name": "Python Granada", "color": "is-danger"},
+            {"name": "attendes squad", "color": "is-primary"},
+        ],
+    },
+    {
+        "name": "Maria Moreno de Castro",
+        "avatar": "https://avatars.githubusercontent.com/MMdeCastro",
+        "tags": [
+            {"name": "Python Granada", "color": "is-danger"},
+            {"name": "sponsors squad", "color": "is-primary"},
+        ],
+        "position": "Data Scientist",
+        "linkedin": "https://www.linkedin.com/in/maria-moreno-de-castro/",
+        "github": "https://github.com/MMdeCastro",
+    },
 ]
 
 random.shuffle(TEAM)
@@ -421,6 +458,16 @@ SPONSORS = [
                 "name": "Back Market",
                 "photo": "/theme/images/sponsors/bm.png",
                 "url": "https://www.backmarket.es/",
+            },
+            {
+                "name": "uenergia",
+                "photo": "/theme/images/sponsors/uenergia.png",
+                "url": "https://www.uenergia.es/es/",
+            },
+            {
+                "name": "celtiberian",
+                "photo": "/theme/images/sponsors/celtiberian.png",
+                "url": "https://www.celtiberian.es/",
             },
         ],
     },
