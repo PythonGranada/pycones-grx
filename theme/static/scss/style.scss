@@ -170,3 +170,16 @@ p {
 .card-footer {
   padding: 0.5em;
 }
+
+#cover-image-grx {
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+}
+
+// Ios
+@supports (-webkit-touch-callout: none) {
+  #cover-image-grx {
+    background-attachment: inherit !important;
+    background-repeat: inherit !important;
+  }
+}
