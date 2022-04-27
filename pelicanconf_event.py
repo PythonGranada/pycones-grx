@@ -426,6 +426,11 @@ SPONSORS = [
                 "photo": "/theme/images/sponsors/ebury.png",
                 "url": "https://www.ebury.es/",
             },
+            {
+                "name": "TrustYou",
+                "photo": "/theme/images/sponsors/trustyou.png",
+                "url": "https://www.trustyou.com/es/",
+            },
         ],
     },
     {

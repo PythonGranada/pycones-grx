@@ -32,16 +32,16 @@
 			<div class="container">
 				{% include "_includes/index/cover.html" %}
 
-				{% if ENABLED_TICKETS %}
-					{% include "_includes/index/buy_your_tickets.html" %}
-				{% endif %}
-
 				{% if ENABLED_KEYNOTERS %}
 					{% include "_includes/index/keynoters.html" %}
 				{% endif %}
 
 				{% if ENABLED_CALL_FOR_PAPERS %}
 					{% include "_includes/index/call_for_papers.html" %}
+				{% endif %}
+
+				{% if ENABLED_TICKETS %}
+					{% include "_includes/index/buy_your_tickets.html" %}
 				{% endif %}
 
 				{% if ENABLED_TIMELINE %}
