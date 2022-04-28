@@ -413,6 +413,11 @@ SPONSORS = [
                 "photo": "/theme/images/sponsors/intelligenia.png",
                 "url": "https://www.intelligenia.com/",
             },
+            {
+                "name": "TravelPerk",
+                "photo": "/theme/images/sponsors/travelperk.png",
+                "url": "https://www.travelperk.com/es/",
+            },
         ],
     },
     {
