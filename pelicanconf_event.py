@@ -436,6 +436,11 @@ SPONSORS = [
                 "photo": "/theme/images/sponsors/trustyou.png",
                 "url": "https://www.trustyou.com/es/",
             },
+            {
+                "name": "Perkin Elmer",
+                "photo": "/theme/images/sponsors/perkinelmer.png",
+                "url": "https://www.perkinelmer.com/",
+            },
         ],
     },
     {
