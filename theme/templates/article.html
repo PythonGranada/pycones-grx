@@ -10,10 +10,6 @@
         <article class="message is-info">
             <div class="message-header">
                 <h2>{{ article.title }}</h2>
-                <p>
-                    <time itemprop="dateCreated" datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}
-                    </time>
-                </p>
             </div>
             <div class="message-body has-text-dark markdown">
                 {{ article.content }}
