@@ -176,6 +176,11 @@ p {
   background-attachment: fixed !important;
 }
 
+#cover-section{
+  padding: 0;
+}
+
+
 // Ios
 @supports (-webkit-touch-callout: none) {
   #cover-image-grx {

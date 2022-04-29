@@ -28,10 +28,13 @@
 	{% if LANDING_MODE %}
 		{% include "_includes/index/landing.html" %}
 	{% else %}
+		<section class="section" id="cover-section">
+			<div class="container" id="cover-container">
+				{% include "_includes/index/cover.html" %}
+			</div>
+		</section>
 		<section class="section">
 			<div class="container">
-				{% include "_includes/index/cover.html" %}
-
 				{% if ENABLED_KEYNOTERS %}
 					{% include "_includes/index/keynoters.html" %}
 				{% endif %}
