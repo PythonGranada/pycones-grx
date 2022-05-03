@@ -180,6 +180,67 @@ p {
   padding: 0;
 }
 
+.articles {
+  margin: 5rem 0;
+  margin-top: -200px;
+}
+.articles .content p {
+  line-height: 1.9;
+  margin: 15px 0;
+}
+.author-image {
+  position: absolute;
+  top: -80px;
+  left: 50%;
+  width: 150px;
+  height: 150px;
+  margin-left: -65px;
+  border: 3px solid #2e6f40;
+  border-radius: 50%;
+}
+.media-center {
+  display: block;
+  margin-bottom: 1rem;
+}
+.media-content {
+  margin-top: 3rem;
+}
+.article, .promo-block {
+  margin-top: 6rem;
+}
+div.column.is-8:first-child {
+  padding-top: 0;
+  margin-top: 0;
+}
+.article-title {
+  font-size: 2rem;
+  font-weight: lighter;
+  line-height: 2;
+}
+.article-subtitle {
+  color: #909AA0;
+  margin-bottom: 1rem;
+}
+.promo-block .container {
+  margin: 1rem 5rem;
+}
+.article-body{
+  text-align: justify;
+}
+
+#keynoters-container {
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap:15em;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+@media (max-width: 1048px) {
+  #keynoters-container {
+    padding: 0;
+    grid-gap:0.5em;
+  }
+}
 
 // Ios
 @supports (-webkit-touch-callout: none) {

@@ -1,32 +1,27 @@
-<h2 class="title is-2">Oradores plenários 🌐</h2>
-
-<div class="grid-container" style="grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));">
+<h2 class="title is-2">Oradoras plenarias 🌐</h2>
+<div class="grid-container" id="keynoters-container">
     {% for keynoter in KEYNOTERS %}
         <div class="card">
             <div class="card-image">
                 <a href="{{ keynoter.url }}">
-                    <figure class="image is-4by3">
+                    <figure class="image is-square">
                         <img src="{{ keynoter.photo_big }}" alt="{{ keynoter.name }}">
                     </figure>
                 </a>
             </div>
             <div class="card-content">
                 <div class="media">
-                    <div class="media-left">
-                        <figure class="image is-48x48">
-                            <img src="{{ keynoter.photo }}" alt="{{ keynoter.name }}">
-                        </figure>
-                    </div>
                     <div class="media-content">
-                        <a href="{{ keynoter.url }}"><p class="title is-4">{{ keynoter.name }}</p></a>
-                        <p class="subtitle is-6">{{ keynoter.twitter }}</p>
+                        <a href="{{ SITEURL }}{{ keynoter.url }}"><p class="title is-4">{{ keynoter.name }}</p></a>
+                        <a href="https://twitter.com/{{ keynoter.twitter }}" target="_blank"><p class="subtitle is-6">{{ keynoter.twitter }}</p></a>
                     </div>
                 </div>
-                <div class="content">
+                <div style="color: #4a4a4ac4" class="content">
                     {{ keynoter.description }}
                 </div>
             </div>
         </div>
     {% endfor %}
 </div>
+<br>
 <br>

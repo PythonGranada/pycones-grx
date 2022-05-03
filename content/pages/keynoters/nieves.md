@@ -1,9 +1,9 @@
 Title: Nieves Ábalos
-Slug: nieves-abalos
+Slug: nieves
 Position: CoFundadora y Chief Product Officer @ Monoceros Labs - Conversational Interfaces Engineer
-Image: https://miro.medium.com/fit/c/176/176/2*lbBcq3E3u7F2ZDyy9gOJPQ.jpeg
-LinkedIn: TODO
-Twitter: TODO
+Image: /theme/images/keynoters/nieves.jpg
+LinkedIn: #
+Twitter:  #
 Template: keynoter
 
 
