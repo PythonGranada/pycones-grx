@@ -22,3 +22,10 @@ Documentación a aportar:
 - Desempleados: certificado de desempleo.
 - Familias monoparentales: documento que certifique la situación. Recuerde censurar la información comprometida del documento.
 - Contratos en prácticas, jornada reducida o baja laboral: documento que certifique la situación. Recuerde censurar la información comprometida del documento.
+
+Para solicitar la beca debe rellenar este [formulario](https://forms.gle/4sBjJXcGvXnk6PEfA) y tras estudiar la solicitud nos pondremos en contacto vía email con la respuesta.
+
+Por favor, si tuviera cualquier duda o tuviera una situación compleja y no se viera reflejada en los supuestos contemplados comuníquenoslo a [becas@2022.es.pycon.org](mailto:becas@2022.es.pycon.org)
+y estudiaremos la forma de ayudarle.
+
+Toda la información la ponemos en los canales oficiales, no olvide suscribirse. Muchas gracias por hacer todo lo posible por acudir a la **PyConES 2022**.
