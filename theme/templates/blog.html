@@ -4,12 +4,22 @@
 
 
 {% block content %}
-<section class="section">
-    <div class="container">
-        <h4 class="title is-4">Publicaciones</h4>
-        {% for article in (articles_page.object_list if articles_page else articles) %}
-            {% include "_includes/blog/article_extract.html" %}
-        {% endfor %}
-    </div>
-</section>
+
+{% if ENABLED_BLOG %}
+    <section class="section">
+        <div class="container">
+            <h2 class="title is-2">Publicaciones 📝 </h2>
+            {% for article in (articles_page.object_list if articles_page else articles) %}
+                {% include "_includes/blog/article_extract.html" %}
+            {% endfor %}
+        </div>
+    </section>
+{% else %}
+    <section class="section">
+        <div class="container">
+            <h2 class="title is-2">403 ⛔</h2>
+            <p>Acceso no autorizado</p>
+        </div>
+    </section>
+{% endif %}
 {% endblock content %}

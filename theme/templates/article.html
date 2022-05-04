@@ -5,16 +5,25 @@
 {% endblock title %}
 
 {% block content %}
-<section class="section">
-    <div class="container">
-        <article class="message is-info">
-            <div class="message-header">
-                <h2>{{ article.title }}</h2>
+    {% if ENABLED_BLOG %}
+        <section class="section">
+            <div class="container">
+                <article class="message is-info">
+                    <div class="message-header">
+                        <h2>{{ article.title }}</h2>
+                    </div>
+                    <div class="message-body has-text-dark markdown">
+                        {{ article.content }}
+                    </div>
+                </article>
             </div>
-            <div class="message-body has-text-dark markdown">
-                {{ article.content }}
+        </section>
+    {% else %}
+        <section class="section">
+            <div class="container">
+                <h2 class="title is-2">403 ⛔</h2>
+                <p>Acceso no autorizado</p>
             </div>
-        </article>
-    </div>
-</section>
+        </section>
+    {% endif %}
 {% endblock content %}

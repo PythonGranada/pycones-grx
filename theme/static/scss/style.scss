@@ -218,7 +218,7 @@ div.column.is-8:first-child {
   line-height: 2;
 }
 .article-subtitle {
-  color: $grey-darker;
+  color: $grey;
   margin-bottom: 1rem;
 }
 .promo-block .container {
@@ -226,6 +226,9 @@ div.column.is-8:first-child {
 }
 .article-body{
   text-align: justify;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
 }
 
 #keynoters-container {
@@ -233,12 +236,19 @@ div.column.is-8:first-child {
   grid-gap:15em;
   padding-left: 50px;
   padding-right: 50px;
+
 }
 
 @media (max-width: 1048px) {
   #keynoters-container {
     padding: 0;
     grid-gap:0.5em;
+  }
+
+  .article-body{
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 10px;
   }
 }
 
