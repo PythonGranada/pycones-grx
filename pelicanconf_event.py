@@ -549,9 +549,30 @@ SPONSORS = [
     {
         "level_name": "friend",
         "title": "Colaboradores 💡",
-        "size": "110px",
+        "size": "150px",
         "order": 6,
-        "members": [],
+        "members": [
+            {
+                "name": "Renfe",
+                "photo": "/theme/images/sponsors/renfe.png",
+                "url": "https://www.renfe.com/",
+            },
+            {
+                "name": "Ayuntamiento Granada",
+                "photo": "/theme/images/sponsors/ayuntamiento.png",
+                "url": "https://www.granada.org/",
+            },
+            {
+                "name": "Coviran",
+                "photo": "/theme/images/sponsors/coviran.png",
+                "url": "https://www.coviran.es/",
+            },
+            {
+                "name": "Freewear",
+                "photo": "/theme/images/sponsors/freewear.png",
+                "url": "https://www.freewear.org/",
+            },
+        ],
     },
 ]
 
