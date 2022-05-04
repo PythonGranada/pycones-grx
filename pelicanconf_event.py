@@ -309,6 +309,27 @@ TEAM = [
         "linkedin": "https://www.linkedin.com/in/maria-moreno-de-castro/",
         "github": "https://github.com/MMdeCastro",
     },
+    {
+        "name": "Pedro González Rodelas",
+        "avatar": "/theme/images/organizers/prodelas.jpeg",
+        "tags": [
+            {"name": "Universidad de Granada", "color": "is-danger"},
+            {"name": "infraestructure squad", "color": "is-info"},
+        ],
+        "position": "Profesor",
+        "linkedin": "https://www.linkedin.com/in/pedro-gonzalez-rodelas",
+        "github": "https://github.com/prodelas",
+        "twitter": "https://twitter.com/PedroGRodelas",
+    },
+    {
+        "name": "Cristián Maureira-Fredes",
+        "avatar": "/theme/images/organizers/cristian-maureira.jpg",
+        "tags": [{"name": "Python España", "color": "is-danger"},],
+        "position": "R&D Manager",
+        "linkedin": "https://www.linkedin.com/in/cmaureir/",
+        "github": "https://github.com/cmaureir",
+        "twitter": "https://twitter.com/cmaureir",
+    },
 ]
 
 random.shuffle(TEAM)
