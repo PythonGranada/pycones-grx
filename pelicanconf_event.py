@@ -88,13 +88,13 @@ ORGANIZERS = [
 TEAM = [
     {
         "name": "Maribel García Arenas",
-        "avatar": "https://avatars.githubusercontent.com/u/3056362",
+        "avatar": "/theme/images/organizers/maribel.jpeg",
         "tags": [
             {
                 "name": "Oficina de Software Libre de la Universidad de Granada",
                 "color": "is-danger",
             },
-            {"name": "infraestructure squad", "color": "is-primary"},
+            {"name": "infraestructure squad", "color": "is-info"},
         ],
         "position": "Profesora",
         "github": "https://github.com/mgarenas",
@@ -102,13 +102,13 @@ TEAM = [
     },
     {
         "name": "Pablo García Sánchez",
-        "avatar": "https://avatars.githubusercontent.com/u/3056690",
+        "avatar": "/theme/images/organizers/pablo.png",
         "tags": [
             {
                 "name": "Oficina de Software Libre de la Universidad de Granada",
                 "color": "is-danger",
             },
-            {"name": "infraestructure squad", "color": "is-primary"},
+            {"name": "infraestructure squad", "color": "is-info"},
         ],
         "position": "Profesor",
         "github": "https://github.com/fergunet",
@@ -117,10 +117,10 @@ TEAM = [
     },
     {
         "name": "Israel Saeta Pérez",
-        "avatar": "https://avatars.githubusercontent.com/u/22172794",
+        "avatar": "/theme/images/organizers/isra.jpeg",
         "tags": [
             {"name": "Python España", "color": "is-danger"},
-            {"name": "sponsors squad", "color": "is-primary"},
+            {"name": "sponsors squad", "color": "is-info"},
         ],
         "position": "Ingeniero de Software",
         "github": "https://github.com/dukebody/",
@@ -129,10 +129,10 @@ TEAM = [
     },
     {
         "name": "Javier Alonso Silva",
-        "avatar": "https://avatars.githubusercontent.com/u/25952165",
+        "avatar": "/theme/images/organizers/javi.jpeg",
         "tags": [
             {"name": "PyLadies", "color": "is-danger"},
-            {"name": "support squad", "color": "is-primary"},
+            {"name": "support squad", "color": "is-info"},
         ],
         "position": "Ingeniero I+D en Teldat",
         "github": "https://github.com/Javinator9889",
@@ -141,10 +141,10 @@ TEAM = [
     },
     {
         "name": "José Miguel López",
-        "avatar": "https://avatars.githubusercontent.com/u/1655898",
+        "avatar": "/theme/images/organizers/josemi.jpeg",
         "tags": [
             {"name": "Python Granada", "color": "is-danger"},
-            {"name": "web squad", "color": "is-primary"},
+            {"name": "web squad", "color": "is-info"},
         ],
         "position": "Ingeniero de Software",
         "github": "https://github.com/josemlp91",
@@ -153,10 +153,10 @@ TEAM = [
     },
     {
         "name": "Manuel Martín",
-        "avatar": "https://media-exp1.licdn.com/dms/image/C4E03AQHUQEu3Vvzwgg/profile-displayphoto-shrink_200_200/0/1626865474708?e=1649894400&v=beta&t=87m2u-bcXthWZ-Q-QWiwnDQ3h6Uq67CCuTGLVjaiOlM",
+        "avatar": "/theme/images/organizers/draxus.jpg",
         "tags": [
             {"name": "Python Granada", "color": "is-danger"},
-            {"name": "publication squad", "color": "is-primary"},
+            {"name": "publication squad", "color": "is-info"},
         ],
         "position": "Doctor en Machine Learning",
         "github": "https://github.com/draxus",
@@ -165,20 +165,20 @@ TEAM = [
     },
     {
         "name": "Pablo Benavides",
-        "avatar": "https://avatars.githubusercontent.com/u/49152268",
+        "avatar": "/theme/images/organizers/pablo.png",
         "tags": [
             {"name": "Python Granada", "color": "is-danger"},
-            {"name": "keynoters squad", "color": "is-primary"},
+            {"name": "keynoters squad", "color": "is-info"},
         ],
         "position": "Modelador de transportes",
         "github": "https://github.com/PybloBenavides",
     },
     {
         "name": "Paloma de las Cuevas Delgado",
-        "avatar": "https://avatars.githubusercontent.com/u/3061254",
+        "avatar": "/theme/images/organizers/paloma.jpeg",
         "tags": [
             {"name": "Yes We Tech", "color": "is-danger"},
-            {"name": "publicity squad", "color": "is-primary"},
+            {"name": "publicity squad", "color": "is-info"},
         ],
         "position": "Ingeniera de Software",
         "github": "https://github.com/unintendedbear",
@@ -187,10 +187,10 @@ TEAM = [
     },
     {
         "name": "Juan Antonio",
-        "avatar": "https://avatars.githubusercontent.com/u/5589299",
+        "avatar": "/theme/images/organizers/juanantonio.jpeg",
         "tags": [
             {"name": "Python Granada", "color": "is-danger"},
-            {"name": "sponsors squad", "color": "is-primary"},
+            {"name": "sponsors squad", "color": "is-info"},
         ],
         "position": "Ingeniero de Software",
         "github": "https://github.com/juanAFernandez",
@@ -199,10 +199,10 @@ TEAM = [
     },
     {
         "name": "Israel Blancas",
-        "avatar": "https://avatars.githubusercontent.com/u/4806311",
+        "avatar": "/theme/images/organizers/israel.jpeg",
         "tags": [
             {"name": "Google Developer Group", "color": "is-danger"},
-            {"name": "sponsors squad", "color": "is-primary"},
+            {"name": "sponsors squad", "color": "is-info"},
         ],
         "position": "Software Quality Engineer",
         "github": "https://github.com/iblancasa",
@@ -211,20 +211,20 @@ TEAM = [
     },
     {
         "name": "Pedro Mayorgas Parejo",
-        "avatar": "https://avatars.githubusercontent.com/u/64685260",
+        "avatar": "/theme/images/organizers/pedro.jpeg",
         "tags": [
             {"name": "Python Granada", "color": "is-danger"},
-            {"name": "web squad", "color": "is-primary"},
+            {"name": "web squad", "color": "is-info"},
         ],
         "position": "Ingeniero Informático y Técnico en Administración de Sistemas",
         "github": "https://github.com/lovelace9981",
     },
     {
         "name": "Cristina Diaz",
-        "avatar": "https://avatars.githubusercontent.com/u/23080252",
+        "avatar": "/theme/images/organizers/cristina.jpeg",
         "tags": [
             {"name": "Google Developer Group", "color": "is-danger"},
-            {"name": "diversity squad", "color": "is-primary"},
+            {"name": "diversity squad", "color": "is-info"},
         ],
         "position": "Software Developer",
         "github": "https://github.com/LadyNightmare/",
@@ -239,24 +239,24 @@ TEAM = [
                 "name": "Oficina de Software Libre de la Universidad de Granada",
                 "color": "is-danger",
             },
-            {"name": "sponsors squad", "color": "is-primary"},
+            {"name": "sponsors squad", "color": "is-info"},
         ],
         "position": "Técnico de laboratorio",
     },
     {
         "name": "Anna Peña Martínez",
-        "avatar": "https://secure.gravatar.com/avatar/d1838a8f2718a280f807e4796f86c5db?size=400",
-        "tags": [{"name": "publication squad", "color": "is-primary"}],
+        "avatar": "/theme/images/organizers/anna.jpeg",
+        "tags": [{"name": "publication squad", "color": "is-info"}],
         "position": "Product Lead",
         "twitter": "https://twitter.com/annalogik",
         "linkedin": "https://www.linkedin.com/in/annalogik/",
     },
     {
         "name": "Jimena E. Bermúdez",
-        "avatar": "https://avatars.githubusercontent.com/u/4335179?v=4",
+        "avatar": "/theme/images/organizers/jimena.jpeg",
         "tags": [
             {"name": "PyLadies", "color": "is-danger"},
-            {"name": "publicity squad", "color": "is-primary"},
+            {"name": "publicity squad", "color": "is-info"},
         ],
         "position": "Ingeniera de Software",
         "twitter": "https://twitter.com/Jimena_y_yo",
@@ -265,7 +265,7 @@ TEAM = [
     },
     {
         "name": "Paula Guijarro",
-        "avatar": "https://secure.gravatar.com/avatar/c315557daaf9538afbc0610e095cecc9?size=400",
+        "avatar": "/theme/images/organizers/paula.jpeg",
         "tags": [{"name": "PyLadies", "color": "is-danger"}],
         "position": "Site Reliability Engineer",
         "linkedin": "https://www.linkedin.com/in/paula-guijarro/",
@@ -279,10 +279,10 @@ TEAM = [
     },
     {
         "name": "Christian Prada Osuna",
-        "avatar": "https://avatars.githubusercontent.com/u/28503903?v=4",
+        "avatar": "/theme/images/organizers/cristian.jpeg",
         "tags": [
             {"name": "Python Granada", "color": "is-danger"},
-            {"name": "sponsors squad", "color": "is-primary"},
+            {"name": "sponsors squad", "color": "is-info"},
         ],
         "position": "Technical Lead Software Developer",
         "linkedin": "https://es.linkedin.com/in/christian-prada-osuna-0741217b",
@@ -291,18 +291,19 @@ TEAM = [
     },
     {
         "name": "Sara Medrano Sánchez",
-        "avatar": "#",
+        "avatar": "/theme/images/organizers/sara.jpeg",
         "tags": [
             {"name": "Python Granada", "color": "is-danger"},
-            {"name": "attendes squad", "color": "is-primary"},
+            {"name": "attendes squad", "color": "is-info"},
         ],
+        "twitter": "https://twitter.com/SrtSanz_",
     },
     {
         "name": "Maria Moreno de Castro",
-        "avatar": "https://avatars.githubusercontent.com/MMdeCastro",
+        "avatar": "/theme/images/organizers/maria.png",
         "tags": [
             {"name": "Python Granada", "color": "is-danger"},
-            {"name": "sponsors squad", "color": "is-primary"},
+            {"name": "sponsors squad", "color": "is-info"},
         ],
         "position": "Data Scientist",
         "linkedin": "https://www.linkedin.com/in/maria-moreno-de-castro/",
