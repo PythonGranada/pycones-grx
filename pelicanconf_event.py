@@ -302,8 +302,8 @@ TEAM = [
         "name": "Maria Moreno de Castro",
         "avatar": "/theme/images/organizers/maria.png",
         "tags": [
-            {"name": "Python Granada", "color": "is-danger"},
-            {"name": "sponsors squad", "color": "is-info"},
+            {"name": "PyData", "color": "is-danger"},
+            {"name": "attendees squad", "color": "is-info"},
         ],
         "position": "Data Scientist",
         "linkedin": "https://www.linkedin.com/in/maria-moreno-de-castro/",
