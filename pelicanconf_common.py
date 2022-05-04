@@ -42,6 +42,9 @@ if ENABLED_SPEAKERS:
 if ENABLED_SPONSORSHIPS:
     MENUITEMS_NAVBAR.append(tuple(("Patrocinios", "/sponsorship.html")))
 
+if ENABLED_FINANCIAL_AID:
+    MENUITEMS_NAVBAR.append(tuple(("Becas", "/becas.html")))
+    
 if ENABLED_SCHEDULE:
     MENUITEMS_NAVBAR.append(tuple(("Horario", "/schedule.html")))
 
