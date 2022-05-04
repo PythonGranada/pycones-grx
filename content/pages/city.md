@@ -8,7 +8,7 @@ Summary: Granada para los visitantes
 
 Granada es una ciudad ideal para la organización de un evento como este. Conocida a nivel
 mundial por una de las maravillas arquitectónicas de la humanidad, la Alhambra, es destino
-turístico de millones de viajeros. No obstante Granada cuenta con otros atractivos en la
+turístico de millones de personas. No obstante Granada cuenta con otros atractivos en la
 provincia como son Sierra Nevada a una media hora de la capital, sus costas a 45 minutos y
 una variedad de barrios con arquitecturas impresionantes, museos y espacios culturales que la
 hacen ser una de las pocas ciudades que combina a la perfección un gran patrimonio ecológico
@@ -16,15 +16,16 @@ y una gran riqueza cultural.
 
 Además, se trata de una ciudad universitaria, donde se alojan cerca de 60.000 estudiantes
 de grado y postgrado, lo que hace que sea una ciudad muy activa y dinámica, con multitud de
-actividades y ambientes donde los jóvenes son los protagonistas. Este espíritu joven y dinámico
-es el que la hace que Granada sea el destino favorito entre los estudiantes Erasmus: una
+actividades y ambientes donde la juventud es protagonista. Este espíritu joven y dinámico
+es el que la hace que Granada sea el destino favorito entre estudiantes Erasmus: una
 ciudad especial que todo el mundo debería conocer. Sus ofertas de ocio son perfectas para
 albergar a una gran variedad de personas, donde cada una encontrará lo que más se adecúe a
 sus necesidades y gustos.
 
 La oferta de hoteles en Granada es amplísima, desde los más baratos y acogedores a los
 más sofisticados y lujosos acorde con la demanda de la ciudad. La ciudad ofrece desde 2015
-más de 50.000 plazas hoteleras disponibles para todos los gustos y bolsillos.
+más de 50.000 plazas hoteleras disponibles para todos los gustos y bolsillos. Desde la 
+organización estamos trabajando para conseguir descuentos especiales en hoteles.
 
 Es de destacar que la ciudad cuenta con numerosos espacios de ocio en los que disfrutar de
 las distintas experiencias que se ofrecen. Todas esas opciones están recopiladas y actualizadas
@@ -52,12 +53,13 @@ Granada con Extremadura.
 que se presenta con multitud de comunicaciones diarias entre gran cantidad de ciudades
 de la península, principalmente bien comunicado con Madrid, Sevilla y Málaga.
 
-- **Red ferroviaria:** Desde este mismo año, Granada está conectada a las diferentes
-líneas de alta velocidad españolas, y mantiene conexiones diarias a Madrid y Barcelona
-además de otros puntos intermedios de estos trayectos como Córdoba, Ciudad Real,
+- **Red ferroviaria:** Granada está conectada a las diferentes
+líneas de alta velocidad españolas, y mantiene conexiones diarias a Madrid, Barcelona y Málaga, 
+además de otros puntos intermedios como Córdoba, Ciudad Real,
 Zaragoza, Tarragona o Lérida. Utilizando también estas conexiones a Madrid y
 Barcelona, son accesibles otros muchos destinos a través de AVE, como son todas las
-estaciones AVE del norte y este del territorio nacional.
+estaciones AVE del norte y este del territorio nacional. Disponemos de un **5% de descuento** en 
+trayectos de RENFE. Escríbenos a contacto@2022.es.pycon.org y te explicaremos cómo canjearlo.
 
 ### Por aire: viajar en avión ✈️
 La ciudad cuenta con el Aeropuerto **Federico García Lorca Granada-Jaén**, situado a 24 km
@@ -102,7 +104,7 @@ cualquier carácter como congresos médicos, farmaceúticos o de cualquier otro 
 La celebración de la PyConES en este espacio incluye el uso de los comedores universitarios.
 Respecto al aparcamiento, todas las calles adyacentes son de aparcamiento libre y existe un
 gran parking, ubicado en el complejo hospitalario existente junto a la facultad de medicina, que
-ofrece plazas de aparcamiento previo pago (y no es precisamente barato). Sin embargo, solo a
-una parada de metro, existe un parking gratuito con 4000 plazas disponibles que puede usarse
+ofrece plazas de aparcamiento previo pago (pero no es precisamente barato). Sin embargo, solo a
+una parada de metro, existe un parking gratuito en el centro comercial Nevada Shopping con 4000 plazas disponibles que puede usarse
 sin coste alguno, por lo que es mucho más barato aparcar en esta superficie y coger el metro
 hasta el Campus de la Salud que pagar el día completo en el parking del complejo hospitalario.
