@@ -574,7 +574,7 @@ SPONSORS = [
     },
     {
         "level_name": "friend",
-        "title": "Colaboradores 💡",
+        "title": "Colaboran 💡",
         "size": "150px",
         "order": 6,
         "members": [
