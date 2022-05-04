@@ -10,9 +10,9 @@ EVENT_DESCRIPTION_MINI = (
     "PyConES, la conferencia nacional sobre Python más importante de España"
 )
 EVENT_DESCRIPTION = """
-Bienvenidos a la PyConES, la conferencia nacional sobre Python más importante de España.<br><br>
-Un evento que reunirá a los ponentes más interesantes, una agenda increíble y unas oportunidades de trabajo
-maravillosas en el mundo IT. <br><br>
+Os damos la bienvenida a la PyConES, la conferencia nacional sobre Python más importante de España.<br><br>
+Un evento que reunirá a cientos de entusiastas de Python, una agenda increíble y unas oportunidades de trabajo
+maravillosas. <br><br>
 También puedes formar parte de nuestros patrocinadores y tener tu espacio dentro del evento.
 """
 
