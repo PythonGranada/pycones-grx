@@ -22,6 +22,9 @@ ENABLED_SPEAKERS = False
 # Habilita bloque con todos los patrocinadores.
 ENABLED_SPONSORSHIPS = True
 
+# Habilita las becas en el menú principal
+ENABLED_FINANCIAL_AID = True
+
 # Habilita bloque con llamamiento a patrocinadores
 ENABLED_CALL_FOR_SPONSORS = True
 
