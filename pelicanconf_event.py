@@ -425,6 +425,11 @@ SPONSORS = [
                 "photo": "/theme/images/sponsors/travelperk.png",
                 "url": "https://www.travelperk.com/es/",
             },
+            {
+                "name": "Twilio",
+                "photo": "/theme/images/sponsors/twilio.png",
+                "url": "https://www.twilio.com/",
+            },
         ],
     },
     {
