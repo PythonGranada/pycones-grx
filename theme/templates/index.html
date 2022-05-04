@@ -47,7 +47,9 @@
 					{% include "_includes/index/buy_your_tickets.html" %}
 				{% endif %}
 
-				{% include "_includes/index/highlight_blog.html" %}
+				{% if ENABLED_BLOG %}
+					{% include "_includes/index/highlight_blog.html" %}
+				{% endif %}
 
 				{% if ENABLED_TIMELINE %}
 					{% include "_includes/index/timeline.html" %}
