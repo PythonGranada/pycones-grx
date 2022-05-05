@@ -102,7 +102,7 @@ TEAM = [
     },
     {
         "name": "Pablo García Sánchez",
-        "avatar": "/theme/images/organizers/pablo.png",
+        "avatar": "/theme/images/organizers/pablo-osl.png",
         "tags": [
             {
                 "name": "Oficina de Software Libre de la Universidad de Granada",
@@ -165,7 +165,7 @@ TEAM = [
     },
     {
         "name": "Pablo Benavides",
-        "avatar": "/theme/images/organizers/pablo.png",
+        "avatar": "/theme/images/organizers/pablo.jpeg",
         "tags": [
             {"name": "Python Granada", "color": "is-danger"},
             {"name": "keynoters squad", "color": "is-info"},
