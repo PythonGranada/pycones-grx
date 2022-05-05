@@ -66,6 +66,9 @@
 				{% if ENABLED_SPONSORSHIPS %}
 					{% include "_includes/index/sponsorship.html" %}
 				{% endif %}
+				{% if ENABLED_COVID %}
+					{% include "_includes/index/covid.html" %}
+				{% endif %}
 			</div>
 		</section>
 	{% endif %}

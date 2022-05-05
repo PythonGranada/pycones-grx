@@ -48,3 +48,6 @@ ENABLED_LOCATION = True
 
 # Habilita el timeline del evento
 ENABLED_TIMELINE = True
+
+# Habilita bloque COVID-19
+ENABLED_COVID = True
