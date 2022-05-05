@@ -5,26 +5,35 @@
 {% endblock title %}
 
 {% block content %}
-<section class="section">
-    <div class="container">
-<div class="card article">
-    <div class="card-content">
-        <div class="media">
-            <div class="media-center">
-                <img src="{{ page.image }}" class="author-image" alt="Placeholder image">
+    {% if ENABLED_KEYNOTERS %}
+        <section class="section">
+            <div class="container">
+                <div class="card article">
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-center">
+                                <img src="{{ page.image }}" class="author-image" alt="Placeholder image">
+                            </div>
+                            <div class="media-content has-text-centered">
+                                <p class="title article-title">{{ page.title }}</p>
+                                <p class="subtitle is-6 article-subtitle">
+                                    {{page.position}}
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content article-body">
+                            {{ page.content }}
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="media-content has-text-centered">
-                <p class="title article-title">{{ page.title }}</p>
-                <p class="subtitle is-6 article-subtitle">
-                    {{page.position}}
-                </p>
+        </section>
+    {% else %}
+        <section class="section">
+            <div class="container">
+                <h2 class="title is-2">403 ⛔</h2>
+                <p>Acceso no autorizado</p>
             </div>
-        </div>
-        <div class="content article-body">
-            {{ page.content }}
-        </div>
-    </div>
-</div>
-    </div>
-</section>
+        </section>
+    {% endif %}
 {% endblock content %}
