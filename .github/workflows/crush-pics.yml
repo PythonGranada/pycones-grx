@@ -8,9 +8,10 @@ on:
       - '**.jpeg'
       - '**.png'
       - '**.gif'
-permissions: write-all
+
 jobs:
-  crush:
+  optimize_images:
+    permissions: write-all
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
