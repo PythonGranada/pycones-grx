@@ -9,12 +9,13 @@ on:
       - '**.png'
       - '**.gif'
 
+permissions:
+  pull-requests: write
+  checks: write
+  contents: write
+
 jobs:
   crush:
-    permissions:
-      pull-requests: write
-      checks: write
-      contents: write
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -22,4 +23,4 @@ jobs:
       - name: Compress Images
         uses: calibreapp/image-actions@main
         with:
-          githubToken: ${{ secrets.AUTH_TOKEN_GRANTED }}
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
