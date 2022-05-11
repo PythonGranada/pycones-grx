@@ -451,6 +451,11 @@ SPONSORS = [
                 "photo": "/theme/images/sponsors/twilio.png",
                 "url": "https://www.twilio.com/",
             },
+            {
+                "name": "Alight",
+                "photo": "/theme/images/sponsors/alight.png",
+                "url": "https://www.alight.com/",
+            },
         ],
     },
     {
@@ -473,6 +478,21 @@ SPONSORS = [
                 "name": "Perkin Elmer",
                 "photo": "/theme/images/sponsors/perkinelmer.png",
                 "url": "https://www.perkinelmer.com/",
+            },
+            {
+                "name": "Cathedral Software",
+                "photo": "/theme/images/sponsors/cathedralsoftware.png",
+                "url": "https://www.cathedralsw.com/",
+            },
+            {
+                "name": "Octopus Energy",
+                "photo": "/theme/images/sponsors/octopus.png",
+                "url": "https://www.octopusenergy.es/",
+            },
+            {
+                "name": "eFrontiers",
+                "photo": "/theme/images/sponsors/efrontiers.png",
+                "url": "http://www.e-frontiers.com/",
             },
         ],
     },
@@ -516,6 +536,11 @@ SPONSORS = [
                 "name": "celtiberian",
                 "photo": "/theme/images/sponsors/celtiberian.png",
                 "url": "https://www.celtiberian.es/",
+            },
+            {
+                "name": "Kave Home ",
+                "photo": "/theme/images/sponsors/kavehome.png",
+                "url": "https://kavehome.com/",
             },
         ],
     },
