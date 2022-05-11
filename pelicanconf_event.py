@@ -631,6 +631,80 @@ for s in SPONSORS:
     random.shuffle(s["members"])
 
 
+JOBS = [
+    {
+        "company_avatar": "/theme/images/jobs/ef.jpeg",
+        "company_name": "e-Frontiers",
+        "position": "Senior Python Developer",
+        "description": "Buscamos desarrolladores con experiencia en Python para trabajar remotamente desde cualquier país europeo para trabajar en una empresa tecnológica con producto propio, una potente herramienta analítica, que opera en diferentes países y que ya está siendo considerada como el nuevo unicornio tecnológico español.",
+        "location": "España/ 100% remoto",
+        "skills": [
+            "python",
+            "unittest",
+            "docker",
+            "kubernetes",
+            "kafka",
+            "spark",
+            "inglés alto",
+        ],
+        "salary": "50.000 - 70.000 €",
+        "url": "https://e-frontiers.ie/find-a-job/senior-python-developer-7348/",
+        "email": "alejandro.pino@e-frontiers.ie",
+    },
+    {
+        "company_avatar": "/theme/images/jobs/ef.jpeg",
+        "company_name": "e-Frontiers",
+        "position": "Senior Python Mid-Senior",
+        "description": "Estás descubriendo el poder de Python, pero quieres explorar todas sus posibilidades. Tenemos vacantes abiertas en una empresa enfocada al desarrollo de múltiples aplicaciones aplicadas a las finanzas: herramientas Fintech! Si te gusta cacharrear con el código tenemos que hablar :D",
+        "location": "Pozuelo de Alarcón (Madrid) / Semirremoto",
+        "skills": ["python", "flask", "docker", "kubernetes", "sql"],
+        "salary": "30.000€ – 42.000€",
+        "url": "https://e-frontiers.ie/find-a-job/python-developer-mid-senior-7330/",
+        "email": "alejandro.pino@e-frontiers.ie",
+    },
+    {
+        "company_avatar": "/theme/images/jobs/ef.jpeg",
+        "company_name": "e-Frontiers",
+        "position": "Python Developer EUROPE – 100% REMOTE",
+        "description": "Te gusta trabajar con Python, desde casa, desde cualquier lugar de Europa… ¡Tenemos que hablar! Tenemos diversas oportunidades abiertas para desarrolladores Python en empresas de producto propio, con sede principalmente en España e Irlanda, esperándote.",
+        "location": "Europa / Remoto 100%",
+        "skills": [
+            "python",
+            "django",
+            "flask",
+            "sql",
+            "docker",
+            "aws/azure",
+            "inglés alto",
+        ],
+        "salary": "40.000€ – 60.000€",
+        "url": "https://e-frontiers.ie/find-a-job/python-developer-europe-100-remote-7799/",
+        "email": "alejandro.pino@e-frontiers.ie",
+    },
+    {
+        "company_avatar": "/theme/images/jobs/ef.jpeg",
+        "company_name": "e-Frontiers",
+        "position": "Python Developer IRELAND",
+        "description": "We are looking for a Python Developer to join an Investment Management Firm in Dublin. You will be working within their Infrastructure Reliability Engineering team. Their goal is to ensure platform reliability and operational agility by developing visualizations, dashboards, and tools that reveal insights in data.",
+        "location": "Irlanda / Ambas opciones 100% Remoto y Presencial",
+        "skills": [
+            "python",
+            "django",
+            "flask",
+            "sql",
+            "docker",
+            "aws/azure",
+            "inglés alto",
+        ],
+        "salary": "40.000€ – 60.000€",
+        "url": "https://e-frontiers.ie/find-a-job/python-developer-7708/",
+        "email": "lisa.cappelli@e-frontiers.ie",
+    },
+]
+
+random.shuffle(JOBS)
+
+
 EVENT_TRACKS = json.dumps(
     [
         {"id": "core", "title": "Track Core"},
