@@ -21,3 +21,4 @@ jobs:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         with:
           repo-token: ${{secrets.GITHUB_TOKEN}}
+          api-key: ${{secrets.CRUSH_API_KEY}}
