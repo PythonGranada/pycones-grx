@@ -16,7 +16,6 @@ jobs:
         uses: actions/checkout@v2
       - name: Crush images
         uses: crush-pics/crush-pics-github-action@master
-        env:
-          api-key: ${{secrets.CRUSH_API_KEY}}
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
+          api-key: ${{secrets.CRUSH_API_KEY}}
