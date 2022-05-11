@@ -18,5 +18,4 @@ jobs:
         uses: crush-pics/crush-pics-github-action@master
         env:
           CRUSH_API_KEY: ${{ secrets.CRUSH_API_KEY }}
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
