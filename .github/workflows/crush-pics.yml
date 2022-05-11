@@ -8,9 +8,7 @@ on:
       - '**.jpeg'
       - '**.png'
       - '**.gif'
-permissions:
-  pull-requests: write
-  checks: write
+permissions: write-all
 jobs:
   crush:
     runs-on: ubuntu-latest
