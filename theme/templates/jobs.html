@@ -23,13 +23,11 @@
             <div class="list-item-description">
               <p style="color: grey">{{job.position}}</p>
               <strong style="color: black">{{job.description}}</strong>
-
               <div style="margin-top: 10px; margin-bottom: 20px">
                 {% for skill in job.skills %}
-                <span class="tag is-warning">{{skill}}</span>
+                  <span class="tag is-warning">{{skill}}</span>
                 {% endfor %}
               </div>
-
               <div style="margin-top: 10px; margin-bottom: 20px">
                 <span class="tag">{{job.location}}</span>
                 <span class="tag">{{job.salary}}</span>
