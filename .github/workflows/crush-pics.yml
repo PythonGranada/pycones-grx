@@ -2,7 +2,7 @@ name: Crush images
 on:
   pull_request:
     branches:
-      - master
+      - main
     paths:
       - '**.jpg'
       - '**.jpeg'
@@ -16,6 +16,8 @@ jobs:
         uses: actions/checkout@v2
       - name: Crush images
         uses: crush-pics/crush-pics-github-action@master
+        env:
+          CRUSH_API_KEY: ${{secrets.CRUSH_API_KEY}}
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          api-key: ${{ secrets.CRUSH_API_KEY }}
+          repo-token: ${{secrets.GITHUB_TOKEN}}
