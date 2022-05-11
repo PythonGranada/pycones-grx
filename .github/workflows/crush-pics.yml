@@ -10,8 +10,10 @@ on:
       - '**.gif'
 
 jobs:
-  optimize_images:
-    permissions: write-all
+  crush:
+    permissions:
+      pull-requests: write
+      checks: write
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
