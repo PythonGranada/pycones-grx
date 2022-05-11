@@ -48,3 +48,7 @@ ENABLED_LOCATION = True
 
 # Habilita el timeline del evento
 ENABLED_TIMELINE = True
+
+
+# Habilita página de ofertas de trabajo
+ENABLED_JOBS = True

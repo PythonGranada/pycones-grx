@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% block title %}{{ SITENAME|striptags|e }} - Jobs {% endblock title %}
+
+
+{% block content %}
+<section class="section">
+  <div class="container">
+    <h2 class="title is-2">Ofertas de trabajo 🔍‍ </h2>
+    <div class="list has-visible-pointer-controls has-hoverable-list-items">
+      {% for job in JOBS %}
+      <a href="{{job.url}}" target="_blank">
+        <div class="list-item">
+          <div class="list-item-image">
+            <figure class="image is-64x64">
+              <img class="is-rounded"
+                   src="{{SITEURL}}{{job.company_avatar}}"
+                   onerror="this.onerror=null;this.src='https://bulma.io/images/placeholders/128x128.png'">
+            </figure>
+          </div>
+          <div class="list-item-content">
+            <div class="list-item-title is-size-4">{{job.company_name}}</div>
+            <div class="list-item-description">
+              <p style="color: grey">{{job.position}}</p>
+              <strong style="color: black">{{job.description}}</strong>
+
+              <div style="margin-top: 10px; margin-bottom: 20px">
+                {% for skill in job.skills %}
+                <span class="tag is-warning">{{skill}}</span>
+                {% endfor %}
+              </div>
+
+              <div style="margin-top: 10px; margin-bottom: 20px">
+                <span class="tag">{{job.location}}</span>
+                <span class="tag">{{job.salary}}</span>
+              </div>
+              <a href="mailto:{{job.email}}"><button class="button is-link is-small">Contactar</button></a>
+              <a href="{{job.url}}" target="_blank"><button class="button is-primary is-small">Ver detalles</button></a>
+            </div>
+          </div>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endblock content %}
+
+<br>
