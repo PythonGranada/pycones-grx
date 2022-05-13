@@ -51,3 +51,6 @@ ENABLED_TIMELINE = True
 
 # Habilita bloque COVID-19
 ENABLED_COVID = True
+
+# Habilita página de ofertas de trabajo
+ENABLED_JOBS = True
