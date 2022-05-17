@@ -14,7 +14,7 @@ ENABLED_TICKETS = True
 ENABLED_CALL_FOR_PAPERS = True
 
 # Habilita bloque que muestra los oradores plenarios del evento.
-ENABLED_KEYNOTERS = False
+ENABLED_KEYNOTERS = True
 
 # Habilita pantalla de ponentes
 ENABLED_SPEAKERS = False
