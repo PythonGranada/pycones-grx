@@ -451,11 +451,6 @@ SPONSORS = [
                 "photo": "/theme/images/sponsors/twilio.png",
                 "url": "https://www.twilio.com/",
             },
-            {
-                "name": "Alight",
-                "photo": "/theme/images/sponsors/alight.png",
-                "url": "https://www.alight.com/",
-            },
         ],
     },
     {
@@ -541,6 +536,11 @@ SPONSORS = [
                 "name": "Kave Home ",
                 "photo": "/theme/images/sponsors/kavehome.png",
                 "url": "https://kavehome.com/",
+            },
+            {
+                "name": "Alight",
+                "photo": "/theme/images/sponsors/alight.png",
+                "url": "https://www.alight.com/",
             },
         ],
     },
