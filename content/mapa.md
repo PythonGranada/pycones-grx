@@ -12,5 +12,5 @@ También te invitamos a que investigues por tu cuenta y nos cuentes cuales han s
 Como puedes ver marcado en el mapa, la línea 4 del bus urbano y la línea de tranvía son dos buenas opciones para llegar al evento desde muchos puntos de la ciudad.
 
 <div style="text-align: center">
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1IxRp8wgFgWYjOHlw8XLpdZE2sbm_g4Yu&ehbc=2E312F" width="1300" height="700"></iframe>
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1IxRp8wgFgWYjOHlw8XLpdZE2sbm_g4Yu&ehbc=2E312F" width="100%" height="700"></iframe>
 <div>
