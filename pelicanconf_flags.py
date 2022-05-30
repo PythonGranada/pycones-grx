@@ -14,7 +14,7 @@ ENABLED_TICKETS = True
 ENABLED_CALL_FOR_PAPERS = False
 
 # Habilita bloque que muestra los oradores plenarios del evento.
-ENABLED_KEYNOTERS = False
+ENABLED_KEYNOTERS = True
 
 # Habilita pantalla de ponentes
 ENABLED_SPEAKERS = False
@@ -26,7 +26,7 @@ ENABLED_SPONSORSHIPS = True
 ENABLED_FINANCIAL_AID = True
 
 # Habilita bloque con llamamiento a patrocinadores
-ENABLED_CALL_FOR_SPONSORS = True
+ENABLED_CALL_FOR_SPONSORS = False
 
 # Habilita la vista del calendario del evento.
 ENABLED_SCHEDULE = False

@@ -451,6 +451,16 @@ SPONSORS = [
                 "photo": "/theme/images/sponsors/twilio.png",
                 "url": "https://www.twilio.com/",
             },
+            {
+                "name": "Datadog",
+                "photo": "/theme/images/sponsors/datadog.png",
+                "url": "https://www.datadoghq.com/",
+            },
+            {
+                "name": "BlueTab",
+                "photo": "/theme/images/sponsors/bluetab.png",
+                "url": "http://www.bluetab.net/en/",
+            },
         ],
     },
     {
@@ -488,6 +498,16 @@ SPONSORS = [
                 "name": "eFrontiers",
                 "photo": "/theme/images/sponsors/efrontiers.png",
                 "url": "http://www.e-frontiers.com/",
+            },
+            {
+                "name": "Zara Tech",
+                "photo": "/theme/images/sponsors/zara.png",
+                "url": "https://techteams.es/",
+            },
+            {
+                "name": "Nucleoo",
+                "photo": "/theme/images/sponsors/nucleoo.png",
+                "url": "https://nucleoo.com/es/home-es/",
             },
         ],
     },
@@ -542,6 +562,16 @@ SPONSORS = [
                 "photo": "/theme/images/sponsors/alight.png",
                 "url": "https://www.alight.com/",
             },
+            {
+                "name": "Kairós",
+                "photo": "/theme/images/sponsors/kairos.png",
+                "url": "https://www.kairosds.com/es/index.html",
+            },
+            {
+                "name": "Skydance Animation Madrid",
+                "photo": "/theme/images/sponsors/skydance.png",
+                "url": "https://skydance.com/",
+            },
         ],
     },
     {
@@ -594,6 +624,11 @@ SPONSORS = [
                 "name": "PhotoPills",
                 "photo": "/theme/images/sponsors/photopills.png",
                 "url": "https://www.photopills.com/es",
+            },
+            {
+                "name": "Joor",
+                "photo": "/theme/images/sponsors/joor.png",
+                "url": "https://www.joor.com/",
             },
         ],
     },
@@ -699,6 +734,26 @@ JOBS = [
         "salary": "40.000€ – 60.000€",
         "url": "https://e-frontiers.ie/find-a-job/python-developer-7708/",
         "email": "lisa.cappelli@e-frontiers.ie",
+    },
+    {
+        "company_avatar": "/theme/images/jobs/alea.jpeg",
+        "company_name": "Alea",
+        "position": "Senior Developer",
+        "description": "Buscamos a alguien de backend. Pero que no le tenga miedo a sistemas, redes, negocio... Con experiencia en desarrollo de aplicaciones con buenas prácticas (XP, arquitecturas limpias o hexagonales), testing (TDD) y que le guste mucho trabajar en equipo puesto que hacemos pairing",
+        "location": "Madrid / Remoto",
+        "skills": [
+            "python",
+            "testing",
+            "clean code",
+            "arquitecturas limpias",
+            "colaboración",
+            "trabajo en equipo",
+            "empatía",
+            "proactividad",
+        ],
+        "salary": "40.000€ – 50.000€",
+        "url": "https://aleasoluciones.notion.site/Forma-parte-del-equipo-p-blica-968223e26cc84d94bb9d0efc8038535e",
+        "email": "mailto:desarrollo@alea-soluciones.com",
     },
 ]
 
