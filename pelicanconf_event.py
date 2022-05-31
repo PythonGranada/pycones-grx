@@ -753,7 +753,7 @@ JOBS = [
         ],
         "salary": "40.000€ – 50.000€",
         "url": "https://aleasoluciones.notion.site/Forma-parte-del-equipo-p-blica-968223e26cc84d94bb9d0efc8038535e",
-        "email": "mailto:desarrollo@alea-soluciones.com",
+        "email": "desarrollo@alea-soluciones.com",
     },
 ]
 
