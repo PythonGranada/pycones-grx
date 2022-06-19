@@ -413,6 +413,11 @@ SPONSORS = [
                 "photo": "/theme/images/sponsors/psf.png",
                 "url": "https://www.python.org/psf/",
             },
+            {
+                "name": "Euro Python",
+                "photo": "/theme/images/sponsors/europython.png",
+                "url": "https://www.europython-society.org/",
+            },
         ],
     },
     {
