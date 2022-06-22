@@ -99,6 +99,7 @@ Para facilitar el trabajo contamos con el archivo **pelicanconf_flags.py** donde
 | ENABLED_CALL_FOR_SPONSORS | Habilita bloque con llamamiento a patrocinadores             |
 | ENABLED_SCHEDULE          | Habilita la vista del calendario del evento.                 |
 | ENABLED_BLOG              | Habilita la funcionalidad de blog de contenidos de la web.   |
+| ENABLED_COVID             | Habilita bloque con información sobre COVID-19.              |
 
 ## Despliegue y puesta en producción de la web 🚀
 
