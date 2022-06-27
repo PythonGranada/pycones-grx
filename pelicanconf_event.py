@@ -777,7 +777,6 @@ JOBS = [
         ],
         "salary": "50.000€ – 65.000€",
         "url": "https://www.travelperk.com/job-application/?gh_jid=3242844",
-        "email": "",
     },
     {
         "company_avatar": "/theme/images/jobs/travelperk.png",
@@ -796,7 +795,6 @@ JOBS = [
         ],
         "salary": "65.000€ – 90.000€",
         "url": "https://www.travelperk.com/job-application/?gh_jid=3242303",
-        "email": "",
     },
     {
         "company_avatar": "/theme/images/jobs/travelperk.png",
@@ -811,7 +809,6 @@ JOBS = [
         ],
         "salary": "75.000€ – 95.000€",
         "url": "https://www.travelperk.com/job-application/?gh_jid=3958248",
-        "email": "",
     },
 ]
 
