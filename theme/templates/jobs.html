@@ -32,7 +32,9 @@
                 <span class="tag">{{job.location}}</span>
                 <span class="tag">{{job.salary}}</span>
               </div>
+              {% if 'email' in job and job.email != "" %}
               <a href="mailto:{{job.email}}"><button class="button is-link is-small">Contactar</button></a>
+              {% endif %}
               <a href="{{job.url}}" target="_blank"><button class="button is-primary is-small">Ver detalles</button></a>
             </div>
           </div>
