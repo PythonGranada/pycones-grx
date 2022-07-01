@@ -718,7 +718,7 @@ JOBS = [
             "inglés alto",
         ],
         "salary": "40.000€ – 60.000€",
-        "url": "https://e-frontiers.ie/find-a-job/python-developer-europe-100-remote-7799/",
+        "url": "https://e-frontiers.ie/jobs/7799/",
         "email": "alejandro.pino@e-frontiers.ie",
     },
     {
