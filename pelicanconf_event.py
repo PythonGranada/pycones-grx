@@ -505,11 +505,6 @@ SPONSORS = [
                 "url": "http://www.e-frontiers.com/",
             },
             {
-                "name": "Zara Tech",
-                "photo": "/theme/images/sponsors/zara.png",
-                "url": "https://techteams.es/",
-            },
-            {
                 "name": "Nucleoo",
                 "photo": "/theme/images/sponsors/nucleoo.png",
                 "url": "https://nucleoo.com/es/home-es/",
