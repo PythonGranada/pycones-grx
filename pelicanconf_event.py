@@ -572,6 +572,11 @@ SPONSORS = [
                 "photo": "/theme/images/sponsors/skydance.png",
                 "url": "https://skydance.com/",
             },
+            {
+                "name": "Brite Payment Group",
+                "photo": "/theme/images/sponsors/brite.png",
+                "url": "https://www.britepaymentgroup.com/",
+            },
         ],
     },
     {
