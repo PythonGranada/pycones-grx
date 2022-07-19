@@ -7,10 +7,10 @@ import random
 EVENT_TITLE = "PyConES 2022"
 EVENT_SUBTITLE = "Granada"
 EVENT_DESCRIPTION_MINI = (
-    "PyConES, la conferencia nacional sobre Python más importante de España"
+    "PyConES, la conferencia de Python más importante de España"
 )
 EVENT_DESCRIPTION = """
-Os damos la bienvenida a la PyConES, la conferencia nacional sobre Python más importante de España.<br><br>
+Os damos la bienvenida a la PyConES, la conferencia de Python más importante de España.<br><br>
 Un evento que reunirá a cientos de entusiastas de Python, una agenda increíble y unas oportunidades de trabajo
 maravillosas. <br><br>
 También puedes formar parte de nuestros patrocinadores y tener tu espacio dentro del evento.
