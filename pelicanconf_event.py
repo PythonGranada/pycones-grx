@@ -6,9 +6,7 @@ import random
 
 EVENT_TITLE = "PyConES 2022"
 EVENT_SUBTITLE = "Granada"
-EVENT_DESCRIPTION_MINI = (
-    "PyConES, la conferencia de Python más importante de España"
-)
+EVENT_DESCRIPTION_MINI = "PyConES, la conferencia de Python más importante de España"
 EVENT_DESCRIPTION = """
 Os damos la bienvenida a la PyConES, la conferencia de Python más importante de España.<br><br>
 Un evento que reunirá a cientos de entusiastas de Python, una agenda increíble y unas oportunidades de trabajo
@@ -850,7 +848,14 @@ JOBS = [
         "position": "DevOps Engineer",
         "description": "¿Te apasiona el DevOps y te llama la atención trabajar para startups internacionales? En Celtiberian podrás cubrir ambas demandas. Somos una consultora de software comprometida con los servicios de calidad y la formación constante en las tecnologías más punteras.",
         "location": "Granada / Remoto",
-        "skills": ["Kubernetes", "Docker", "Python", "JavaScript","AWS", "Inglés alto"],
+        "skills": [
+            "Kubernetes",
+            "Docker",
+            "Python",
+            "JavaScript",
+            "AWS",
+            "Inglés alto",
+        ],
         "salary": "35.000€ - 45.000€",
         "url": "https://es.linkedin.com/company/celtiberian",
         "email": "lorena@celtiberian.es",
@@ -908,13 +913,7 @@ JOBS = [
         "position": "Data Architect",
         "description": "🍼 Nursery inhouse<br/>🚀 Desarrollo profesional sin límites en una empresa apasionante y un equipo con desafíos constantes<br/>🏡 Horario flexible y posibilidad de trabajo a distancia de forma habitual.<br/>🌊 Ubicaciones de las oficinas a primera linea de mar<br/>💪 Yoga y Crossfit inhouse",
         "location": "Híbrida (Barcelona)",
-        "skills": [
-            "AWS",
-            "Snowflake o Redshift",
-            "Python",
-            "SQL",
-            "Airflow",
-        ],
+        "skills": ["AWS", "Snowflake o Redshift", "Python", "SQL", "Airflow",],
         "salary": "60.000 € - 85.000 €",
         "url": "https://apply.workable.com/holaluz/j/478A031C7A/",
         "email": "ariadna.garriga@holaluz.com",
@@ -939,6 +938,52 @@ JOBS = [
         "salary": "40.000 € - 50.000 €",
         "url": "https://holaluz.workable.com/backend/jobs/2565347/",
         "email": "ariadna.garriga@holaluz.com",
+    },
+    {
+        "company_avatar": "/theme/images/jobs/trustyou.png",
+        "company_name": "TrustYou",
+        "position": "Professional Python Developer",
+        "description": "Imagine a workplace that allows you to own your own product and where your ideas will be heard and implemented. Imagine an environment where your performance makes a difference, not just within the company itself but for billions of travelers worldwide! That place is TrustYou.",
+        "location": "Madrid / Munich / Cluj-Napoca / Remote",
+        "skills": [
+            "Python 3",
+            "asynchronous programming",
+            "PostgreSQL",
+            "unit-testing",
+            "Web APIs",
+        ],
+        "salary": "40.000€ - 60.000€",
+        "url": "https://jobs.lever.co/trustyou/5732c644-7245-4f41-8ec1-50d819cf438a",
+        "email": None,
+    },
+    {
+        "company_avatar": "/theme/images/jobs/trustyou.png",
+        "company_name": "TrustYou",
+        "position": "Professional Engineer - Backend",
+        "description": "Imagine a workplace that allows you to own your own product and where your ideas will be heard and implemented. Imagine an environment where your performance makes a difference, not just within the company itself but for billions of travelers worldwide! That place is TrustYou.",
+        "location": "Spain / Germany / Romania / European Union (Remote)",
+        "skills": ["Ruby on Rails", "Javascript", "PostgreSQL", "TDD",],
+        "salary": "40.000€ - 70.000€",
+        "url": "https://jobs.lever.co/trustyou/2ca76451-8c8a-43e6-ae54-93fdee798398",
+        "email": None,
+    },
+    {
+        "company_avatar": "/theme/images/jobs/trustyou.png",
+        "company_name": "TrustYou",
+        "position": "Senior Frontend Engineer",
+        "description": "Imagine a workplace that allows you to own your own product and where your ideas will be heard and implemented. Imagine an environment where your performance makes a difference, not just within the company itself but for billions of travelers worldwide! That place is TrustYou.",
+        "location": "Spain / Germany / Romania / European Union (Remote)",
+        "skills": [
+            "frontend",
+            "React",
+            "reusable UIs",
+            "Redux/MobX",
+            "NodeJS",
+            "any backend language",
+        ],
+        "salary": "50.000€ - 70.000€",
+        "url": "https://jobs.lever.co/trustyou/8f27c517-587f-4832-9d79-dbf48a5a5134",
+        "email": None,
     },
 ]
 
