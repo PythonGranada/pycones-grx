@@ -62,6 +62,9 @@ para nuestra comunidad:
 - Usar un lenguaje inclusivo y que dé cabida a una audiencia diversa
 - Prestar especial atención a las personas que recién llegan a la
     comunidad
+- Presentarte con tus pronombres y preguntarle a otra persona los suyos
+    para que exista una comunicación clara y sin sesgo
+
 
 #### Ejemplos de comportamiento inaceptable:
 
