@@ -55,7 +55,7 @@ if ENABLED_SPONSORSHIPS:
 if ENABLED_FINANCIAL_AID:
     MENUITEMS_NAVBAR.append(tuple(("Becas", "/becas.html")))
 
-if ENABLED_SCHEDULE:
+if ENABLED_TIMETABLE:
     MENUITEMS_NAVBAR.append(tuple(("Horario", "/schedule.html")))
 
 if ENABLED_GALLERY:
