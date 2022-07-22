@@ -14,6 +14,7 @@ $dark--medium: rgb(20, 20, 20);
 
 $grey--ligth:#f8f6f6;
 $grey--medium: #e5e0de;
+$burgundy: #290a0f;
 
 
 @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Montserrat&display=swap');
@@ -33,6 +34,17 @@ $grey--medium: #e5e0de;
 .navbar {
   background-color: $primary !important;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.4);
+}
+
+.navbar-item {
+  background-color: $primary !important;
+}
+.navbar-item:hover {
+  background-color: $burgundy !important;
+}
+
+.navbar-dropdown {
+  background-color: $primary !important;
 }
 
 h1,
