@@ -29,7 +29,7 @@ ENABLED_FINANCIAL_AID = True
 ENABLED_CALL_FOR_SPONSORS = False
 
 # Habilita la vista del calendario del evento.
-ENABLED_SCHEDULE = False
+ENABLED_TIMETABLE = False
 
 # Habilita la funcionalidad de blog de contenidos de la web.
 ENABLED_BLOG = True
