@@ -44,6 +44,7 @@ DIRECT_TEMPLATES = [
 MENUITEMS_NAVBAR = {
     "La ciudad": {"Granada": "/pages/granada.html"},
     "Organización": {"Equipo": "/organizers.html"},
+    "Código de Conducta": "/pages/code-of-conduct.html",
 }
 
 if ENABLED_SPEAKERS:
@@ -55,7 +56,7 @@ if ENABLED_SPONSORSHIPS:
 if ENABLED_FINANCIAL_AID:
     MENUITEMS_NAVBAR["Becas"] = "/becas.html"
 
-if ENABLED_SCHEDULE:
+if ENABLED_TIMETABLE:
     MENUITEMS_NAVBAR["Horario"] = "/schedule.html"
 
 if ENABLED_GALLERY:

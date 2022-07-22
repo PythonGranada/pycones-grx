@@ -97,8 +97,9 @@ Para facilitar el trabajo contamos con el archivo **pelicanconf_flags.py** donde
 | ENABLED_SPEAKERS          | Habilita pantalla de ponentes.                               |
 | ENABLED_SPONSORSHIPS      | Habilita bloque con todos los patrocinadores.                |
 | ENABLED_CALL_FOR_SPONSORS | Habilita bloque con llamamiento a patrocinadores             |
-| ENABLED_SCHEDULE          | Habilita la vista del calendario del evento.                 |
+| ENABLED_TIMETABLE         | Habilita la vista del calendario del evento.                 |
 | ENABLED_BLOG              | Habilita la funcionalidad de blog de contenidos de la web.   |
+| ENABLED_SCHEDULE_INFO     | Habilita la vista del la información del programa en el sitio principal |
 
 ## Despliegue y puesta en producción de la web 🚀
 

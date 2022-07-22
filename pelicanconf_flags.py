@@ -52,5 +52,5 @@ ENABLED_TIMELINE = True
 # Habilita página de ofertas de trabajo
 ENABLED_JOBS = True
 
-# Habilita la sección del programa
-ENABLED_SCHEDULE = True
+# Habilita la sección del programa en la página principal
+ENABLED_SCHEDULE_INFO = True
