@@ -15,10 +15,25 @@
                 </div>
                 <div id="navbarMenuHeroA" class="navbar-menu">
                     <div class="navbar-end">
-                        {% for item, link in MENUITEMS_NAVBAR %}
+                        {% for item, link in MENUITEMS_NAVBAR.items() %}
+                            {% if link is string %}
                         <a class="navbar-item" href="{{ SITEURL }}{{ link }}">
                             {{ item }}
                         </a>
+                            {% elif link is mapping %}
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link">
+                                {{ item }}
+                            </a>
+                            <div class="navbar-dropdown">
+                            {% for subitem, url in link.items() %}
+                                <a class="navbar-item" href="{{ SITEURL }}{{ url }}">
+                                    {{ subitem }}
+                                </a>
+                            {% endfor %}
+                            </div>
+                        </div>
+                            {% endif %}
                         {% endfor %}
                     </div>
                 </div>

@@ -41,34 +41,34 @@ DIRECT_TEMPLATES = [
     "organizers",
     "jobs",
 ]
-MENUITEMS_NAVBAR = [
-    ("La ciudad", "/pages/granada.html"),
-    ("Organización", "/organizers.html"),
-]
+MENUITEMS_NAVBAR = {
+    "La ciudad": {"Granada": "/pages/granada.html"},
+    "Organización": {"Equipo": "/organizers.html"},
+}
 
 if ENABLED_SPEAKERS:
-    MENUITEMS_NAVBAR.append(tuple(("Ponentes", "/keynoters.html")))
+    MENUITEMS_NAVBAR["Ponentes"] = "/keynoters.html"
 
 if ENABLED_SPONSORSHIPS:
-    MENUITEMS_NAVBAR.append(tuple(("Patrocinios", "/sponsorship.html")))
+    MENUITEMS_NAVBAR["Patrocinios"] = "/sponsorship.html"
 
 if ENABLED_FINANCIAL_AID:
-    MENUITEMS_NAVBAR.append(tuple(("Becas", "/becas.html")))
+    MENUITEMS_NAVBAR["Becas"] = "/becas.html"
 
 if ENABLED_SCHEDULE:
-    MENUITEMS_NAVBAR.append(tuple(("Horario", "/schedule.html")))
+    MENUITEMS_NAVBAR["Horario"] = "/schedule.html"
 
 if ENABLED_GALLERY:
-    MENUITEMS_NAVBAR.append(tuple(("Galería", "/gallery.html")))
+    MENUITEMS_NAVBAR["La ciudad"]["Galería"] = "/gallery.html"
 
 if ENABLED_PAST_EDITIONS:
-    MENUITEMS_NAVBAR.append(tuple(("Ediciones pasadas", "/past_editions.html")))
+    MENUITEMS_NAVBAR["Organización"]["Ediciones pasadas"] = "/past_editions.html"
 
 if ENABLED_JOBS:
-    MENUITEMS_NAVBAR.append(tuple(("Ofertas de trabajo", "/jobs.html")))
+    MENUITEMS_NAVBAR["Ofertas de trabajo"] = "/jobs.html"
 
 if ENABLED_BLOG:
-    MENUITEMS_NAVBAR.append(tuple(("Blog", "/blog.html")))
+    MENUITEMS_NAVBAR["Blog"] = "/blog.html"
 
 
 NAVBAR_STYLE = "is-primary"
