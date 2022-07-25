@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PyConES 2022 GRX - mapa</title><link href="https://2022.es.pycon.org/" rel="alternate"></link><link href="https://2022.es.pycon.org/feeds/mapa.atom.xml" rel="self"></link><id>https://2022.es.pycon.org/</id><updated>2022-01-30T18:20:00+01:00</updated><entry><title>Nuestros puntos de interés 🚩</title><link href="https://2022.es.pycon.org/mapa.html" rel="alternate"></link><published>2022-01-30T18:20:00+01:00</published><updated>2022-01-30T18:20:00+01:00</updated><author><name>Python España Org</name></author><id>tag:2022.es.pycon.org,2022-01-30:/mapa.html</id><summary type="html">&lt;p&gt;Aquí dejamos algunos (de los muchísimos) puntos de interés que podría interesarte visitar en los días que dure tu estancia.
+Si la frenética agenda del evento lo permite 😜.
+También te invitamos a que investigues por tu cuenta y nos cuentes cuales han sido tus rincones favoritos.&lt;/p&gt;
+&lt;p&gt;Como puedes ver marcado …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Aquí dejamos algunos (de los muchísimos) puntos de interés que podría interesarte visitar en los días que dure tu estancia.
+Si la frenética agenda del evento lo permite 😜.
+También te invitamos a que investigues por tu cuenta y nos cuentes cuales han sido tus rincones favoritos.&lt;/p&gt;
+&lt;p&gt;Como puedes ver marcado en el mapa, la línea 4 del bus urbano y la línea de tranvía son dos buenas opciones para llegar al evento desde muchos puntos de la ciudad.&lt;/p&gt;
+&lt;div style="text-align: center"&gt;
+&lt;iframe src="https://www.google.com/maps/d/u/0/embed?mid=1IxRp8wgFgWYjOHlw8XLpdZE2sbm_g4Yu&amp;ehbc=2E312F" width="100%" height="700"&gt;&lt;/iframe&gt;
+&lt;div&gt;</content><category term="mapa"></category></entry></feed>
