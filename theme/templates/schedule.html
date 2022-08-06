@@ -4,68 +4,29 @@
 
 
 {% block extra_css %}
-    <link rel="stylesheet" href="{{ main_siteurl }}/theme/libs/fullcalendar/main.css"/>
-    <link rel="stylesheet" href="{{ main_siteurl }}/theme/css/tooltip.css"/>
+
 {% endblock extra_css %}
 
 {% block extra_script %}
-    <script src="{{ main_siteurl }}/theme/libs/fullcalendar/main.js"></script>
-    <script src="{{ main_siteurl }}/theme/libs/moment/moment.min.js"></script>
-    <script src="{{ main_siteurl }}/theme/libs/tooltip/popper.min.js"></script>
-    <script src="{{ main_siteurl }}/theme/libs/tooltip/tooltip.min.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            var calendarEl = document.getElementById('calendar');
-            var calendar = new FullCalendar.Calendar(calendarEl, {
-                schedulerLicenseKey: 'CC-Attribution-NonCommercial-NoDerivatives',
-                initialView: 'resourceTimeGridDay',
-                editable: false,
-                selectable: false,
-                dayMaxEvents: true,
-                allDaySlot: false,
-                dayMinWidth: 50,
-                height: 620,
-                eventClick: function(info) {
-                    window.open(info.event.url, '_blank').focus();
-                },
-                eventDidMount: function(info) {
-                    var tooltip = new Tooltip(info.el, {
-                        title: info.event.extendedProps.description,
-                        placement: 'top',
-                        trigger: 'hover',
-                        container: 'body'
-                    });
-                },
-                headerToolbar: {
-                    left: 'prev,next today',
-                    center: 'title',
-                    right: 'resourceTimeGridDay,resourceTimeGridTwoDay'
-                },
-                views: {
-                    resourceTimeGridTwoDay: {
-                        type: 'resourceTimeGrid',
-                        duration: { days: 2},
-                        buttonText: '2 days',
-                    }
-                },
-                initialDate: "{{ EVENT_START_DATE }}",
-                resources: {{ EVENT_TRACKS|safe }},
-                events: {{ EVENT_TALKS|safe }}
-            });
-
-            calendar.render();
-        });
-</script>
+    <script type="text/javascript" src="https://charlas.2022.es.pycon.org/pycones2022/schedule/widget/v2.en.js"></script>
 {% endblock extra_script %}
 
 
 {% block content %}
-<section class="section">
-    <div class="container">
-        <div id='calendar'></div>
-        <div class="box has-text-centered">
-            <a class="button is-medium button is-link" href="{{SITEURL}}/{{EVENTS_ICS_FNAME}}">Descargar ICalendar</a>
+
+<pretalx-schedule event-url="https://charlas.2022.es.pycon.org/pycones2022/" locale="es" format="grid" style="--pretalx-clr-primary: #3aa57c"></pretalx-schedule>
+<noscript>
+    <div class="pretalx-widget">
+        <div class="pretalx-widget-info-message">
+            JavaScript is disabled in your browser. To access our schedule without JavaScript,
+            please <a target="_blank" href="https://charlas.2022.es.pycon.org/pycones2022/schedule/">click here</a>.
         </div>
     </div>
-</section>
+</noscript>
+
+<div class="box has-text-centered">
+    <a download target="_blank" class="button is-medium button is-primary" href="https://charlas.2022.es.pycon.org/pycones2022/schedule/export/schedule.ics">Descargar ICal</a>
+    <a download target="_blank" class="button is-medium button is-link" href="https://charlas.2022.es.pycon.org/pycones2022/schedule/export/schedule.xcal">Descargar XCal</a>
+</div>
+
 {% endblock content %}
