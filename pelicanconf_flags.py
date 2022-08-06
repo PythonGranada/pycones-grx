@@ -54,3 +54,6 @@ ENABLED_JOBS = True
 
 # Habilita la sección del programa en la página principal
 ENABLED_SCHEDULE_INFO = True
+
+# Habilita sección con la información de Twitter
+ENABLED_TWITTER = True
