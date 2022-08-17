@@ -6,6 +6,7 @@ SPONSORS = [
         "level_name": "keystone",
         "title": "Keystone 🏆",
         "size": "270px",
+        "size_schedule": "500px",
         "order": 1,
         "members": [
             {
@@ -24,6 +25,7 @@ SPONSORS = [
         "level_name": "diamond",
         "title": "Diamante 💎",
         "size": "250px",
+        "size_schedule": "400px",
         "order": 2,
         "members": [
             {
@@ -72,6 +74,7 @@ SPONSORS = [
         "level_name": "platinum",
         "title": "Platino 💽",
         "size": "210px",
+        "size_schedule": "200px",
         "order": 3,
         "members": [
             {
@@ -115,6 +118,7 @@ SPONSORS = [
         "level_name": "gold",
         "title": "Oro 📀",
         "size": "180px",
+        "size_schedule": "200px",
         "order": 4,
         "members": [
             {

@@ -29,4 +29,25 @@
     <a download target="_blank" class="button is-medium button is-link" href="https://charlas.2022.es.pycon.org/pycones2022/schedule/export/schedule.xcal">Descargar XCal</a>
 </div>
 
+<section class="section">
+  <div class="container">
+{% for sponsor in SPONSORS %}
+    {% if sponsor['members'] and sponsor['level_name'] not in ['silver', 'friend'] %}
+        <h3 class="title is-3">{{ sponsor['title'] }}</h3>
+        <div class="sponsor_grid-container" style="grid-template-columns: repeat(auto-fill, minmax({{ sponsor['size_schedule'] }}, 1fr));">
+            {% for member in sponsor['members'] %}
+                <div class="sponsor_card">
+                    <a href="{{ member.url }}" target="_blank">
+                        <figure class="image is-4by3">
+                            <img src="{{SITEURL}}{{ member.photo }}" alt="{{ member.name }}">
+                        </figure>
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
+{% endfor %}
+  </div>
+</section>
+
 {% endblock content %}
