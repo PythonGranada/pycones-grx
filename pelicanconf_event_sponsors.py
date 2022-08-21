@@ -118,11 +118,6 @@ SPONSORS = [
         "order": 4,
         "members": [
             {
-                "name": "holaluz",
-                "photo": "/theme/images/sponsors/holaluz.png",
-                "url": "https://holaluz.com/",
-            },
-            {
                 "name": "Orbital Ads",
                 "photo": "/theme/images/sponsors/orbitalads.png",
                 "url": "https://www.orbitalads.com/",
@@ -185,6 +180,11 @@ SPONSORS = [
         "size": "150px",
         "order": 5,
         "members": [
+            {
+                "name": "holaluz",
+                "photo": "/theme/images/sponsors/holaluz.png",
+                "url": "https://holaluz.com/",
+            },
             {
                 "name": "Kaleidos",
                 "photo": "/theme/images/sponsors/kaleidos.png",
