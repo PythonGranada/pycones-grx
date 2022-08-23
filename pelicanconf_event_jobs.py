@@ -516,6 +516,28 @@ JOBS = [
         "url": "https://jobs.kairosds.com/jobs/data-engineer-con-spark-y-scala-ntq3ebb-22",
         "email": "talento@kairosds.com",
     },
+    {
+        "company_avatar": "/theme/images/jobs/alight.png",
+        "company_name": "Alight",
+        "position": "Data Scientist",
+        "description": "We are looking for a strong and motivated Data Scientist to support our growing AI team. If you have experience on Python, ML and statistics we are looking for you!",
+        "location": "Granada",
+        "skills": ["Python", "ML", "Statistics"],
+        "salary": "up to 40.000€",
+        "url": "",
+        "email": "",
+    },
+    {
+        "company_avatar": "/theme/images/jobs/alight.png",
+        "company_name": "Alight",
+        "position": "Automation Anywhere",
+        "description": "We are expanding our automation implementation team. If you have some experience in automation with Python come help us to create some cool robots!",
+        "location": "Granada",
+        "skills": ["Python"],
+        "salary": "up to 35.000€",
+        "url": "",
+        "email": "",
+    },
 ]
 
 random.shuffle(JOBS)
