@@ -524,7 +524,7 @@ JOBS = [
         "location": "Granada",
         "skills": ["Python", "ML", "Statistics"],
         "salary": "up to 40.000€",
-        "url": "",
+        "url": "https://careers.alight.com/us/en",
         "email": "",
     },
     {
@@ -535,7 +535,7 @@ JOBS = [
         "location": "Granada",
         "skills": ["Python"],
         "salary": "up to 35.000€",
-        "url": "",
+        "url": "https://careers.alight.com/us/en",
         "email": "",
     },
 ]
