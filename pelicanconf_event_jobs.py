@@ -602,7 +602,7 @@ JOBS = [
         "company_avatar": "/theme/images/jobs/cathedralsoftware.jpeg",
         "company_name": "Cathedral Software",
         "position": "Backend Developer",
-        "description": "Cathedral Software es una consultoría de software de rápido crecimiento involucrada, entre otros, en proyectos de Big Data y BI para empresas multinacionales. Para nosotros la innovación es la clave del éxito, por lo que fomentamos a nuestro equipo a hablar y contarnos su visión.",
+        "description": "Consultoría de software en plena expansión, involucrada, entre otros, en proyectos de Big Data y BI para empresas multinacionales. Buscamos constantemente personas responsables y dinámicas, apasionadas de las nuevas tecnologías y amantes del trabajo en equipo.",
         "location": "Remoto 100% ó Hibrida (Málaga)",
         "skills": [
             "Python 3",
@@ -622,7 +622,7 @@ JOBS = [
         "company_avatar": "/theme/images/jobs/cathedralsoftware.jpeg",
         "company_name": "Cathedral Software",
         "position": "Backend Developer",
-        "description": "Cathedral Software es una consultoría de software de rápido crecimiento involucrada, entre otros, en proyectos de Big Data y BI para empresas multinacionales. Para nosotros la innovación es la clave del éxito, por lo que fomentamos a nuestro equipo a hablar y contarnos su visión.",
+        "description": "Consultoría de software en plena expansión, involucrada, entre otros, en proyectos de Big Data y BI para empresas multinacionales. Buscamos constantemente personas responsables y dinámicas, apasionadas de las nuevas tecnologías y amantes del trabajo en equipo.",
         "location": "Remoto 100% ó Hibrida (Málaga)",
         "skills": [
             "React",
