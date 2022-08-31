@@ -621,7 +621,7 @@ JOBS = [
     {
         "company_avatar": "/theme/images/jobs/cathedralsoftware.jpeg",
         "company_name": "Cathedral Software",
-        "position": "Backend Developer",
+        "position": "Frontend Developer",
         "description": "Consultoría de software en plena expansión, involucrada, entre otros, en proyectos de Big Data y BI para empresas multinacionales. Buscamos constantemente personas responsables y dinámicas, apasionadas de las nuevas tecnologías y amantes del trabajo en equipo.",
         "location": "Remoto 100% ó Hibrida (Málaga)",
         "skills": [
