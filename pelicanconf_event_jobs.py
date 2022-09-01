@@ -714,7 +714,7 @@ JOBS = [
             "HDFS",
         ],
         "salary": "30.000€ - 50.000€",
-        "url": "https://www.linkedin.com/jobs/view/3237870143",
+        "url": "https://www.linkedin.com/jobs/view/3150132240",
         "email": "guillermo.perez@bluetab.net",
     },
 ]
