@@ -717,6 +717,67 @@ JOBS = [
         "url": "https://www.linkedin.com/jobs/view/3150132240",
         "email": "guillermo.perez@bluetab.net",
     },
+
+    {
+        "company_avatar": "/theme/images/jobs/kavehome.png",
+        "company_name": "KAVE HOME",
+        "position": "BACKEND DEVELOPER",
+        "description": "In KAVE TECH we are looking for a BACKEND DEVELOPER to join our team! Be part of a team of more than 30 people with a lot of freedom to develop their skills and with the aim of becoming the technological reference in the furniture and decoration industry.",
+        "location": "Remoto/híbrido",
+        "skills": [
+            "python",
+            "django",
+            "cloud",
+            "docker",
+            "kubernetes",
+            "GCloud",
+           
+        ],
+        "salary": "30.000€ - 50.000€",
+        "url": "https://jobs.kavehome.com/jobs/backend-developer-h-m",
+        "email": "amilena@kavehome.com",
+    },
+
+    {
+        "company_avatar": "/theme/images/jobs/kavehome.png",
+        "company_name": "KAVE HOME",
+        "position": "DATA PRODUCT MANAGER",
+        "description": "In KAVE TECH we are looking for a DATA PRODUCT MANAGER! You'll be responsible for defining the product strategy and its roadmap together with stakeholders, and optimising the resources of the team to guarantee the delivery of value.",
+        "location": "híbrido",
+        "skills": [
+            "Roadmap",
+            "Jira",
+            "Hitos",
+            "backlog",
+            "stakeholders",
+            "agile",
+            "mvp",
+           
+        ],
+        "salary": "30.000€ - 50.000€",
+        "url": "https://jobs.kavehome.com/jobs/data-product-manager",
+        "email": "amilena@kavehome.com",
+    },
+
+    {
+        "company_avatar": "/theme/images/jobs/kavehome.png",
+        "company_name": "KAVE HOME",
+        "position": "E-COMMERCE PRODUCT OWNER",
+        "description": "In KAVE TECH we are looking for an E-COMMERCE PRODUCT OWNER! You'll be responsible for defining the product strategy and its roadmap together with stakeholders, and optimising the resources of the team to guarantee the delivery of value.",
+        "location": "HIBRIDA",
+        "skills": [
+            "Roadmap",
+            "Agile",
+            "Jira",
+            "stakeholders",
+            "backlog",
+            "mvp",
+           
+        ],
+        "salary": "30.000€ - 50.000€",
+        "url": "https://jobs.kavehome.com/jobs/e-commerce-product-manager",
+        "email": "amilena@kavehome.com",
+    },
 ]
 
 random.shuffle(JOBS)
