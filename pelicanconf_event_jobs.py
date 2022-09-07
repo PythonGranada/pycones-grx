@@ -779,7 +779,7 @@ JOBS = [
         "email": "amilena@kavehome.com",
     },
     
-        {
+    {
         "company_avatar": "/theme/images/jobs/finnancialforce.png",
         "company_name": "FinancialForce",
         "position": "Software Engineer",
@@ -792,7 +792,6 @@ JOBS = [
             "TDD",
             "Agile",
             "AWS",
-           
         ],
         "salary": "24.000€ - 50.000€",
         "url": "https://jobs.jobvite.com/financialforce/job/o3BJjfwq",
@@ -811,7 +810,6 @@ JOBS = [
             "TDD",
             "Agile",
             "AWS",
-           
         ],
         "salary": "24.000€ - 50.000€",
         "url": "https://jobs.jobvite.com/financialforce/job/oFrIjfwR",
@@ -832,7 +830,6 @@ JOBS = [
             "Lightening Web Components",
             "TDD",
             "Agile",
-           
         ],
         "salary": "24.000€ - 50.000€",
         "url": "https://jobs.jobvite.com/financialforce/job/o82HkfwV",
