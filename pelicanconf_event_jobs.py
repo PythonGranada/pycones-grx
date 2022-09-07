@@ -778,6 +778,63 @@ JOBS = [
         "url": "https://jobs.kavehome.com/jobs/e-commerce-product-manager",
         "email": "amilena@kavehome.com",
     },
+    
+    {
+        "company_avatar": "/theme/images/jobs/finnancialforce.png",
+        "company_name": "FinancialForce",
+        "position": "Software Engineer",
+        "description": "We are looking for a Fullstack Software Engineer to join our growing team in Granada. If you enjoy learning new technologies and working in a supportive environment with a great culture this could be ideal for you!",
+        "location": "Hybrid model of working",
+        "skills": [
+            "Apex",
+            "Javascript",
+            "Lightening Web Components",
+            "TDD",
+            "Agile",
+            "AWS",
+        ],
+        "salary": "24.000€ - 50.000€",
+        "url": "https://jobs.jobvite.com/financialforce/job/o3BJjfwq",
+        "email": "rwetherell@financialforce.com",
+    },
+
+    {
+        "company_avatar": "/theme/images/jobs/finnancialforce.png",
+        "company_name": "FinancialForce",
+        "position": "Senior Software Engineer",
+        "description": "We are looking for an experienced Full Stack Software Engineer to join our growing team in Granada. If you enjoy learning new technologies and working in a supportive environment with a great culture this could be ideal for you!",
+        "location": "Hybrid model of working",
+        "skills": [
+            "Node.js",
+            "Javascript",
+            "TDD",
+            "Agile",
+            "AWS",
+        ],
+        "salary": "24.000€ - 50.000€",
+        "url": "https://jobs.jobvite.com/financialforce/job/oFrIjfwR",
+        "email": "rwetherell@financialforce.com",
+    },
+
+    {
+        "company_avatar": "/theme/images/jobs/finnancialforce.png",
+        "company_name": "FinancialForce",
+        "position": "Frontend Software Engineer",
+        "description": "We are looking for a Frontend Software Engineer to join our team in Granada, if you have a passion for User Experience and enjoy working with Javascript technologies this could be the ideal role for you!",
+        "location": "Hybrid model of working",
+        "skills": [
+            "Javascript",
+            "React",
+            "Vuejs",
+            "CSS",
+            "Lightening Web Components",
+            "TDD",
+            "Agile",
+        ],
+        "salary": "24.000€ - 50.000€",
+        "url": "https://jobs.jobvite.com/financialforce/job/o82HkfwV",
+        "email": "rwetherell@financialforce.com",
+    },
 ]
 
 random.shuffle(JOBS)
