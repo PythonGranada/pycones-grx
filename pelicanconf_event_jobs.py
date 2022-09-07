@@ -780,7 +780,7 @@ JOBS = [
     },
     
     {
-        "company_avatar": "/theme/images/jobs/finnancialforce.png",
+        "company_avatar": "/theme/images/jobs/financialforce.png",
         "company_name": "FinancialForce",
         "position": "Software Engineer",
         "description": "We are looking for a Fullstack Software Engineer to join our growing team in Granada. If you enjoy learning new technologies and working in a supportive environment with a great culture this could be ideal for you!",
@@ -799,7 +799,7 @@ JOBS = [
     },
 
     {
-        "company_avatar": "/theme/images/jobs/finnancialforce.png",
+        "company_avatar": "/theme/images/jobs/financialforce.png",
         "company_name": "FinancialForce",
         "position": "Senior Software Engineer",
         "description": "We are looking for an experienced Full Stack Software Engineer to join our growing team in Granada. If you enjoy learning new technologies and working in a supportive environment with a great culture this could be ideal for you!",
@@ -817,7 +817,7 @@ JOBS = [
     },
 
     {
-        "company_avatar": "/theme/images/jobs/finnancialforce.png",
+        "company_avatar": "/theme/images/jobs/financialforce.png",
         "company_name": "FinancialForce",
         "position": "Frontend Software Engineer",
         "description": "We are looking for a Frontend Software Engineer to join our team in Granada, if you have a passion for User Experience and enjoy working with Javascript technologies this could be the ideal role for you!",
