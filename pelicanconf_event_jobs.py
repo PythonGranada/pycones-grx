@@ -835,6 +835,34 @@ JOBS = [
         "url": "https://jobs.jobvite.com/financialforce/job/o82HkfwV",
         "email": "rwetherell@financialforce.com",
     },
+
+    {
+        "company_avatar": "/theme/images/jobs/nazaries.png",
+        "company_name": "nazaríes",
+        "position": "Desarrolldaor/a en Ruby on Rails",
+        "description": "Requisitos * Ser graduado/a en Ingeniería Informática o FP en Desarrollo Web +1 año de experiencia. *Inglés B2  * Experiencia de 1 año (valoramos candidaturas interesadas en conocer esta categoría) Conocimiento de otras tecnologías de programación web (NodeJS, PHP, MySQL,)",
+        "location": "Remota o Híbrida",
+        "skills": [
+            "RoR; ",
+        ],
+        "salary": "20.000€ - 40.000€",
+        "url": "https://www.nazaries.com/empleo/",
+        "email": "peopleandvalues@nazaries.com",
+    },
+    
+    {
+        "company_avatar": "/theme/images/jobs/nazaries.png",
+        "company_name": "nazaríes",
+        "position": "Desarrollar/a FrontEnd React",
+        "description": " Actualmente estamos buscando a un Programador/a React Native y ReactJS para que se incorpore a nuestro equipo de desarrollo. Requisitos: * Experiencia mínima de 2 años con React Native y ReactJS * Conocimientos de JavaScript y TypeScript",
+        "location": "Remota o Híbrida",
+        "skills": [
+            "React / ReactNative",
+        ],
+        "salary": "20.000€ - 40.000€",
+        "url": "https://www.nazaries.com/empleo/",
+        "email": "peopleandvalues@nazaries.com",
+    },
 ]
 
 random.shuffle(JOBS)
