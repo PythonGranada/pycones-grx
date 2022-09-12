@@ -863,6 +863,59 @@ JOBS = [
         "url": "https://www.nazaries.com/empleo/",
         "email": "peopleandvalues@nazaries.com",
     },
+
+    {
+        "company_avatar": "/theme/images/jobs/orbitalads.png",
+        "company_name": "OrbitalAds",
+        "position": "Frontend React Developer",
+        "description": "We're growing the Engineering team, and you can be a part of that journey. We are a diverse team of passionate problem-solvers, optimizing the performance of search campaigns and accounts through the automation of keywords management and other campaign quality optimizations.",
+        "location": "remote | Madrid y remote",
+        "skills": [
+            "Strong knowledge of modern/vanilla Javascript",
+            "Experience with React",
+            "Prior experience with Typescript",
+            "Used CSS-in-JS",
+        ],
+        "salary": "35.000€ - 45.000€",
+        "url": "https://www.orbitalads.com/about-us",
+        "email": "david.prior@orbitalads.com",
+    },
+
+    {
+        "company_avatar": "/theme/images/jobs/orbitalads.png",
+        "company_name": "OrbitalAds",
+        "position": "PYTHON ENGINEER",
+        "description": "We're growing the Engineering team, and you can be a part of that journey. We are a diverse team of passionate problem-solvers, optimizing the performance of search campaigns and accounts through the automation of keywords management and other campaign quality optimizations.",
+        "location": "remote | Madrid y remote",
+        "skills": [
+            "Python",
+            "Google Clod Platform: Cloud Run / Python Cloud Functions / Kubernetes Jobs BigQuery",
+            "FireStore",
+            "BigTable",
+            "API",
+        ],
+        "salary": "30.000€ - 40.000€",
+        "url": "https://www.orbitalads.com/about-us",
+        "email": "david.prior@orbitalads.com",
+    },
+
+    {
+        "company_avatar": "/theme/images/jobs/orbitalads.png",
+        "company_name": "OrbitalAds",
+        "position": "SENIOR PYTHON ENGINEER",
+        "description": "We're growing the Engineering team, and you can be a part of that journey. We are a diverse team of passionate problem-solvers, optimizing the performance of search campaigns and accounts through the automation of keywords management and other campaign quality optimizations.",
+        "location": "remote | Madrid y remote",
+        "skills": [
+            "Python",
+            "Google Clod Platform: Cloud Run / Python Cloud Functions / Kubernetes Jobs BigQuery",
+            "FireStore",
+            "BigTable",
+            "API",
+        ],
+        "salary": "35.000€ - 45.000€",
+        "url": "https://www.orbitalads.com/about-us",
+        "email": "david.prior@orbitalads.com",
+    },
 ]
 
 random.shuffle(JOBS)
