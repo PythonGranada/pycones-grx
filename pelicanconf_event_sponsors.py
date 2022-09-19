@@ -241,7 +241,7 @@ SPONSORS = [
             },
             {
                 "name": "Singular",
-                "photo": "/theme/images/sponsors/Singular logo Positive.svg",
+                "photo": "/theme/images/sponsors/singular.png",
                 "url": "https://www.sngular.com/es/",
             },
         ],
