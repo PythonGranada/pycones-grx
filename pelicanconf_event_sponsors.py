@@ -239,6 +239,11 @@ SPONSORS = [
                 "photo": "/theme/images/sponsors/joor.png",
                 "url": "https://www.joor.com/",
             },
+            {
+                "name": "Singular",
+                "photo": "/theme/images/sponsors/Singular logo Positive.svg",
+                "url": "https://www.sngular.com/es/",
+            },
         ],
     },
     {
