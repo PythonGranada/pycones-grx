@@ -242,7 +242,7 @@ SPONSORS = [
             {
                 "name": "Singular",
                 "photo": "/theme/images/sponsors/singular.png",
-                "url": "https://www.sngular.com/es/",
+                "url": "https://www.sngular.com/es/careers-home/?utm_source=Pyconf+Web&utm_medium=Logo&utm_campaign=Pyconf+2022&utm_id=0001",
             },
         ],
     },
