@@ -263,6 +263,11 @@ SPONSORS = [
                 "url": "https://www.granada.org/",
             },
             {
+                "name": "Facultad de Medicina, UGR",
+                "photo": "/theme/images/sponsors/facultad_medicina_ugr.png",
+                "url": "https://medicina.ugr.es",
+            },
+            {
                 "name": "Coviran",
                 "photo": "/theme/images/sponsors/coviran.png",
                 "url": "https://www.coviran.es/",
