@@ -45,6 +45,7 @@ MENUITEMS_NAVBAR = {
     "La ciudad": {"Granada": "/pages/granada.html"},
     "Organización": {"Equipo": "/organizers.html"},
     "Código de Conducta": "/pages/code-of-conduct.html",
+    "Mapa": "/mapa.html",
 }
 
 if ENABLED_SPEAKERS:
