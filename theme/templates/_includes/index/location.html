@@ -4,4 +4,41 @@
 <section class="map-section">
     <iframe src="{{ MAP_IFRAME_LINK }}" id="map" loading="lazy" title="Parque Tecnológico de la Salud"></iframe>
 </section>
+
+
+<div class="container" id="app">
+<div id="image-modal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-content">
+    <div class="modal-card">
+    <header class="modal-card-head">
+    <p class="modal-card-title">Mapa del espacio</p>
+    </header>
+    <section class="modal-card-body">
+        <p class="image is-4by3">
+            <img src="./images/mapa_conferencia.png?style=centerme" alt="">
+          </p>
+    </section>
+</div>
+    </div>
+    <button id="image-modal-close" class="modal-close"></button>
+</div>
+    <button class="button is-primary is-medium" id="showModal">Ver mapa de los espacios interiores</button>
+</div>
+
 <br>
+<hr>
+
+<script>
+    var btn = document.querySelector('#showModal');
+var modalDlg = document.querySelector('#image-modal');
+var imageModalCloseBtn = document.querySelector('#image-modal-close');
+btn.addEventListener('click', function(){
+  modalDlg.classList.add('is-active');
+});
+
+imageModalCloseBtn.addEventListener('click', function(){
+  modalDlg.classList.remove('is-active');
+});
+
+</script>
