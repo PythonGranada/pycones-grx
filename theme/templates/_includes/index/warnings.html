@@ -1,0 +1,7 @@
+<h2 class="title is-2">Avisos importantes ⚠️</h2>
+
+{% for warning in EVAENT_WARNINGS %}
+    <div class="notification {{warning.color}}">
+        {{warning.message}}
+    </div>
+{% endfor %}

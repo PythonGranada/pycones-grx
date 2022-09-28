@@ -8,7 +8,7 @@
 LANDING_MODE = False
 
 # Habilita links a la tienda de las entradas del evento.
-ENABLED_TICKETS = True
+ENABLED_TICKETS = False
 
 # Habilita bloque que hace la llamada a los ponentes.
 ENABLED_CALL_FOR_PAPERS = False

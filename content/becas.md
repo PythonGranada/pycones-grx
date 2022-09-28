@@ -3,7 +3,7 @@ Slug: becas
 Date: 2022-04-29 14:20
 Category: becas y ayudas
 Extract: Desde la comunidad de PyConES queremos facilitar al máximo la asistencia a esta convención de todas las personas que tengan alguna dificultad en este momento y por este motivo se ha decidido dedicar una parte de nuestros recursos en Becas para las personas que lo necesiten. Plazo postulación hasta el 15 de Julio.
-Highlight: True
+Highlight: False
 
 Desde la comunidad de PyConES queremos facilitar al máximo la asistencia a esta convención de todas las personas que tengan alguna dificultad en este momento y por este motivo se ha decidido dedicar una parte de nuestros recursos en Becas para las personas que lo necesiten.
 
