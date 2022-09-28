@@ -92,7 +92,13 @@ EVENT_TALKS = json.dumps(
     ]
 )
 
-EVAENT_WARNINGS=[{
+EVAENT_WARNINGS=[
+    {
     "message": "Ya queda nada para dar comienzo al evento, mandamos un cariñoso saludo a todas las personas que hacen que esto ocurra. 😽 🎉",
     "color": "is-info" # "is-warning, is-success, is-danger,  is-info"
-}]
+    },
+    {
+    "message": "Ya queda nada para dar comienzo al evento, mandamos un cariñoso saludo a todas las personas que hacen que esto ocurra. 😽 🎉",
+    "color": "is-danger" # "is-warning, is-success, is-danger,  is-info"
+    },
+]

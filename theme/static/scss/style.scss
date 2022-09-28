@@ -264,6 +264,13 @@ div.column.is-8:first-child {
   }
 }
 
+.warning-element{
+  margin-top: 0px;
+  height:auto;
+  padding:5px;
+  margin-bottom: 0 !important;
+}
+
 // Ios
 @supports (-webkit-touch-callout: none) {
   #cover-image-grx {
