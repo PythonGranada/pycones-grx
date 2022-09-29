@@ -998,7 +998,6 @@ JOBS = [
         "salary": "55.000€ - 90.000€",
         "url": "https://grnh.se/bbaa59ae1us",
     },
-
     {
         "company_avatar": "/theme/images/jobs/datadog.png",
         "company_name": "Datadog",
@@ -1017,6 +1016,81 @@ JOBS = [
         ],
         "salary": "90.000€ - 110.000€",
         "url": "https://grnh.se/947d3f931us",
+    },
+    ###
+        {
+        "company_avatar": "/theme/images/jobs/twilio.jpeg",
+        "company_name": "Twilio",
+        "position": "Software Engineer - Data Engineer",
+        "description": "We are looking for someone who is passionate about solving problems using engineering and data, thrives in an evolving environment, brings an enthusiastic and collaborative attitude, and delights in making a difference.",
+        "location": "Remote Spain",
+        "skills": [
+            "Python", "Scala", "Java", "other language", "SQL", "Kafka", "Spark", "Hive", "Presto", "Hadoop"
+        ],
+        "salary": "40400 EUR - 50500 EUR",
+        "url": "https://boards.greenhouse.io/twilio/jobs/4555806",
+    },
+    {
+        "company_avatar": "/theme/images/jobs/twilio.jpeg",
+        "company_name": "Twilio",
+        "position": "Staff, Data Engineer",
+        "description": "We are looking for Senior Data Engineer who is passionate about solving problems using engineering and data, thrives in an evolving environment, brings an enthusiastic and collaborative attitude, and delights in making a difference.",
+        "location": "Remote Spain",
+        "skills": [
+            "Python", "Scala", "Java", "other language", "SQL", "Kafka", "Spark", "Hive", "Presto", "Hadoop", "Docker", "Kubernetes"
+        ],
+        "salary": "71200 EUR - 89000 EUR",
+        "url": "https://boards.greenhouse.io/twilio/jobs/4536469",
+    },
+    {
+        "company_avatar": "/theme/images/jobs/twilio.jpeg",
+        "company_name": "Twilio",
+        "position": "Software Engineer - Flex SDK",
+        "description": "This position is needed to bring the programmability of Flex to the next level. If you are eager to build great services and learn a lot on the go, come join the Flex SDK team!",
+        "location": "Remote Spain",
+        "skills": [
+             "Java and/or JS/TS", "Kafka", "Rest API"
+        ],
+        "salary": "53600 EUR - 67000 EUR",
+        "url": "https://boards.greenhouse.io/twilio/jobs/4322526",
+    },
+    {
+        "company_avatar": "/theme/images/jobs/badger.jpeg",
+        "company_name": "Badger Maps",
+        "position": "Mid Level Software Engineer",
+        "description": "We're looking for a Mid-level Engineer 3+ years to join our amazing team! Expect: bug fixing & testing, developing new features, leading engineering projects | We offer: Flexi-time, Remote, English/Spanish Lessons, Learning Allowance, Latest Equipment, Chance to travel to the US",
+        "location": "Remote/ Hybrid/ In office",
+        "skills": [
+             "Python", "Django", "Celery", "Node.js", "React", "PostgreSQL", "Agile", "TDD", "DDD", "Clean Architecture"
+        ],
+        "salary": "32000 - 37000 €",
+        "url": "https://www.badgermapping.com/career-page/",
+        "email": "recruiting@badgermapping.com"
+    },
+    {
+        "company_avatar": "/theme/images/jobs/badger.jpeg",
+        "company_name": "Badger Maps",
+        "position": "Senior Software Engineer",
+        "description": "We're looking for a Senior Developer (5+ years) to join our amazing team! Expect: developing new features, leading engineering projects, coaching opportunities| We offer: Flexi-time, Remote, English/Spanish Lessons, Learning Allowance, Latest Equipment, Chance to travel to the US",
+        "location": "Remote/ Hybrid/ In office",
+        "skills": [
+             "Python", "Django", "Celery", "Node.js", "React", "PostgreSQL", "Agile", "TDD", "DDD", "AWS"
+        ],
+        "salary": "45000-50000 €",
+        "url": "https://www.badgermapping.com/career-page/",
+        "email": "recruiting@badgermapping.com"
+    },
+    {
+        "company_avatar": "/theme/images/jobs/perkin.jpg",
+        "company_name": "PerkinElmer",
+        "position": "Sr. FullStack Software Engineer for Analytics",
+        "description": "We are looking for Sr. Full-Stack engineers to work within a multidisciplinary team of software engineers and scientists. You will contribute to create the next generation of platforms to support life science scientific discoveries",
+        "location": "Remote",
+        "skills": [
+             ".NET", "C#", "React", "JS", "Python", "Data Viz", "English"
+        ],
+        "salary": "39.000 EUR - 58.000 EUR",
+        "url": "https://jobs.perkinelmer.com/job/armilla/sr-fullstack-software-engineer/20539/31105151280",
     },
 
 ]
