@@ -630,8 +630,7 @@ JOBS = [
             "Angular 4+",
             "Git",
             "HTML y CSS",
-            "TailwindCSS or Bootstrap 3+"
-            "Postman",
+            "TailwindCSS or Bootstrap 3+" "Postman",
             "Insomnia",
             "Agile",
         ],
@@ -639,7 +638,6 @@ JOBS = [
         "url": "https://es.indeed.com/cmp/Cathedral-Software-Sl/jobs?jk=b8ccbd3acaf18bf0&start=0",
         "email": "people@cathedralsw.com",
     },
-
     {
         "company_avatar": "/theme/images/jobs/bluetab.png",
         "company_name": "Bluetab, an IBM Company",
@@ -652,8 +650,7 @@ JOBS = [
             "Flask",
             "Django",
             "SQL",
-            "MySQL"
-            "Oracle",
+            "MySQL" "Oracle",
             "DevOps",
             "Docker",
             "Kubernetes",
@@ -664,7 +661,6 @@ JOBS = [
         "url": "https://www.linkedin.com/jobs/view/3237870143",
         "email": "guillermo.perez@bluetab.net",
     },
-
     {
         "company_avatar": "/theme/images/jobs/bluetab.png",
         "company_name": "Bluetab, an IBM Company",
@@ -677,8 +673,7 @@ JOBS = [
             "PySpark",
             "Cloud",
             "AWS",
-            "Azure"
-            "SQL",
+            "Azure" "SQL",
             "Big Data",
             "Databricks",
             "Hadoop",
@@ -702,8 +697,7 @@ JOBS = [
             "Python",
             "Cloud",
             "Big Data",
-            "Scala"
-            "Spark",
+            "Scala" "Spark",
             "EMR",
             "S3",
             "CI/CD",
@@ -717,27 +711,17 @@ JOBS = [
         "url": "https://www.linkedin.com/jobs/view/3150132240",
         "email": "guillermo.perez@bluetab.net",
     },
-
     {
         "company_avatar": "/theme/images/jobs/kavehome.png",
         "company_name": "KAVE HOME",
         "position": "BACKEND DEVELOPER",
         "description": "In KAVE TECH we are looking for a BACKEND DEVELOPER to join our team! Be part of a team of more than 30 people with a lot of freedom to develop their skills and with the aim of becoming the technological reference in the furniture and decoration industry.",
         "location": "Remoto/híbrido",
-        "skills": [
-            "python",
-            "django",
-            "cloud",
-            "docker",
-            "kubernetes",
-            "GCloud",
-           
-        ],
+        "skills": ["python", "django", "cloud", "docker", "kubernetes", "GCloud",],
         "salary": "30.000€ - 50.000€",
         "url": "https://jobs.kavehome.com/jobs/backend-developer-h-m",
         "email": "amilena@kavehome.com",
     },
-
     {
         "company_avatar": "/theme/images/jobs/kavehome.png",
         "company_name": "KAVE HOME",
@@ -752,33 +736,22 @@ JOBS = [
             "stakeholders",
             "agile",
             "mvp",
-           
         ],
         "salary": "30.000€ - 50.000€",
         "url": "https://jobs.kavehome.com/jobs/data-product-manager",
         "email": "amilena@kavehome.com",
     },
-
     {
         "company_avatar": "/theme/images/jobs/kavehome.png",
         "company_name": "KAVE HOME",
         "position": "E-COMMERCE PRODUCT OWNER",
         "description": "In KAVE TECH we are looking for an E-COMMERCE PRODUCT OWNER! You'll be responsible for defining the product strategy and its roadmap together with stakeholders, and optimising the resources of the team to guarantee the delivery of value.",
         "location": "HIBRIDA",
-        "skills": [
-            "Roadmap",
-            "Agile",
-            "Jira",
-            "stakeholders",
-            "backlog",
-            "mvp",
-           
-        ],
+        "skills": ["Roadmap", "Agile", "Jira", "stakeholders", "backlog", "mvp",],
         "salary": "30.000€ - 50.000€",
         "url": "https://jobs.kavehome.com/jobs/e-commerce-product-manager",
         "email": "amilena@kavehome.com",
     },
-    
     {
         "company_avatar": "/theme/images/jobs/financialforce.png",
         "company_name": "FinancialForce",
@@ -797,25 +770,17 @@ JOBS = [
         "url": "https://jobs.jobvite.com/financialforce/job/o3BJjfwq",
         "email": "rwetherell@financialforce.com",
     },
-
     {
         "company_avatar": "/theme/images/jobs/financialforce.png",
         "company_name": "FinancialForce",
         "position": "Senior Software Engineer",
         "description": "We are looking for an experienced Full Stack Software Engineer to join our growing team in Granada. If you enjoy learning new technologies and working in a supportive environment with a great culture this could be ideal for you!",
         "location": "Hybrid model of working",
-        "skills": [
-            "Node.js",
-            "Javascript",
-            "TDD",
-            "Agile",
-            "AWS",
-        ],
+        "skills": ["Node.js", "Javascript", "TDD", "Agile", "AWS",],
         "salary": "24.000€ - 50.000€",
         "url": "https://jobs.jobvite.com/financialforce/job/oFrIjfwR",
         "email": "rwetherell@financialforce.com",
     },
-
     {
         "company_avatar": "/theme/images/jobs/financialforce.png",
         "company_name": "FinancialForce",
@@ -835,35 +800,28 @@ JOBS = [
         "url": "https://jobs.jobvite.com/financialforce/job/o82HkfwV",
         "email": "rwetherell@financialforce.com",
     },
-
     {
         "company_avatar": "/theme/images/jobs/nazaries.png",
         "company_name": "nazaríes",
         "position": "Desarrolldaor/a en Ruby on Rails",
         "description": "Requisitos * Ser graduado/a en Ingeniería Informática o FP en Desarrollo Web +1 año de experiencia. *Inglés B2  * Experiencia de 1 año (valoramos candidaturas interesadas en conocer esta categoría) Conocimiento de otras tecnologías de programación web (NodeJS, PHP, MySQL,)",
         "location": "Remota o Híbrida",
-        "skills": [
-            "RoR; ",
-        ],
+        "skills": ["RoR; ",],
         "salary": "20.000€ - 40.000€",
         "url": "https://www.nazaries.com/empleo/",
         "email": "peopleandvalues@nazaries.com",
     },
-    
     {
         "company_avatar": "/theme/images/jobs/nazaries.png",
         "company_name": "nazaríes",
         "position": "Desarrollar/a FrontEnd React",
         "description": " Actualmente estamos buscando a un Programador/a React Native y ReactJS para que se incorpore a nuestro equipo de desarrollo. Requisitos: * Experiencia mínima de 2 años con React Native y ReactJS * Conocimientos de JavaScript y TypeScript",
         "location": "Remota o Híbrida",
-        "skills": [
-            "React / ReactNative",
-        ],
+        "skills": ["React / ReactNative",],
         "salary": "20.000€ - 40.000€",
         "url": "https://www.nazaries.com/empleo/",
         "email": "peopleandvalues@nazaries.com",
     },
-
     {
         "company_avatar": "/theme/images/jobs/orbitalads.png",
         "company_name": "OrbitalAds",
@@ -880,7 +838,6 @@ JOBS = [
         "url": "https://www.orbitalads.com/about-us",
         "email": "david.prior@orbitalads.com",
     },
-
     {
         "company_avatar": "/theme/images/jobs/orbitalads.png",
         "company_name": "OrbitalAds",
@@ -898,7 +855,6 @@ JOBS = [
         "url": "https://www.orbitalads.com/about-us",
         "email": "david.prior@orbitalads.com",
     },
-
     {
         "company_avatar": "/theme/images/jobs/orbitalads.png",
         "company_name": "OrbitalAds",
@@ -916,7 +872,6 @@ JOBS = [
         "url": "https://www.orbitalads.com/about-us",
         "email": "david.prior@orbitalads.com",
     },
-
     {
         "company_avatar": "/theme/images/jobs/datadog.png",
         "company_name": "Datadog",
@@ -936,7 +891,6 @@ JOBS = [
         "salary": "55.000€ - 90.000€",
         "url": "https://grnh.se/bb3c05d91us",
     },
-
     {
         "company_avatar": "/theme/images/jobs/datadog.png",
         "company_name": "Datadog",
@@ -954,7 +908,6 @@ JOBS = [
         "salary": "55.000€ - 90.000€",
         "url": "https://grnh.se/aae5847d1us",
     },
-
     {
         "company_avatar": "/theme/images/jobs/datadog.png",
         "company_name": "Datadog",
@@ -975,7 +928,6 @@ JOBS = [
         "salary": "55.000€ - 90.000€",
         "url": "https://grnh.se/97a84d421us",
     },
-
     {
         "company_avatar": "/theme/images/jobs/datadog.png",
         "company_name": "Datadog",
@@ -1018,14 +970,23 @@ JOBS = [
         "url": "https://grnh.se/947d3f931us",
     },
     ###
-        {
+    {
         "company_avatar": "/theme/images/jobs/twilio.jpeg",
         "company_name": "Twilio",
         "position": "Software Engineer - Data Engineer",
         "description": "We are looking for someone who is passionate about solving problems using engineering and data, thrives in an evolving environment, brings an enthusiastic and collaborative attitude, and delights in making a difference.",
         "location": "Remote Spain",
         "skills": [
-            "Python", "Scala", "Java", "other language", "SQL", "Kafka", "Spark", "Hive", "Presto", "Hadoop"
+            "Python",
+            "Scala",
+            "Java",
+            "other language",
+            "SQL",
+            "Kafka",
+            "Spark",
+            "Hive",
+            "Presto",
+            "Hadoop",
         ],
         "salary": "40400 EUR - 50500 EUR",
         "url": "https://boards.greenhouse.io/twilio/jobs/4555806",
@@ -1037,7 +998,18 @@ JOBS = [
         "description": "We are looking for Senior Data Engineer who is passionate about solving problems using engineering and data, thrives in an evolving environment, brings an enthusiastic and collaborative attitude, and delights in making a difference.",
         "location": "Remote Spain",
         "skills": [
-            "Python", "Scala", "Java", "other language", "SQL", "Kafka", "Spark", "Hive", "Presto", "Hadoop", "Docker", "Kubernetes"
+            "Python",
+            "Scala",
+            "Java",
+            "other language",
+            "SQL",
+            "Kafka",
+            "Spark",
+            "Hive",
+            "Presto",
+            "Hadoop",
+            "Docker",
+            "Kubernetes",
         ],
         "salary": "71200 EUR - 89000 EUR",
         "url": "https://boards.greenhouse.io/twilio/jobs/4536469",
@@ -1048,9 +1020,7 @@ JOBS = [
         "position": "Software Engineer - Flex SDK",
         "description": "This position is needed to bring the programmability of Flex to the next level. If you are eager to build great services and learn a lot on the go, come join the Flex SDK team!",
         "location": "Remote Spain",
-        "skills": [
-             "Java and/or JS/TS", "Kafka", "Rest API"
-        ],
+        "skills": ["Java and/or JS/TS", "Kafka", "Rest API"],
         "salary": "53600 EUR - 67000 EUR",
         "url": "https://boards.greenhouse.io/twilio/jobs/4322526",
     },
@@ -1061,11 +1031,20 @@ JOBS = [
         "description": "We're looking for a Mid-level Engineer 3+ years to join our amazing team! Expect: bug fixing & testing, developing new features, leading engineering projects | We offer: Flexi-time, Remote, English/Spanish Lessons, Learning Allowance, Latest Equipment, Chance to travel to the US",
         "location": "Remote/ Hybrid/ In office",
         "skills": [
-             "Python", "Django", "Celery", "Node.js", "React", "PostgreSQL", "Agile", "TDD", "DDD", "Clean Architecture"
+            "Python",
+            "Django",
+            "Celery",
+            "Node.js",
+            "React",
+            "PostgreSQL",
+            "Agile",
+            "TDD",
+            "DDD",
+            "Clean Architecture",
         ],
         "salary": "32000 - 37000 €",
         "url": "https://www.badgermapping.com/career-page/",
-        "email": "recruiting@badgermapping.com"
+        "email": "recruiting@badgermapping.com",
     },
     {
         "company_avatar": "/theme/images/jobs/badger.jpeg",
@@ -1074,11 +1053,20 @@ JOBS = [
         "description": "We're looking for a Senior Developer (5+ years) to join our amazing team! Expect: developing new features, leading engineering projects, coaching opportunities| We offer: Flexi-time, Remote, English/Spanish Lessons, Learning Allowance, Latest Equipment, Chance to travel to the US",
         "location": "Remote/ Hybrid/ In office",
         "skills": [
-             "Python", "Django", "Celery", "Node.js", "React", "PostgreSQL", "Agile", "TDD", "DDD", "AWS"
+            "Python",
+            "Django",
+            "Celery",
+            "Node.js",
+            "React",
+            "PostgreSQL",
+            "Agile",
+            "TDD",
+            "DDD",
+            "AWS",
         ],
         "salary": "45000-50000 €",
         "url": "https://www.badgermapping.com/career-page/",
-        "email": "recruiting@badgermapping.com"
+        "email": "recruiting@badgermapping.com",
     },
     {
         "company_avatar": "/theme/images/jobs/perkin.jpg",
@@ -1086,13 +1074,39 @@ JOBS = [
         "position": "Sr. FullStack Software Engineer for Analytics",
         "description": "We are looking for Sr. Full-Stack engineers to work within a multidisciplinary team of software engineers and scientists. You will contribute to create the next generation of platforms to support life science scientific discoveries",
         "location": "Remote",
-        "skills": [
-             ".NET", "C#", "React", "JS", "Python", "Data Viz", "English"
-        ],
+        "skills": [".NET", "C#", "React", "JS", "Python", "Data Viz", "English"],
         "salary": "39.000 EUR - 58.000 EUR",
         "url": "https://jobs.perkinelmer.com/job/armilla/sr-fullstack-software-engineer/20539/31105151280",
     },
-
+    {
+        "company_avatar": "/theme/images/jobs/perkin.jpg",
+        "company_name": "PerkinElmer",
+        "position": "Sr FullStack Software Engineer Life Science",
+        "description": "We are developing next-generation platforms that will accelerate the discovery of disease therapies and improve human health. If you are a full-stack software engineer not afraid of new challenges and curious about science, we would like to know about you.",
+        "location": "Remote",
+        "skills": [".NET", "C#", "React", "Python", "Data Viz", "English"],
+        "salary": "39.000 EUR - 58,000 EUR",
+        "url": "https://jobs.perkinelmer.com/job/armilla/sr-fullstack-software-engineer/20539/31105151280",
+    },
+    {
+        "company_avatar": "/theme/images/jobs/perkin.jpg",
+        "company_name": "PerkinElmer",
+        "position": "Sr FullStack Software Engineer Data Platform",
+        "description": "We are developing next-generation platforms that will accelerate the discovery of disease therapies and improve human health. If you are a full-stack software engineer not afraid of new challenges and curious about science, we would like to know about you.",
+        "location": "Remote",
+        "skills": [
+            "Node.js",
+            "React",
+            "AWS",
+            "Kubernetes",
+            "Spark",
+            "Kafka",
+            "Elasticsearch",
+            "English",
+        ],
+        "salary": "39.000 EUR - 58.000 EUR",
+        "url": "https://jobs.perkinelmer.com/job/madrid/senior-full-stack-software-engineer-remote-spain/20539/28530498208",
+    },
 ]
 
-random.shuffle(JOBS)
+# random.shuffle(JOBS)
