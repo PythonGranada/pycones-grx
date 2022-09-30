@@ -1109,4 +1109,4 @@ JOBS = [
     },
 ]
 
-# random.shuffle(JOBS)
+random.shuffle(JOBS)
