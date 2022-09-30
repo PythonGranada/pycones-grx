@@ -94,7 +94,7 @@ EVENT_TALKS = json.dumps(
 
 EVENT_WARNINGS = [
     {
-    "message": "Ya queda nada para dar comienzo al evento, mandamos un cariñoso saludo a todas las personas que hacen que esto ocurra. 😽 🎉",
-    "color": "is-info" # "is-warning, is-success, is-danger,  is-info"
+        "message": "El gran día ha llegado, a partir de las 14:30 el equipo estará preparado para acreditar a los asistente. Preparad vuestras entradas 🎟",
+        "color": "is-info",  # "is-warning, is-success, is-danger,  is-info"
     }
 ]
