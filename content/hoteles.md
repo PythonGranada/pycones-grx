@@ -3,7 +3,7 @@ Slug: hoteles
 Date: 2022-01-30 18:20
 Category: alojamiento
 Extract: ¿Estás organizando tu viaje para la PyConES y no sabes donde alojarte?
-Highlight: True
+Highlight: False
 
 
 A continuación te ofrecemos algunos alojamientos con descuento exclusivo para los participantes del evento.
