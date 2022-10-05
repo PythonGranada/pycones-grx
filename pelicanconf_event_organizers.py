@@ -276,4 +276,19 @@ TEAM = [
     },
 ]
 
+VOLUNTEERS = [
+    "Alejandro Manzanares",
+    "Ariadna Cervilla",
+    "Carmen Guidet",
+    "Gisela Lorenzo",
+    "Ignasi Camacho",
+    "Inés Jiménez",
+    "Juan Diego Mariscal",
+    "María Sánchez",
+    "Paula Ruiz",
+    "Taxo Rubio",
+    "Violeta Martín",
+    "Ángela Pozo"
+]
+
 random.shuffle(TEAM)
