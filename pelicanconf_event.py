@@ -47,9 +47,9 @@ COOKIES_SCRIPT = "https://cdn.jsdelivr.net/npm/cookie-bar/cookiebar-latest.min.j
 MAILJET_IFRAME_URL = "https://app.mailjet.com/widget/iframe/5JG8/Lxz"
 MAILJET_TOKEN = "e61aa81ed6e82c8d70abd453dfe74bde"
 
-GOOGLE_PHOTOS_URL = "https://photos.app.goo.gl/a5c7f5DmyjLExXhL7"
-GOOGLE_PHOTOS_TITLE = "PyConEs GRX"
-GOOGLE_PHOTOS_DESCRIPTION = "PyConEs GRX"
+GOOGLE_PHOTOS_URL = "https://photos.app.goo.gl/pw7cdCbHHKwziDDL8"
+GOOGLE_PHOTOS_TITLE = "PyCon ES 2022"
+GOOGLE_PHOTOS_DESCRIPTION = "PyCon ES 2022"
 
 
 WALLPAPERS = [
