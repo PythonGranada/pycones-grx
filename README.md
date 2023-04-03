@@ -108,7 +108,7 @@ La web cuenta con un sistema de despliegue continuo, de forma que cada cambio (c
 
 ## Guía para contribuir
 
-1. Crea un fork de este repositorio en tu cuenta personal de GitHib.
+1. Crea un fork de este repositorio en tu cuenta personal de GitHub.
 2. Puedes visualizar tu clone de la web, si habilitas la opción ghpages en la rama ``gh-pages``.
 
 ![](https://github.com/PythonGranada/pycones-grx/blob/main/readme_images/ghpages.png?raw=true)
