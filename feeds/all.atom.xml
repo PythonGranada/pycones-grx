@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PyConES 2022 GRX</title><link href="https://2022.es.pycon.org/" rel="alternate"></link><link href="https://2022.es.pycon.org/feeds/all.atom.xml" rel="self"></link><id>https://2022.es.pycon.org/</id><updated>2022-10-04T18:30:00+02:00</updated><entry><title>Elaboración del programa</title><link href="https://2022.es.pycon.org/elaboracion-programa.html" rel="alternate"></link><published>2022-10-04T18:30:00+02:00</published><updated>2022-10-04T18:30:00+02:00</updated><author><name>Python España</name></author><id>tag:2022.es.pycon.org,2022-10-04:/elaboracion-programa.html</id><summary type="html">&lt;p&gt;Proceso de revisión y elaboración del programa&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Proceso de revisión y elaboración del programa&lt;/h1&gt;
+&lt;p&gt;En toda conferencia donde se admiten propuestas hay al menos dos fases: 1) revisión y 2) elaboración del programa.&lt;/p&gt;
+&lt;p&gt;La revisión la lleva a cabo un "comité de expertos/as" que en nuestro caso estará formado por todas las personas que se han ofrecido desinteresadamente entre las comunidades de Python en España. Esta revisión es a ciegas, es decir, el equipo de revisión no sabrá quiénes son las personas que proponen esa charla o taller.&lt;/p&gt;
+&lt;p&gt;La elaboración del programa generalmente la hace una persona, pero en nuestro caso lo haremos un grupo reducido de personas de la organización ("comité de programa"). Este grupo seleccionará las charlas y talleres usando las puntuaciones y comentarios de la primera fase e intentará que el programa sea lo más variado (temáticas) y diverso posible.&lt;/p&gt;
+&lt;h1&gt;Criterios de revisión&lt;/h1&gt;
+&lt;p&gt;Queremos seleccionar las mejores propuestas y que aprendamos un montón en la PyConES. Estos son algunos puntos a considerar durante la revisión:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Relevancia&lt;/em&gt;: ¿cómo de relevante es la propuesta para la PyConES y para la temática elegida?&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Originalidad&lt;/em&gt;: ¿es una propuesta original y diferente que pueda interesar a la audiencia?&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Claridad&lt;/em&gt;: ¿se entiende bien el título y el resumen de la propuesta?&lt;/li&gt;
+&lt;li&gt;¿Crees que la propuesta se puede contar en el &lt;em&gt;tiempo&lt;/em&gt; establecido (charla = 30 minutos, taller corto = hasta 2h, taller largo = hasta 4h)?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Comité de programa&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.linkedin.com/in/jimena-eb/"&gt;Jimena Bermúdez&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.linkedin.com/in/maria-moreno-de-castro/"&gt;Dra. María Moreno de Castro&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.linkedin.com/in/cmaureir/"&gt;Dr. Cristián Maureira-Fredes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.linkedin.com/in/draxus/"&gt;Dr. Manuel Martín Salvador&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Equipo de revisión&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Alberto Fernandez&lt;/li&gt;
+&lt;li&gt;Alejandro Almira&lt;/li&gt;
+&lt;li&gt;Alicia Pérez Jiménez&lt;/li&gt;
+&lt;li&gt;Álvaro Torres Carrasco&lt;/li&gt;
+&lt;li&gt;Andrés&lt;/li&gt;
+&lt;li&gt;Angela Dini&lt;/li&gt;
+&lt;li&gt;Antonio Ramírez&lt;/li&gt;
+&lt;li&gt;Carlos Perales&lt;/li&gt;
+&lt;li&gt;Carmel&lt;/li&gt;
+&lt;li&gt;Christian&lt;/li&gt;
+&lt;li&gt;Cristián Maureira-Fredes&lt;/li&gt;
+&lt;li&gt;Daniel Domene&lt;/li&gt;
+&lt;li&gt;David Arcos&lt;/li&gt;
+&lt;li&gt;Diomedes Díaz&lt;/li&gt;
+&lt;li&gt;Fernando Salamero&lt;/li&gt;
+&lt;li&gt;Héctor Canto&lt;/li&gt;
+&lt;li&gt;Ignasi&lt;/li&gt;
+&lt;li&gt;Jaime Arrazola&lt;/li&gt;
+&lt;li&gt;Javier Cordero&lt;/li&gt;
+&lt;li&gt;Jimena&lt;/li&gt;
+&lt;li&gt;Jose Alberto Torres Agüera&lt;/li&gt;
+&lt;li&gt;Jose Manuel Ortega&lt;/li&gt;
+&lt;li&gt;José Miguel López&lt;/li&gt;
+&lt;li&gt;Jose Nicolielly Leal&lt;/li&gt;
+&lt;li&gt;Juan Antonio Fernández&lt;/li&gt;
+&lt;li&gt;Juan Cruz-Benito&lt;/li&gt;
+&lt;li&gt;Juan J. Merelo&lt;/li&gt;
+&lt;li&gt;Juan José&lt;/li&gt;
+&lt;li&gt;Juan Luis Cano Rodríguez&lt;/li&gt;
+&lt;li&gt;Kevin Eliezer&lt;/li&gt;
+&lt;li&gt;Loris Mularoni&lt;/li&gt;
+&lt;li&gt;Manuel Calzado Vidal&lt;/li&gt;
+&lt;li&gt;Manuel Martín Salvador&lt;/li&gt;
+&lt;li&gt;Maria Moreno de Castro&lt;/li&gt;
+&lt;li&gt;Marta Gomez Macias&lt;/li&gt;
+&lt;li&gt;Martín Torre Castro&lt;/li&gt;
+&lt;li&gt;Martina&lt;/li&gt;
+&lt;li&gt;Mateo&lt;/li&gt;
+&lt;li&gt;Miguel Hernández&lt;/li&gt;
+&lt;li&gt;Miguel Olivares&lt;/li&gt;
+&lt;li&gt;Pablo Benavides&lt;/li&gt;
+&lt;li&gt;Pablo García&lt;/li&gt;
+&lt;li&gt;Paloma de las Cuevas&lt;/li&gt;
+&lt;li&gt;Raúl&lt;/li&gt;
+&lt;li&gt;Ruben Berenguel&lt;/li&gt;
+&lt;li&gt;Ruben Espinosa&lt;/li&gt;
+&lt;li&gt;serfer2&lt;/li&gt;
+&lt;li&gt;Toni Grabulosa&lt;/li&gt;
+&lt;li&gt;Víctor&lt;/li&gt;
+&lt;li&gt;Victor Suarez&lt;/li&gt;
+&lt;li&gt;Xavi Torelló&lt;/li&gt;
+&lt;/ul&gt;</content><category term="misc"></category></entry><entry><title>Taller Django Girls</title><link href="https://2022.es.pycon.org/taller-djangogirls.html" rel="alternate"></link><published>2022-08-23T22:00:00+02:00</published><updated>2022-08-23T22:00:00+02:00</updated><author><name>Python España Org</name></author><id>tag:2022.es.pycon.org,2022-08-23:/taller-djangogirls.html</id><summary type="html">&lt;p&gt;¡Queremos animar a más mujeres a dominar la web!&lt;/p&gt;
+&lt;p&gt;Si eres una mujer y quieres aprender a hacer páginas web, tenemos buenas
+noticias para ti!. Estamos organizando un taller en el cual podrás construir tu
+propio sitio web desde cero en un día. Utilizaremos todas las herramientas que
+programadores profesionales …&lt;/p&gt;</summary><content type="html">&lt;p&gt;¡Queremos animar a más mujeres a dominar la web!&lt;/p&gt;
+&lt;p&gt;Si eres una mujer y quieres aprender a hacer páginas web, tenemos buenas
+noticias para ti!. Estamos organizando un taller en el cual podrás construir tu
+propio sitio web desde cero en un día. Utilizaremos todas las herramientas que
+programadores profesionales utilizan diariamente. ¡Y de una manera muy
+sencilla!&lt;/p&gt;
+&lt;p&gt;Será el viernes 30 de Septiembre en la sala Paraninfo del nuevo campos del
+Parque Tecnológico de la Salud de la universidad de Granada, durante el primer
+día de la conferencia nacional de Python más importante de España: PyConES
+2022.&lt;/p&gt;
+&lt;p&gt;El taller es gratuito, pero no esperes mucho para apuntarte, las plazas son
+limitadas.&lt;/p&gt;
+&lt;p&gt;Si tienes ganas de aprender a programar y tienes un portátil, puedes apuntarte
+a nuestro evento. No necesitas tener ningún conocimiento previo, pero sí mucha
+motivación de adquirirlo rápidamente el día del taller.&lt;/p&gt;
+&lt;p&gt;Como asistente al taller, tú podrás:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Participar en un taller intensivo de Django de un día de duración en el que
+  crearás tu propia página web.&lt;/li&gt;
+&lt;li&gt;Disfrutar de un ambiente distendido, en el que aprenderemos casi jugando, con
+  mucho buen rollo, y algún que otro detalle.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tenemos un cupo máximo para 30 personas, así que tratá de inscribirte lo antes posible! 😃&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://djangogirls.org/en/granada/"&gt;Inscripciones en el Sitio web de Django Girls&lt;/a&gt;&lt;/p&gt;</content><category term="talleres"></category></entry><entry><title>Becas y ayudas para Pythonistas ❇</title><link href="https://2022.es.pycon.org/becas.html" rel="alternate"></link><published>2022-04-29T14:20:00+02:00</published><updated>2022-04-29T14:20:00+02:00</updated><author><name>Python España Org</name></author><id>tag:2022.es.pycon.org,2022-04-29:/becas.html</id><summary type="html">&lt;p&gt;Desde la comunidad de PyConES queremos facilitar al máximo la asistencia a esta convención de todas las personas que tengan alguna dificultad en este momento y por este motivo se ha decidido dedicar una parte de nuestros recursos en Becas para las personas que lo necesiten.&lt;/p&gt;
+&lt;p&gt;Las becas se destinarán …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Desde la comunidad de PyConES queremos facilitar al máximo la asistencia a esta convención de todas las personas que tengan alguna dificultad en este momento y por este motivo se ha decidido dedicar una parte de nuestros recursos en Becas para las personas que lo necesiten.&lt;/p&gt;
+&lt;p&gt;Las becas se destinarán a sufragar los gastos de alojamiento, el transporte y/o la entrada del evento.&lt;/p&gt;
+&lt;p&gt;Estas becas están dirigidas a:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Estudiantes universitarios, formación profesional o BootCamp&lt;/li&gt;
+&lt;li&gt;Personas en situación de desempleo.&lt;/li&gt;
+&lt;li&gt;Familias monoparentales.&lt;/li&gt;
+&lt;li&gt;Personas con contrato de prácticas, jornada reducida o baja laboral.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Documentación a aportar:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Estudiantes: presentar el resguardo de la matrícula del curso vigente.&lt;/li&gt;
+&lt;li&gt;Desempleados: certificado de desempleo.&lt;/li&gt;
+&lt;li&gt;Familias monoparentales: documento que certifique la situación. Recuerde censurar la información comprometida del documento.&lt;/li&gt;
+&lt;li&gt;Contratos en prácticas, jornada reducida o baja laboral: documento que certifique la situación. Recuerde censurar la información comprometida del documento.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Para solicitar la beca debe rellenar este &lt;a href="https://forms.gle/4sBjJXcGvXnk6PEfA"&gt;formulario&lt;/a&gt; y tras estudiar la solicitud nos pondremos en contacto vía email con la respuesta.
+&lt;strong&gt;El plazo de postulación es hasta el 15 de Julio.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Por favor, si tuviera cualquier duda o tuviera una situación compleja y no se viera reflejada en los supuestos contemplados comuníquenoslo a &lt;a href="mailto:becas@2022.es.pycon.org"&gt;becas@2022.es.pycon.org&lt;/a&gt;
+y estudiaremos la forma de ayudarle.&lt;/p&gt;
+&lt;p&gt;Toda la información la ponemos en los canales oficiales, no olvide suscribirse. Muchas gracias por hacer todo lo posible por acudir a la &lt;strong&gt;PyConES 2022&lt;/strong&gt;.&lt;/p&gt;</content><category term="becas y ayudas"></category></entry><entry><title>Alojamientos y hoteles recomendados 🏨</title><link href="https://2022.es.pycon.org/hoteles.html" rel="alternate"></link><published>2022-01-30T18:20:00+01:00</published><updated>2022-01-30T18:20:00+01:00</updated><author><name>Python España Org</name></author><id>tag:2022.es.pycon.org,2022-01-30:/hoteles.html</id><summary type="html">&lt;p&gt;A continuación te ofrecemos algunos alojamientos con descuento exclusivo para los participantes del evento.
+Estos hoteles se encuentran en Granada localizados cercanos al lugar del evento o a los medios de transporte públicos de la ciudad.&lt;/p&gt;
+&lt;h2&gt;Grupo Abades&lt;/h2&gt;
+&lt;p&gt;Tenemos suerte de contar con la participación de &lt;strong&gt;Grupos Abades&lt;/strong&gt;. Que cuenta …&lt;/p&gt;</summary><content type="html">&lt;p&gt;A continuación te ofrecemos algunos alojamientos con descuento exclusivo para los participantes del evento.
+Estos hoteles se encuentran en Granada localizados cercanos al lugar del evento o a los medios de transporte públicos de la ciudad.&lt;/p&gt;
+&lt;h2&gt;Grupo Abades&lt;/h2&gt;
+&lt;p&gt;Tenemos suerte de contar con la participación de &lt;strong&gt;Grupos Abades&lt;/strong&gt;. Que cuenta con dos fabulosos hoteles 4️⃣ ⭐ bien emplazados en la ciudad y con unas instalaciones estupendas.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hotel Abades Nevada Palace&lt;/li&gt;
+&lt;li&gt;Hotel Abades Recogidas.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="abades" src="./images/hoteles/abades.png?style=centerme"&gt;&lt;/p&gt;
+&lt;p&gt;Aquí el link para hacer la reserva aplicando un descuento exclusivo.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.abadeshoteles.com/es/?cp=PYCONES2022"&gt;RESERVAR CON DESCUENTO&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;HC Hotel Center&lt;/h2&gt;
+&lt;p&gt;Otra fantástica alternativa es &lt;strong&gt;HC Hotel Center&lt;/strong&gt; que cuenta con dos hoteles en la ciudad y nos ofrecen un buen descuento.&lt;/p&gt;
+&lt;p&gt;Para disfrutar de un 10% descuento, realiza la reserva desde su página web, seleccionando uno de los hoteles siguiente,
+durante el proceso de reserva introducir el código de descuento.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.hotelescenter.es/en/hotel-andalucia-center-granada/"&gt;Hotel Andalucía Center&lt;/a&gt;, introducir el código &lt;strong&gt;229686&lt;/strong&gt; en el formulario de reserva para conseguir 10% de descuento.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.hotelescenter.es/es/hotel-granada-center/"&gt;Hotel Granada Center&lt;/a&gt;, introducir el código &lt;strong&gt;229928&lt;/strong&gt; en el formulario de reserva para conseguir 10% de descuento.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="hc" src="./images/hoteles/hc.png?style=centerme"&gt;&lt;/p&gt;
+&lt;h2&gt;Hotel Palacio de los Navas&lt;/h2&gt;
+&lt;p&gt;En el corazón de Granada contamos con &lt;strong&gt;Hotel Palacio de los Navas&lt;/strong&gt;, que cuenta con descuentos exclusivos para el evento.
+Es necesario ingresas el código descuento &lt;strong&gt;PYCONES2022&lt;/strong&gt; en el proceso de reserva en nuestra web (Es un descuento exclusivo para reservas on line, no válido por teléfono)&lt;/p&gt;
+&lt;p&gt;Al introducir el código se obtendrá un descuento del 15% sobre el precio de la habitación doble estándar, doble superior e individual
+El descuento es válido para estancias del 28 septiembre al 4 de Octubre 2020,y estará únicamente operativo hasta el 8 de Agosto (no te duermas 😜)&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hotelpalaciodelosnavas.com"&gt;We de reservas Hotel Palacio de los Navas&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="navas" src="./images/hoteles/navas.png?style=centerme"&gt;&lt;/p&gt;
+&lt;h2&gt;Room Mate Leo Hotel&lt;/h2&gt;
+&lt;p&gt;Room Mate Leo Hotel también quiere colaborar con PyconES GRX ofreciendo un 15% de descuento en sus reservas para el evento.
+Hemos creado este código para las reservas que hagan en Leo a través de nuestra web: &lt;strong&gt;PYCONES&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://room-matehotels.com/"&gt;Web de reservas Room Mate Leo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="rommate" src="./images/hoteles/rommate.jpg?style=centerme"&gt;&lt;/p&gt;
+&lt;h2&gt;Exe Hotels&lt;/h2&gt;
+&lt;p&gt;Exe Hotels nos ofrece cercanía y confort, con un código promocional tendremos un descuento del 10% sobre la mejor tarifa disponible en el momento de efectuar la reserva y será válido para las estancias en nuestros hoteles del 30 de septiembre al 02 de octubre de 2022.
+De esta forma, realizando las reservas individualmente, cada asistente podrá elegir el hotel que prefiera y la tipología de habitación que desee.&lt;/p&gt;
+&lt;p&gt;Podrán realizarse las reservas hasta 30 días antes de la celebración del evento, y las reservas contarán con una política de cancelación gratuita hasta 14 días antes de la fecha de llegada, después de este periodo, tendrán gastos del 100% de la reserva.&lt;/p&gt;
+&lt;p&gt;En el apartado "código promocional" deberán poner el código indicado para que se aplique el descuento, hay que introducir &lt;strong&gt;PYTHON22&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hotel Guadalupe 3* - &lt;a href="mailto:reservas@hotelguadalupe.es"&gt;reservas@hotelguadalupe.es&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Exe Triunfo Granada 4* - &lt;a href="mailto:reservas@exetriunfogranada.com"&gt;reservas@exetriunfogranada.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Eurostars Puerta Real 4* - &lt;a href="mailto:reservas@eurostarspuertareal.com"&gt;reservas@eurostarspuertareal.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Eurostars Gran Vía 5* - &lt;a href="mailto:reservas@eurostarsgranvia.com"&gt;reservas@eurostarsgranvia.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Áurea Washington Irving 5* - &lt;a href="mailto:reservas@aureawashingtonirving.com"&gt;reservas@aureawashingtonirving.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Áurea Catedral 4* - &lt;a href="mailto:reservas@aureacatedral.com"&gt;reservas@aureacatedral.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://www.eurostarshotels.com/exe-hotels.html"&gt;Web de reservas Exe Hotels&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="exe" src="./images/hoteles/exe.png?style=centerme"&gt;&lt;/p&gt;
+&lt;p&gt;Te esperamos en Granada, un PySaludo.&lt;/p&gt;</content><category term="alojamiento"></category></entry><entry><title>Mapa conferencia y nuestros puntos de interés 🚩</title><link href="https://2022.es.pycon.org/mapa.html" rel="alternate"></link><published>2022-01-30T18:20:00+01:00</published><updated>2022-01-30T18:20:00+01:00</updated><author><name>Python España Org</name></author><id>tag:2022.es.pycon.org,2022-01-30:/mapa.html</id><summary type="html">&lt;p&gt;Acá puedes encontrar un mapa de los edificios donde se realizará
+la conferencia:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="mapa conferencia" src="./images/mapa_conferencia.png?style=centerme"&gt;&lt;/p&gt;
+&lt;p&gt;Aquí dejamos algunos (de los muchísimos) puntos de interés que podría interesarte visitar en los días que dure tu estancia.
+Si la frenética agenda del evento lo permite 😜.
+También te invitamos a que investigues por tu cuenta …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Acá puedes encontrar un mapa de los edificios donde se realizará
+la conferencia:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="mapa conferencia" src="./images/mapa_conferencia.png?style=centerme"&gt;&lt;/p&gt;
+&lt;p&gt;Aquí dejamos algunos (de los muchísimos) puntos de interés que podría interesarte visitar en los días que dure tu estancia.
+Si la frenética agenda del evento lo permite 😜.
+También te invitamos a que investigues por tu cuenta y nos cuentes cuales han sido tus rincones favoritos.&lt;/p&gt;
+&lt;p&gt;Como puedes ver marcado en el mapa, la línea 4 del bus urbano y la línea de tranvía son dos buenas opciones para llegar al evento desde muchos puntos de la ciudad.&lt;/p&gt;
+&lt;div style="text-align: center"&gt;
+&lt;iframe src="https://www.google.com/maps/d/u/0/embed?mid=1IxRp8wgFgWYjOHlw8XLpdZE2sbm_g4Yu&amp;ehbc=2E312F" width="100%" height="700"&gt;&lt;/iframe&gt;
+&lt;div&gt;</content><category term="mapa"></category></entry><entry><title>Estrenamos nuestro blog ¡Bienvenid@! 🎉</title><link href="https://2022.es.pycon.org/welcome.html" rel="alternate"></link><published>2022-01-13T18:20:00+01:00</published><updated>2022-01-13T18:20:00+01:00</updated><author><name>Python España Org</name></author><id>tag:2022.es.pycon.org,2022-01-13:/welcome.html</id><summary type="html">&lt;p&gt;Aquí publicaremos todas las novedades que necesitarás conocer para disfrutar al 100% de la conferencia. Permanece atento a nuestras publicaciones, pues aquí vamos a presentar las novedades y anuncios sobre la agenda de la conferencia, las ayudas y becas de esta edición, adicionalmente a la información sobre la venta de …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Aquí publicaremos todas las novedades que necesitarás conocer para disfrutar al 100% de la conferencia. Permanece atento a nuestras publicaciones, pues aquí vamos a presentar las novedades y anuncios sobre la agenda de la conferencia, las ayudas y becas de esta edición, adicionalmente a la información sobre la venta de entradas.&lt;/p&gt;
+&lt;p&gt;Te esperamos en Granada, un PySaludo.&lt;/p&gt;</content><category term="welcome"></category></entry></feed>

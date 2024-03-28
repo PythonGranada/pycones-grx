@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PyConES 2022 GRX - talleres</title><link href="https://2022.es.pycon.org/" rel="alternate"></link><link href="https://2022.es.pycon.org/feeds/talleres.atom.xml" rel="self"></link><id>https://2022.es.pycon.org/</id><updated>2022-08-23T22:00:00+02:00</updated><entry><title>Taller Django Girls</title><link href="https://2022.es.pycon.org/taller-djangogirls.html" rel="alternate"></link><published>2022-08-23T22:00:00+02:00</published><updated>2022-08-23T22:00:00+02:00</updated><author><name>Python España Org</name></author><id>tag:2022.es.pycon.org,2022-08-23:/taller-djangogirls.html</id><summary type="html">&lt;p&gt;¡Queremos animar a más mujeres a dominar la web!&lt;/p&gt;
+&lt;p&gt;Si eres una mujer y quieres aprender a hacer páginas web, tenemos buenas
+noticias para ti!. Estamos organizando un taller en el cual podrás construir tu
+propio sitio web desde cero en un día. Utilizaremos todas las herramientas que
+programadores profesionales …&lt;/p&gt;</summary><content type="html">&lt;p&gt;¡Queremos animar a más mujeres a dominar la web!&lt;/p&gt;
+&lt;p&gt;Si eres una mujer y quieres aprender a hacer páginas web, tenemos buenas
+noticias para ti!. Estamos organizando un taller en el cual podrás construir tu
+propio sitio web desde cero en un día. Utilizaremos todas las herramientas que
+programadores profesionales utilizan diariamente. ¡Y de una manera muy
+sencilla!&lt;/p&gt;
+&lt;p&gt;Será el viernes 30 de Septiembre en la sala Paraninfo del nuevo campos del
+Parque Tecnológico de la Salud de la universidad de Granada, durante el primer
+día de la conferencia nacional de Python más importante de España: PyConES
+2022.&lt;/p&gt;
+&lt;p&gt;El taller es gratuito, pero no esperes mucho para apuntarte, las plazas son
+limitadas.&lt;/p&gt;
+&lt;p&gt;Si tienes ganas de aprender a programar y tienes un portátil, puedes apuntarte
+a nuestro evento. No necesitas tener ningún conocimiento previo, pero sí mucha
+motivación de adquirirlo rápidamente el día del taller.&lt;/p&gt;
+&lt;p&gt;Como asistente al taller, tú podrás:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Participar en un taller intensivo de Django de un día de duración en el que
+  crearás tu propia página web.&lt;/li&gt;
+&lt;li&gt;Disfrutar de un ambiente distendido, en el que aprenderemos casi jugando, con
+  mucho buen rollo, y algún que otro detalle.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tenemos un cupo máximo para 30 personas, así que tratá de inscribirte lo antes posible! 😃&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://djangogirls.org/en/granada/"&gt;Inscripciones en el Sitio web de Django Girls&lt;/a&gt;&lt;/p&gt;</content><category term="talleres"></category></entry></feed>
